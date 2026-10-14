@@ -1,0 +1,13 @@
+node_modules
+.next
+.git
+.env*
+tmp
+output
+data/source
+data/asset-ledger.json
+data/*audit*.json
+data/*verification.json
+scripts
+tests
+*.log

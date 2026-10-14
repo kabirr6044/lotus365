@@ -2,17 +2,12 @@
 services:
   - type: web
     name: lotus365
-    runtime: node
+    runtime: docker
     plan: free
     branch: main
-    buildCommand: npm ci --include=dev && npm run build
-    startCommand: npm run start -- --hostname 0.0.0.0 --port $PORT
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
     healthCheckPath: /
-    envVars:
-      - key: NODE_VERSION
-        value: "22"
-      - key: NEXT_TELEMETRY_DISABLED
-        value: "1"
     # Add NEXT_PUBLIC_DESTINATION_URL in the Render dashboard when ready.
     # Keeping it unmanaged here preserves later dashboard changes.
     # SITE_URL is optional: the sitemap defaults to RENDER_EXTERNAL_URL.

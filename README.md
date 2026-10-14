@@ -13,15 +13,24 @@ Open http://localhost:3000/. Read the installed Next.js guides under node_module
 
 ## Deploy on Render
 
-Create a Blueprint in Render and connect `kabirr6044/lotus365`. The root `render.yaml` configures a free Node.js 22 web service on `main`, installs locked dependencies, builds Next.js, and starts it on `0.0.0.0` using Render's `PORT`. The homepage is the health check.
+Create a Blueprint in Render and connect `kabirr6044/lotus365`. The root `render.yaml` configures a free Docker web service on `main`. The multi-stage `Dockerfile` uses Node.js 22, installs locked dependencies, builds Next.js, and runs its standalone server as a non-root user. The server binds to `0.0.0.0` using Render's `PORT` (default 10000). The homepage is the health check.
 
 No environment values are required for the first deployment. External links remain inactive until you add `NEXT_PUBLIC_DESTINATION_URL` under the service's Environment settings. Use Save, rebuild, and deploy after setting or changing that public variable; restarting alone will not update the browser bundle. This variable is intentionally not managed by the Blueprint so later syncs preserve your dashboard setting.
 
-The sitemap uses Render's automatic `RENDER_EXTERNAL_URL`. If you add a custom domain, set `SITE_URL` to its full HTTPS URL and rebuild. No database or persistent disk is needed.
+The sitemap uses Render's automatic `RENDER_EXTERNAL_URL`. If you add a custom domain, set `SITE_URL` to its full HTTPS URL and rebuild. The Dockerfile declares build arguments for these URLs and the destination variable so Render can supply them during the image build. No database or persistent disk is needed.
 
-If creating a Web Service manually instead of using a Blueprint, select Node, use `npm ci --include=dev && npm run build` as the build command and `npm run start -- --hostname 0.0.0.0 --port $PORT` as the start command.
+If creating a Web Service manually instead of using a Blueprint, select Docker, use `./Dockerfile` with build context `.`, and leave the Docker Command override empty to use the image's `CMD`.
 
-See [Render's Next.js guide](https://render.com/docs/deploy-nextjs-app) and [Blueprint reference](https://render.com/docs/blueprint-spec).
+To build and run locally:
+
+```sh
+docker build -t lotus365 .
+docker run --rm -p 3000:10000 lotus365
+```
+
+Supply `--build-arg NEXT_PUBLIC_DESTINATION_URL=https://your-destination.example/` when building if you want to activate external links. Runtime-only changes cannot update the already built browser bundle. `.dockerignore` excludes local environment files, dependencies, generated builds, raw captures, and audit reports from the image build context.
+
+See [Docker on Render](https://render.com/docs/docker) and the [Blueprint reference](https://render.com/docs/blueprint-spec).
 
 ## Shared destination URL
 
@@ -60,3 +69,5 @@ Final checks: destination tests and the all-route content audit pass. Browser ch
 The final production build passes. The preview runs with `npm run start -- --hostname localhost --port 3000`, with no configured external destination. Login button line height and inline layout match the original link styling.
 
 Page titles match all 407 captured reference titles. The original 32×32, 192×192, and Apple touch favicons are downloaded locally and included on every page; generated production metadata and served icon files were verified.
+
+Docker verification: the Linux image builds successfully and runs as UID 1000. Container checks passed for all 407 pages, 462 local assets/styles/icons, and the 407-entry sitemap.
