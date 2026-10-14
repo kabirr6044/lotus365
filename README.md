@@ -11,6 +11,18 @@ npm run dev -- --hostname localhost --port 3000
 
 Open http://localhost:3000/. Read the installed Next.js guides under node_modules/next/dist/docs/ before changing framework behavior.
 
+## Deploy on Render
+
+Create a Blueprint in Render and connect `kabirr6044/lotus365`. The root `render.yaml` configures a free Node.js 22 web service on `main`, installs locked dependencies, builds Next.js, and starts it on `0.0.0.0` using Render's `PORT`. The homepage is the health check.
+
+No environment values are required for the first deployment. External links remain inactive until you add `NEXT_PUBLIC_DESTINATION_URL` under the service's Environment settings. Use Save, rebuild, and deploy after setting or changing that public variable; restarting alone will not update the browser bundle. This variable is intentionally not managed by the Blueprint so later syncs preserve your dashboard setting.
+
+The sitemap uses Render's automatic `RENDER_EXTERNAL_URL`. If you add a custom domain, set `SITE_URL` to its full HTTPS URL and rebuild. No database or persistent disk is needed.
+
+If creating a Web Service manually instead of using a Blueprint, select Node, use `npm ci --include=dev && npm run build` as the build command and `npm run start -- --hostname 0.0.0.0 --port $PORT` as the start command.
+
+See [Render's Next.js guide](https://render.com/docs/deploy-nextjs-app) and [Blueprint reference](https://render.com/docs/blueprint-spec).
+
 ## Shared destination URL
 
 Copy `.env.example` to `.env.local` and later set:
