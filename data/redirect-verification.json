@@ -1,0 +1,17 @@
+{
+  "testedAt": "2026-10-14",
+  "testDestination": "http://localhost:3000/?redirect-check=1",
+  "signup": {
+    "emptyBlocked": true,
+    "validRedirect": true
+  },
+  "login": {
+    "emptyBlocked": true,
+    "validRedirect": true
+  },
+  "external": {
+    "allRenderedHrefsMatch": true,
+    "whatsappClickRedirect": true
+  },
+  "fieldValuesAppended": false
+}

@@ -1,0 +1,1 @@
+export default function NotFound(){return <main className="assignment-not-found"><h1>Page not found</h1><p>This page is not part of the captured public website.</p><a href="/">Return home</a></main>}

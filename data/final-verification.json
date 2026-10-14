@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-14",
+  "build": "passed",
+  "contentChecks": "407 routes, 108 forms, 465 external references",
+  "destinationTests": "2 passed",
+  "configuredDestination": null,
+  "finalCorrections": [
+    "Eager local image loading preserves intrinsic sizes",
+    "Login button line-height 1.7 and inline-block display match reference"
+  ],
+  "coverage": {
+    "allPages": [
+      "desktop",
+      "390x844",
+      "768x1024"
+    ],
+    "representativePages": [
+      "360x800",
+      "1024x768"
+    ]
+  },
+  "limitations": "Style/text audits are not an assertion of pixel identity at every possible screen size; older geometry records include unloaded source placeholders."
+}

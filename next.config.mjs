@@ -1,0 +1,2 @@
+import fs from "node:fs";
+const config = { trailingSlash: true, poweredByHeader: false, devIndicators: false, experimental: { cpus: 2 }, async redirects() { const aliases=JSON.parse(fs.readFileSync(new URL("./data/aliases.json",import.meta.url),"utf8"));return Object.entries(aliases).map(([source,destination])=>({source,destination,permanent:true})); }, async headers() { return [{ source: '/:path*', headers: [{key:'X-Content-Type-Options',value:'nosniff'},{key:'Referrer-Policy',value:'strict-origin-when-cross-origin'}] }]; } };export default config;
