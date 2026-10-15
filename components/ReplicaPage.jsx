@@ -1,6 +1,7 @@
 'use client';
 import { useEffect, useRef } from 'react';
 import { destinationUrl } from '../lib/destination.mjs';
+import { pageLanguage } from '../lib/seo.mjs';
 export default function ReplicaPage({ page }) {
  const ref = useRef(null);
  useEffect(() => {
@@ -10,7 +11,7 @@ export default function ReplicaPage({ page }) {
    link.setAttribute('href', destination || '#');
    if (destination) { link.removeAttribute('aria-disabled'); link.removeAttribute('title'); }
   });
-  document.documentElement.lang = page.lang;
+  document.documentElement.lang = pageLanguage(page);
   const update = () => {
    const mobile = media.matches;
    root.querySelectorAll('.main-header-menu-toggle').forEach(button => {button.classList.remove('toggled');button.setAttribute('aria-expanded','false');});
@@ -72,5 +73,5 @@ export default function ReplicaPage({ page }) {
  }, [page]);
  // A normal link belongs to this page and is removed on unmount. React's
  // precedence links persist across routes and would mix different page themes.
- return <><link key={page.stylesheet} rel="stylesheet" href={page.stylesheet}/><div ref={ref} className="replica-document" dangerouslySetInnerHTML={{ __html: page.html }}/></>;
+ return <><link key={page.stylesheet} rel="stylesheet" href={page.stylesheet}/><div ref={ref} className="replica-document" lang={pageLanguage(page)} dangerouslySetInnerHTML={{ __html: page.html }}/></>;
 }

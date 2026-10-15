@@ -10,4 +10,4 @@ services:
     healthCheckPath: /
     # Add NEXT_PUBLIC_DESTINATION_URL in the Render dashboard when ready.
     # Keeping it unmanaged here preserves later dashboard changes.
-    # SITE_URL is optional: the sitemap defaults to RENDER_EXTERNAL_URL.
+    # SITE_URL is optional: canonicals and the sitemap default to llotuss365.com.

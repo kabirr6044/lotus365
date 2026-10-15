@@ -1,6 +1,7 @@
 import './globals.css';
+import { getSiteConfig } from '../lib/seo.mjs';
 export const metadata = {
-  robots: { index: false, follow: false },
+  metadataBase: new URL(getSiteConfig().origin),
   title: 'Lotus365 Official Website - Lotus365 Games & Rewards in 2026',
   icons: {
     icon: [
