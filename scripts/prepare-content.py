@@ -174,6 +174,8 @@ for file in (ROOT/'data/source').glob('*.json'):
   style_links.append(css_path)
  description=tree.xpath('//meta[@name="description"]/@content')
  records[path]={'path':path,'title':p['title'],'lang':p.get('lang','en-US'),'bodyClass':classes,'html':text,'styleLinks':style_links,'stylesheet':page_stylesheet,'description':description[0] if description else ''}
+from runpy import run_path
+run_path(str(ROOT/'scripts/apply-editorial.py'))['apply_overrides'](records)
 dump(ROOT/'data/pages.json',records);dump(ROOT/'data/stylesheets.json',stylesheet);dump(ROOT/'data/external-links.json',list(external.values()));dump(ROOT/'data/assets.json',assetmap)
 dump(ROOT/'data/content-audit.json',{'pageCount':len(records),'incomplete':incomplete,'externalDestinationCount':len(external),'remoteAssets':sorted(missing_assets),'unresolvedInternalLinks':sorted(x for x in source_links-set(records)-{'/sitemap.xml','/feed/','/comments/feed/'} if not x.startswith('/assets/'))})
 rows=['# External link references','', 'Original destinations are retained for reference. All external links and validated forms use the single NEXT_PUBLIC_DESTINATION_URL environment variable. They stay inactive until that URL is configured. Internal navigation remains local.','','| Reference | Original destination | Labels | Source pages |','|---|---|---|---|']
