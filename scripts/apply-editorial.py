@@ -64,7 +64,56 @@ def replace_paragraph(element, rule):
             last.tail = (last.tail or '') + part
 
 
+def clean_policy_references(records):
+    """Remove unprovided publisher details from policy captures on every refresh."""
+    def rewrite(element, markup):
+        for child in list(element):
+            element.remove(child)
+        fragment = html.fragment_fromstring(markup, create_parent='div')
+        element.text = fragment.text
+        for child in list(fragment):
+            element.append(child)
+
+    for path in ('/cookies/', '/privacy/'):
+        page = records[path]
+        tree = html.fragment_fromstring(page['html'], create_parent='div')
+        primary = tree.get_element_by_id('primary')
+        for element in primary.iter():
+            for field in ('text', 'tail'):
+                text = getattr(element, field)
+                if text:
+                    setattr(element, field, re.sub(
+                        r'(?<![\w@])(?:lottuss365|lotus365)\.com\b',
+                        'llotuss365.com', text))
+        for element in primary.xpath('.//p|.//li'):
+            text = normalized(element)
+            if 'Who We Are (Controller):' in text:
+                rewrite(element, '<strong>Website:</strong> llotuss365.com')
+            elif '[Manage Cookie Preferences]' in text:
+                rewrite(element, '<strong>Browser Cookie Settings:</strong> '
+                        'Use your browser settings to review, block or delete cookies.')
+            elif text.startswith('For questions or to exercise privacy rights, contact:'):
+                rewrite(element, 'For questions or to exercise privacy rights, '
+                        'visit our <a href="/contact-us/">Contact Us page</a>.')
+            elif 'privacy@365login.com' in text:
+                for node in element.iter():
+                    for field in ('text', 'tail'):
+                        value = getattr(node, field)
+                        if value:
+                            setattr(node, field, value.replace(
+                                'personal data, contact ', 'personal data, visit '))
+                for wrapper in list(element.xpath('.//strong[contains(., "privacy@365login.com")]')):
+                    if wrapper.getparent() is not None and wrapper in element.iterdescendants():
+                        rewrite(wrapper, '<a href="/contact-us/">our Contact Us page</a>')
+            elif 'privacy@365lotus.com' in text:
+                rewrite(element, 'For privacy inquiries, visit the '
+                        '<a href="/contact-us/">llotuss365.com Contact Us page</a>.')
+        page['html'] = (tree.text or '') + ''.join(
+            html.tostring(child, encoding='unicode', method='html') for child in tree)
+
+
 def apply_overrides(records):
+    clean_policy_references(records)
     overrides = json.loads((ROOT / 'data/editorial-overrides.json').read_text(encoding='utf-8'))
     for path, editorial in overrides.items():
         page = records[path]
