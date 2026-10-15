@@ -5,3 +5,4 @@ node_modules/
 tmp/
 data/source/
 data/asset-ledger.json
+.vercel/

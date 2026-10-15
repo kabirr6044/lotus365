@@ -1,0 +1,12 @@
+.git/
+.vercel/
+node_modules/
+.next/
+tmp/
+outputs/
+output/
+data/source/
+data/asset-ledger.json
+.env*
+!.env.example
+*.log
