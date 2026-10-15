@@ -1,24 +1,11 @@
 'use client';
 import { useEffect, useRef } from 'react';
+import { useRouter } from 'next/navigation';
 import { destinationUrl } from '../lib/destination.mjs';
 import { pageLanguage } from '../lib/seo.mjs';
 import SiteHeader from './SiteHeader';
-import { homeHeroMarkup } from '../lib/home-hero.mjs';
-import heroStyles from './HomeHero.module.css';
-import homepageCopy from '../data/homepage-copy.json';
-import { footerMarkup } from '../lib/footer.mjs';
-import footerStyles from './SiteFooter.module.css';
-import { appPageMarkup } from '../lib/app-page.mjs';
-import appStyles from './AppPage.module.css';
-import appCopy from '../data/app-page-copy.json';
-import { loginPageMarkup } from '../lib/login-page.mjs';
-import loginStyles from './LoginPage.module.css';
-import loginCopy from '../data/login-page-copy.json';
-import { signupPageMarkup } from '../lib/signup-page.mjs';
-import signupStyles from './SignupPage.module.css';
-import signupCopy from '../data/signup-page-copy.json';
-import redesignedStyles from './RedesignedPages.module.css';
-export default function ReplicaPage({ page }) {
+export default function ReplicaPage({ page, content, className }) {
+ const router = useRouter();
  const ref = useRef(null);
  useEffect(() => {
   const root = ref.current; const media = window.matchMedia('(max-width: 921.99px)');
@@ -71,7 +58,13 @@ export default function ReplicaPage({ page }) {
    if (external) { if (!destination) event.preventDefault(); return; }
    // Wordpress reply links are local demo comment actions.
    const reply = event.target.closest('.comment-reply-link');
-   if (reply) { event.preventDefault(); root.querySelector('#respond')?.scrollIntoView({ behavior: 'smooth' }); }
+   if (reply) { event.preventDefault(); root.querySelector('#respond')?.scrollIntoView({ behavior: 'smooth' }); return; }
+   const link = event.target.closest('a[href]');
+   if (!link || event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey || link.hasAttribute('download') || (link.target && link.target !== '_self')) return;
+   const url = new URL(link.href, window.location.href);
+   // Keep fragments, files and external destinations under native browser control.
+   if (url.origin !== window.location.origin || !url.pathname.endsWith('/') || url.pathname === window.location.pathname) return;
+   event.preventDefault(); router.push(url.pathname + url.search + url.hash);
   };
   const submit = event => {
    const form = event.target.closest('form[data-redirect-form]'); if (!form) return;
@@ -86,14 +79,8 @@ export default function ReplicaPage({ page }) {
   const escape = event => { if(event.key !== 'Escape' || !document.body.classList.contains('replica-menu-open')) return; const button=root.querySelector('.main-header-menu-toggle.toggled'); document.body.classList.remove('replica-menu-open'); root.querySelectorAll('header.replica-menu-open').forEach(header=>header.classList.remove('replica-menu-open')); button?.classList.remove('toggled'); button?.setAttribute('aria-expanded','false'); button?.focus(); };
   root.addEventListener('keydown', escape); root.addEventListener('click', click); root.addEventListener('submit', submit);
   return () => { media.removeEventListener('change', update); window.removeEventListener('scroll', sticky); window.removeEventListener('resize',sticky); window.removeEventListener('load',sticky); document.documentElement.style.scrollPaddingTop=''; root.removeEventListener('keydown',escape); root.removeEventListener('click', click); root.removeEventListener('submit', submit); };
- }, [page]);
+ }, [page, router]);
  // A normal link belongs to this page and is removed on unmount. React's
  // precedence links persist across routes and would mix different page themes.
- const home = page.path === '/';
- const app = page.path === '/lotus365-app/';
- const login = page.path === '/lotus365-login/';
- const signup = page.path === '/lotus365-signup/';
- const pageContent = home ? homeHeroMarkup(page.html, heroStyles, homepageCopy) : app ? appPageMarkup(page.html, heroStyles, appStyles, appCopy) : login ? loginPageMarkup(page.html, loginStyles, loginCopy) : signup ? signupPageMarkup(page.html, signupStyles, signupCopy) : page.redesign?.html || page.html;
- const content = footerMarkup(pageContent, footerStyles);
- return <><link key={page.stylesheet} rel="stylesheet" href={page.stylesheet}/><SiteHeader path={page.path}/><div ref={ref} className={`replica-document ${footerStyles.scope}${home || app ? ` ${heroStyles.page}` : ''}${app ? ` ${appStyles.page}` : ''}${login ? ` ${loginStyles.page}` : ''}${signup ? ` ${signupStyles.page}` : ''}${page.redesign ? ` ${redesignedStyles.page}` : ''}`} lang={pageLanguage(page)} dangerouslySetInnerHTML={{ __html: content }}/></>;
+ return <><link key={page.stylesheet} rel="stylesheet" href={page.stylesheet}/><SiteHeader path={page.path}/><div ref={ref} className={className} lang={pageLanguage(page)} dangerouslySetInnerHTML={{ __html: content }}/></>;
 }

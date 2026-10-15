@@ -1,6 +1,6 @@
 import { notFound } from 'next/navigation';
 import { getPage, pages } from '../../lib/content';
-import ReplicaPage from '../../components/ReplicaPage';
+import ReplicaContent from '../../components/ReplicaContent';
 import { pageSeo } from '../../lib/seo.mjs';
 export const dynamicParams = false;
 export function generateStaticParams() { return Object.keys(pages).map(path => ({ slug: path === '/' ? [] : path.split('/').filter(Boolean) })); }
@@ -10,5 +10,5 @@ export async function generateMetadata({ params }) {
 }
 export default async function Page({ params }) {
  const { slug } = await params; const page = getPage(slug); if (!page) notFound();
- return <ReplicaPage page={page}/>;
+ return <ReplicaContent page={page}/>;
 }

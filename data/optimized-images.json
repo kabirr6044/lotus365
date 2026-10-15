@@ -1,0 +1,462 @@
+{
+  "/assets/lotus365-app-installation.webp": {
+    "width": 1000,
+    "height": 667,
+    "originalBytes": 164928,
+    "variants": [
+      {
+        "width": 360,
+        "src": "/assets/optimized/lotus365-app-installation-360-eec911e9ad32.webp",
+        "bytes": 26738
+      },
+      {
+        "width": 640,
+        "src": "/assets/optimized/lotus365-app-installation-640-1a411e25a4ae.webp",
+        "bytes": 60032
+      },
+      {
+        "width": 960,
+        "src": "/assets/optimized/lotus365-app-installation-960-eae3c9290898.webp",
+        "bytes": 104400
+      },
+      {
+        "width": 1000,
+        "src": "/assets/optimized/lotus365-app-installation-1000-b1ef05cadaa5.webp",
+        "bytes": 122270
+      }
+    ]
+  },
+  "/assets/lotus365-app-phone.webp": {
+    "width": 800,
+    "height": 1200,
+    "originalBytes": 142756,
+    "variants": [
+      {
+        "width": 360,
+        "src": "/assets/optimized/lotus365-app-phone-360-b96ba9c2d45a.webp",
+        "bytes": 27968
+      },
+      {
+        "width": 640,
+        "src": "/assets/optimized/lotus365-app-phone-640-63f35653ff30.webp",
+        "bytes": 63370
+      },
+      {
+        "width": 800,
+        "src": "/assets/optimized/lotus365-app-phone-800-4df6c0e2f37e.webp",
+        "bytes": 94150
+      }
+    ]
+  },
+  "/assets/lotus365-female-mascot-hero.webp": {
+    "width": 1254,
+    "height": 1254,
+    "originalBytes": 408700,
+    "variants": [
+      {
+        "width": 360,
+        "src": "/assets/optimized/lotus365-female-mascot-hero-360-1daf101c0d37.webp",
+        "bytes": 39768
+      },
+      {
+        "width": 640,
+        "src": "/assets/optimized/lotus365-female-mascot-hero-640-09f224ecb0c2.webp",
+        "bytes": 94136
+      },
+      {
+        "width": 960,
+        "src": "/assets/optimized/lotus365-female-mascot-hero-960-aa828fd82acc.webp",
+        "bytes": 177098
+      },
+      {
+        "width": 1254,
+        "src": "/assets/optimized/lotus365-female-mascot-hero-1254-3d2e6b9677a5.webp",
+        "bytes": 287594
+      }
+    ]
+  },
+  "/assets/lotus365-login-access.webp": {
+    "width": 1000,
+    "height": 937,
+    "originalBytes": 198038,
+    "variants": [
+      {
+        "width": 360,
+        "src": "/assets/optimized/lotus365-login-access-360-1d6db1675430.webp",
+        "bytes": 29742
+      },
+      {
+        "width": 640,
+        "src": "/assets/optimized/lotus365-login-access-640-af6913a06e68.webp",
+        "bytes": 69046
+      },
+      {
+        "width": 960,
+        "src": "/assets/optimized/lotus365-login-access-960-78d8c7820aac.webp",
+        "bytes": 127930
+      },
+      {
+        "width": 1000,
+        "src": "/assets/optimized/lotus365-login-access-1000-053a529c0b12.webp",
+        "bytes": 149838
+      }
+    ]
+  },
+  "/assets/lotus365-signup-welcome.webp": {
+    "width": 1000,
+    "height": 1000,
+    "originalBytes": 177400,
+    "variants": [
+      {
+        "width": 360,
+        "src": "/assets/optimized/lotus365-signup-welcome-360-661477fe3090.webp",
+        "bytes": 25468
+      },
+      {
+        "width": 640,
+        "src": "/assets/optimized/lotus365-signup-welcome-640-a984fa181596.webp",
+        "bytes": 59734
+      },
+      {
+        "width": 960,
+        "src": "/assets/optimized/lotus365-signup-welcome-960-e5421bfc8f60.webp",
+        "bytes": 104996
+      },
+      {
+        "width": 1000,
+        "src": "/assets/optimized/lotus365-signup-welcome-1000-59dbd86aba7e.webp",
+        "bytes": 124472
+      }
+    ]
+  },
+  "/assets/redesign-account.webp": {
+    "width": 900,
+    "height": 900,
+    "originalBytes": 112768,
+    "variants": [
+      {
+        "width": 360,
+        "src": "/assets/optimized/redesign-account-360-33e90193dd9f.webp",
+        "bytes": 20474
+      },
+      {
+        "width": 640,
+        "src": "/assets/optimized/redesign-account-640-8ed214d627f5.webp",
+        "bytes": 47508
+      },
+      {
+        "width": 900,
+        "src": "/assets/optimized/redesign-account-900-309fa0e9a2ea.webp",
+        "bytes": 84032
+      }
+    ]
+  },
+  "/assets/redesign-aviator.webp": {
+    "width": 900,
+    "height": 900,
+    "originalBytes": 121134,
+    "variants": [
+      {
+        "width": 360,
+        "src": "/assets/optimized/redesign-aviator-360-66367496c5fc.webp",
+        "bytes": 21248
+      },
+      {
+        "width": 640,
+        "src": "/assets/optimized/redesign-aviator-640-f109e69e27c1.webp",
+        "bytes": 52126
+      },
+      {
+        "width": 900,
+        "src": "/assets/optimized/redesign-aviator-900-a142694f50dd.webp",
+        "bytes": 94904
+      }
+    ]
+  },
+  "/assets/redesign-blue.webp": {
+    "width": 900,
+    "height": 900,
+    "originalBytes": 171130,
+    "variants": [
+      {
+        "width": 360,
+        "src": "/assets/optimized/redesign-blue-360-2e51bf23b504.webp",
+        "bytes": 28514
+      },
+      {
+        "width": 640,
+        "src": "/assets/optimized/redesign-blue-640-3e3859d393f2.webp",
+        "bytes": 67100
+      },
+      {
+        "width": 900,
+        "src": "/assets/optimized/redesign-blue-900-90760510f04c.webp",
+        "bytes": 125080
+      }
+    ]
+  },
+  "/assets/redesign-casino.webp": {
+    "width": 900,
+    "height": 900,
+    "originalBytes": 169592,
+    "variants": [
+      {
+        "width": 360,
+        "src": "/assets/optimized/redesign-casino-360-ec743c7c72cd.webp",
+        "bytes": 28958
+      },
+      {
+        "width": 640,
+        "src": "/assets/optimized/redesign-casino-640-2739d3166005.webp",
+        "bytes": 67830
+      },
+      {
+        "width": 900,
+        "src": "/assets/optimized/redesign-casino-900-2c4ae8dc7569.webp",
+        "bytes": 122984
+      }
+    ]
+  },
+  "/assets/redesign-chicken.webp": {
+    "width": 900,
+    "height": 900,
+    "originalBytes": 193926,
+    "variants": [
+      {
+        "width": 360,
+        "src": "/assets/optimized/redesign-chicken-360-55e418aebbb2.webp",
+        "bytes": 31940
+      },
+      {
+        "width": 640,
+        "src": "/assets/optimized/redesign-chicken-640-5a3ba694199e.webp",
+        "bytes": 78202
+      },
+      {
+        "width": 900,
+        "src": "/assets/optimized/redesign-chicken-900-2b8ca233e867.webp",
+        "bytes": 145044
+      }
+    ]
+  },
+  "/assets/redesign-colour.webp": {
+    "width": 900,
+    "height": 900,
+    "originalBytes": 160872,
+    "variants": [
+      {
+        "width": 360,
+        "src": "/assets/optimized/redesign-colour-360-161deef34f85.webp",
+        "bytes": 26800
+      },
+      {
+        "width": 640,
+        "src": "/assets/optimized/redesign-colour-640-1738e4c88709.webp",
+        "bytes": 64562
+      },
+      {
+        "width": 900,
+        "src": "/assets/optimized/redesign-colour-900-0007f49c8713.webp",
+        "bytes": 118140
+      }
+    ]
+  },
+  "/assets/redesign-cricket.webp": {
+    "width": 900,
+    "height": 900,
+    "originalBytes": 196226,
+    "variants": [
+      {
+        "width": 360,
+        "src": "/assets/optimized/redesign-cricket-360-074fa1bfa2cf.webp",
+        "bytes": 33538
+      },
+      {
+        "width": 640,
+        "src": "/assets/optimized/redesign-cricket-640-5e27e90024ff.webp",
+        "bytes": 80720
+      },
+      {
+        "width": 900,
+        "src": "/assets/optimized/redesign-cricket-900-dd01667431ff.webp",
+        "bytes": 150358
+      }
+    ]
+  },
+  "/assets/redesign-download.webp": {
+    "width": 900,
+    "height": 900,
+    "originalBytes": 108966,
+    "variants": [
+      {
+        "width": 360,
+        "src": "/assets/optimized/redesign-download-360-d6f8224baebf.webp",
+        "bytes": 20758
+      },
+      {
+        "width": 640,
+        "src": "/assets/optimized/redesign-download-640-0d97c3ecf7e9.webp",
+        "bytes": 48704
+      },
+      {
+        "width": 900,
+        "src": "/assets/optimized/redesign-download-900-2d1a2da63aed.webp",
+        "bytes": 85496
+      }
+    ]
+  },
+  "/assets/redesign-editorial.webp": {
+    "width": 900,
+    "height": 900,
+    "originalBytes": 120982,
+    "variants": [
+      {
+        "width": 360,
+        "src": "/assets/optimized/redesign-editorial-360-2ac8c226a818.webp",
+        "bytes": 19944
+      },
+      {
+        "width": 640,
+        "src": "/assets/optimized/redesign-editorial-640-e0429f04659a.webp",
+        "bytes": 47248
+      },
+      {
+        "width": 900,
+        "src": "/assets/optimized/redesign-editorial-900-8e83335526ba.webp",
+        "bytes": 87370
+      }
+    ]
+  },
+  "/assets/redesign-live.webp": {
+    "width": 900,
+    "height": 900,
+    "originalBytes": 193654,
+    "variants": [
+      {
+        "width": 360,
+        "src": "/assets/optimized/redesign-live-360-10540caaced8.webp",
+        "bytes": 32890
+      },
+      {
+        "width": 640,
+        "src": "/assets/optimized/redesign-live-640-51b4d5475b5f.webp",
+        "bytes": 79740
+      },
+      {
+        "width": 900,
+        "src": "/assets/optimized/redesign-live-900-e119d209dc3a.webp",
+        "bytes": 144446
+      }
+    ]
+  },
+  "/assets/redesign-payments.webp": {
+    "width": 900,
+    "height": 900,
+    "originalBytes": 122808,
+    "variants": [
+      {
+        "width": 360,
+        "src": "/assets/optimized/redesign-payments-360-47f5e7d264a7.webp",
+        "bytes": 22256
+      },
+      {
+        "width": 640,
+        "src": "/assets/optimized/redesign-payments-640-32e173cde666.webp",
+        "bytes": 52506
+      },
+      {
+        "width": 900,
+        "src": "/assets/optimized/redesign-payments-900-328b9f935535.webp",
+        "bytes": 93430
+      }
+    ]
+  },
+  "/assets/redesign-policy.webp": {
+    "width": 900,
+    "height": 900,
+    "originalBytes": 130390,
+    "variants": [
+      {
+        "width": 360,
+        "src": "/assets/optimized/redesign-policy-360-76db24e9b368.webp",
+        "bytes": 23600
+      },
+      {
+        "width": 640,
+        "src": "/assets/optimized/redesign-policy-640-145a8f70a2df.webp",
+        "bytes": 55798
+      },
+      {
+        "width": 900,
+        "src": "/assets/optimized/redesign-policy-900-d622a015b487.webp",
+        "bytes": 99186
+      }
+    ]
+  },
+  "/assets/redesign-rewards.webp": {
+    "width": 900,
+    "height": 900,
+    "originalBytes": 117756,
+    "variants": [
+      {
+        "width": 360,
+        "src": "/assets/optimized/redesign-rewards-360-3f89d53a2c4a.webp",
+        "bytes": 21002
+      },
+      {
+        "width": 640,
+        "src": "/assets/optimized/redesign-rewards-640-e5a81f610e59.webp",
+        "bytes": 48434
+      },
+      {
+        "width": 900,
+        "src": "/assets/optimized/redesign-rewards-900-a7e002cdf20c.webp",
+        "bytes": 84818
+      }
+    ]
+  },
+  "/assets/redesign-support.webp": {
+    "width": 900,
+    "height": 900,
+    "originalBytes": 149886,
+    "variants": [
+      {
+        "width": 360,
+        "src": "/assets/optimized/redesign-support-360-f07f1b39467a.webp",
+        "bytes": 25886
+      },
+      {
+        "width": 640,
+        "src": "/assets/optimized/redesign-support-640-9a29dddc491a.webp",
+        "bytes": 61660
+      },
+      {
+        "width": 900,
+        "src": "/assets/optimized/redesign-support-900-46a6d6955a76.webp",
+        "bytes": 112274
+      }
+    ]
+  },
+  "/assets/redesign-vip.webp": {
+    "width": 900,
+    "height": 900,
+    "originalBytes": 128058,
+    "variants": [
+      {
+        "width": 360,
+        "src": "/assets/optimized/redesign-vip-360-431e527566e6.webp",
+        "bytes": 22718
+      },
+      {
+        "width": 640,
+        "src": "/assets/optimized/redesign-vip-640-eb29f068c8aa.webp",
+        "bytes": 53802
+      },
+      {
+        "width": 900,
+        "src": "/assets/optimized/redesign-vip-900-54bf1f5ac16c.webp",
+        "bytes": 95966
+      }
+    ]
+  }
+}
