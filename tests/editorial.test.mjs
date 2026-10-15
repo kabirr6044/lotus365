@@ -12,8 +12,8 @@ const visible = markup => markup.replace(/<[^>]*>/g, '')
  .replace(/&#(\d+);/g, (_, code) => String.fromCodePoint(Number(code)))
  .replace(/\s+/g, ' ').trim();
 
-test('main landing pages publish distinct, concise metadata across search and sharing', () => {
- assert.equal(Object.keys(editorial).length, 18);
+test('priority pages publish distinct, concise metadata across search and sharing', () => {
+ assert.equal(Object.keys(editorial).length, 43);
  const titles = new Set(), descriptions = new Set();
  for (const [path, copy] of Object.entries(editorial)) {
   const page = pages[path], metadata = pageSeo(page, site);
@@ -26,12 +26,12 @@ test('main landing pages publish distinct, concise metadata across search and sh
   titles.add(copy.title); descriptions.add(copy.description);
   assert.equal(metadata.openGraph.title, copy.title);
   assert.equal(metadata.twitter.description, copy.description);
-  assert.equal(metadata.alternates.canonical, site.origin + path);
+  assert.equal(metadata.alternates.canonical, new URL(site.origin + path).href);
   assert.equal(metadata.robots.index, true);
  }
 });
 
-test('reviewed headings and prose are present in page content with one H1 per main page', () => {
+test('reviewed headings and prose are present while preserving each page’s H1 structure', () => {
  for (const [path, copy] of Object.entries(editorial)) {
   const page = pages[path], text = visible(page.html);
   assert.equal((page.html.match(/<h1\b/g) || []).length, 1, path);

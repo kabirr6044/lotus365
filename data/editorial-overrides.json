@@ -850,5 +850,1336 @@
         "after": "Held annually in March-May, the Indian Premier League is cricket’s most exciting T20 format. Matches take place nearly every day for 2 months:"
       }
     ]
+  },
+  "/about-lotus365/": {
+    "title": "About Lotus365 | Our Story, Gaming Experience & Player Support",
+    "description": "Discover the Lotus365 story, platform development and commitment to players. Explore our gaming experience, fairness, security and player-focused features.",
+    "headings": [
+      {
+        "before": "About Lotus365: Your #1 Gaming Destination & Our Story",
+        "after": "About Lotus365: Our Story & Your #1 Gaming Destination",
+        "tag": "h1"
+      },
+      {
+        "before": "Our Story: From Concept to India’s Reliable Gaming Platform",
+        "after": "The Lotus365 Story: Building India’s Reliable Gaming Platform",
+        "tag": "h2"
+      },
+      {
+        "before": "My Experience Developing Lotus365",
+        "after": "My Experience Building Lotus365",
+        "tag": "h2"
+      },
+      {
+        "before": "What Is Unique About Lotus365?",
+        "after": "What Makes Lotus365 Different?",
+        "tag": "h2"
+      },
+      {
+        "before": "Case Study: How Everything Changed After Our First Tournament",
+        "after": "Our First Tournament: A Lotus365 Case Study",
+        "tag": "h2"
+      },
+      {
+        "before": "Our Dedication to Players",
+        "after": "Our Commitment to Lotus365 Players",
+        "tag": "h2"
+      }
+    ],
+    "paragraphs": [
+      {
+        "before": "Welcome to Lotus365, where cutting-edge innovation and gaming passion collide. Having a clear vision at the start of our journey was to create the gaming platform we always wanted to use.",
+        "template": "Welcome to {0}, where a passion for gaming meets cutting-edge innovation. Our journey began with a clear goal: to {1}.",
+        "after": "Welcome to Lotus365, where a passion for gaming meets cutting-edge innovation. Our journey began with a clear goal: to create the gaming platform we always wanted to use."
+      },
+      {
+        "before": "The Indian online gambling and casino market felt lacking prior to Lotus365. Transparency, speedy withdrawals, and a genuinely pleasurable user experience were lacking from many platforms. We knew the industry needed a platform that was exciting, secure, fair, and player-focused because we are gamers and tech innovators ourselves.",
+        "template": "Before Lotus365, many platforms in India’s online gambling and casino market fell short on transparency, fast withdrawals and an enjoyable user experience. As gamers and technology innovators, we recognised the need for a {0}.",
+        "after": "Before Lotus365, many platforms in India’s online gambling and casino market fell short on transparency, fast withdrawals and an enjoyable user experience. As gamers and technology innovators, we recognised the need for a platform that was exciting, secure, fair, and player-focused."
+      }
+    ]
+  },
+  "/blog/": {
+    "title": "Lotus365 Blog | Game Guides, Platform Comparisons & Tips",
+    "description": "Read the Lotus365 blog for casino and sports guides, platform comparisons, account access help and Blue features. Browse the latest articles and practical tips.",
+    "headings": [
+      {
+        "before": "Lotus365 Login vs Lotus Login",
+        "after": "Lotus365 Login vs Lotus Login: Platform Access",
+        "tag": "h2"
+      },
+      {
+        "before": "Lotus365 vs Gold365: Security, Speed & Bonuses",
+        "after": "Lotus365 vs Gold365: Security, Speed and Bonus Comparison",
+        "tag": "h2"
+      },
+      {
+        "before": "Lotus365 vs World777: Odds, Cashback & UX",
+        "after": "Lotus365 vs World777: Odds, Cashback and User Experience",
+        "tag": "h2"
+      }
+    ],
+    "paragraphs": [
+      {
+        "before": "Lotus Login vs Lotus365 Login: Complete Platform Access Lotus365 login and lotus login both connect to the exact same betting",
+        "template": "Lotus Login vs Lotus365 Login: Both login options provide access to the exact same betting platform. Explore the complete platform access comparison.",
+        "after": "Lotus Login vs Lotus365 Login: Both login options provide access to the exact same betting platform. Explore the complete platform access comparison."
+      },
+      {
+        "before": "Lotus365 vs Gold365: Security, Speed & Bonuses When diving into the betting world, picking between Lotus365 vs Gold365 often tops",
+        "template": "Compare Lotus365 vs Gold365 on security, speed and bonuses. Choosing a betting platform starts with understanding how these options compare.",
+        "after": "Compare Lotus365 vs Gold365 on security, speed and bonuses. Choosing a betting platform starts with understanding how these options compare."
+      }
+    ]
+  },
+  "/contact-us/": {
+    "title": "Contact Lotus365 | Account Support, Login Help & Enquiries",
+    "description": "Contact Lotus365 for account questions, login help, VIP support and partnership enquiries. Explore contact options, in-app assistance and common support topics.",
+    "headings": [
+      {
+        "before": "Contact Us for Lotus365 Support",
+        "after": "Contact Lotus365: Customer Support & Account Help",
+        "tag": "h1"
+      },
+      {
+        "before": "How Can We Help You Today?",
+        "after": "How Lotus365 Support Can Help",
+        "tag": "h2"
+      },
+      {
+        "before": "Get in Touch with Lotus365",
+        "after": "Ways to Contact the Lotus365 Team",
+        "tag": "h2"
+      },
+      {
+        "before": "1. Contact Form",
+        "after": "1. Send a Message Using the Contact Form",
+        "tag": "h3"
+      },
+      {
+        "before": "2. Email Support",
+        "after": "2. Contact Email Support",
+        "tag": "h3"
+      },
+      {
+        "before": "3. Phone Support",
+        "after": "3. Reach Phone Support",
+        "tag": "h3"
+      },
+      {
+        "before": "4. In-App Support (for Lotus365 App Users)",
+        "after": "4. Use In-App Support in the Lotus365 App",
+        "tag": "h3"
+      }
+    ],
+    "paragraphs": [
+      {
+        "before": "Welcome to the Contact Us page for lotus365! We at lotus365 are committed to making sure you have a great time. Our team is here to help you with anything you need, whether you have a question, need help, or want to look into partnership opportunities. We appreciate your feedback and are dedicated to making sure you have all the help you need, whether it’s with lotus365 login problems or lotus365-vip-login questions.",
+        "template": "Contact the Lotus365 team for questions, assistance and partnership opportunities. We are committed to a great experience and welcome your feedback. From {0} problems to {1} questions, our team is dedicated to providing the help you need.",
+        "childText": {
+          "0": "Lotus365 login",
+          "1": "Lotus365 VIP login"
+        },
+        "after": "Contact the Lotus365 team for questions, assistance and partnership opportunities. We are committed to a great experience and welcome your feedback. From Lotus365 login problems to Lotus365 VIP login questions, our team is dedicated to providing the help you need."
+      },
+      {
+        "before": "We understand that you might have various reasons to reach out. Here are some common topics we can assist you with:",
+        "template": "There are many reasons to contact Lotus365. Explore the common questions and support topics our team can help you with below.",
+        "after": "There are many reasons to contact Lotus365. Explore the common questions and support topics our team can help you with below."
+      }
+    ]
+  },
+  "/lotus365-account-security-best-practices/": {
+    "title": "Lotus365 Account Security | Passwords, Payments & Safety",
+    "description": "Protect your Lotus365 account with password, device and payment security practices. Learn about common threats, safer access habits and platform protections.",
+    "headings": [
+      {
+        "before": "Lotus365 Account Security Best Practices: How to Keep Your Profile Safe",
+        "after": "Lotus365 Account Security: Best Practices for Your Profile",
+        "tag": "h1"
+      },
+      {
+        "before": "Why Lotus365 Account Security Is Critical",
+        "after": "Why Your Lotus365 Account Security Matters",
+        "tag": "h2"
+      },
+      {
+        "before": "Major Threats That Target Online Accounts",
+        "after": "Common Threats to Online Account Security",
+        "tag": "h2"
+      },
+      {
+        "before": "Creating a Strong Password for Your Lotus365 Account",
+        "after": "How to Create a Strong Lotus365 Password",
+        "tag": "h2"
+      },
+      {
+        "before": "Device and Network Safety Measures",
+        "after": "Keep Your Devices and Network Secure",
+        "tag": "h2"
+      },
+      {
+        "before": "Safe Financial Transaction Habits",
+        "after": "Safer Financial Transactions on Lotus365",
+        "tag": "h2"
+      },
+      {
+        "before": "How Lotus365 Strengthens Account Protection",
+        "after": "How Lotus365 Protects Your Account",
+        "tag": "h2"
+      }
+    ],
+    "paragraphs": [
+      {
+        "before": "In the digital environment we live in today, having secure online accounts is just as important as securing the valuables we own physically. On one hand, when we use a lotus365 account, we are not only LIVIN IT! – we’re talking about handling money transactions, personal content, login credentials, and activity records. The importance of account security cannot be overlooked in any way.",
+        "template": "Protecting your Lotus365 account matters as much as securing physical valuables. Your account involves financial transactions, personal content, login credentials and activity records, making account security an essential part of every session.",
+        "after": "Protecting your Lotus365 account matters as much as securing physical valuables. Your account involves financial transactions, personal content, login credentials and activity records, making account security an essential part of every session."
+      },
+      {
+        "before": "Users rarely think about security until an issue happens. If the Lotus365 account is compromised, unauthorized actions, modifications of personal data, or attempts at misusing account balances might take place. The positive aspect is this: comprehensive security is achieved by utilizing robust security measures by the system, as well as positive user behavior. Lotus is already utilizing robust security measures; users who use smart strategies are more secure.",
+        "template": "A compromised {0} account can lead to unauthorised activity, changes to personal information or misuse of account balances. Strong protection combines robust platform security with careful user habits. Lotus365 already uses strong security measures, and users who follow smart practices gain additional protection.",
+        "after": "A compromised Lotus365 account can lead to unauthorised activity, changes to personal information or misuse of account balances. Strong protection combines robust platform security with careful user habits. Lotus365 already uses strong security measures, and users who follow smart practices gain additional protection."
+      }
+    ]
+  },
+  "/lotus365-account-verification-process/": {
+    "title": "Lotus365 Account Verification | KYC Documents & Process",
+    "description": "Follow the Lotus365 account verification guide for KYC documents, identity checks and bank details. Learn how to avoid upload errors and withdrawal delays.",
+    "headings": [
+      {
+        "before": "Lotus365 Account Verification Process (KYC Guide for 2026)",
+        "after": "Lotus365 Account Verification: KYC Process for 2026",
+        "tag": "h1"
+      },
+      {
+        "before": "What is Account Verification on Lotus365?",
+        "after": "What Is Lotus365 Account Verification?",
+        "tag": "h2"
+      },
+      {
+        "before": "Why Lotus365 Verification is Required",
+        "after": "Why Lotus365 Requires KYC Verification",
+        "tag": "h2"
+      },
+      {
+        "before": "a) Faster withdrawals",
+        "after": "a) Faster Account Withdrawals",
+        "tag": "h3"
+      },
+      {
+        "before": "b) Preventing multiple accounts",
+        "after": "b) Preventing Duplicate Accounts",
+        "tag": "h3"
+      },
+      {
+        "before": "c) Security against identity misuse",
+        "after": "c) Protection Against Identity Misuse",
+        "tag": "h3"
+      },
+      {
+        "before": "Documents Required for Lotus365 KYC (2026)",
+        "after": "Documents Needed for Lotus365 KYC in 2026",
+        "tag": "h2"
+      }
+    ],
+    "paragraphs": [
+      {
+        "before": "The process of opening the account does not take time, but true confidence on the platform derives from one thing: security. This explains why the process of verification of the Lotus365 account is critical for people wanting a more streamlined process, especially concerning the processing of withdrawals, the overall higher processing limit for the accounts, and the safeguarding of your identity. By 2026, the verification process is more than just a procedure that needs be gone through.",
+        "template": "Opening an account is quick, but security builds lasting confidence. Verification of your {0} supports smoother withdrawals, higher account processing limits and protection of your identity. In 2026, completing verification is more than a routine procedure.",
+        "after": "Opening an account is quick, but security builds lasting confidence. Verification of your Lotus365 account supports smoother withdrawals, higher account processing limits and protection of your identity. In 2026, completing verification is more than a routine procedure."
+      },
+      {
+        "before": "KYC is often delayed by many users who think the process is complex and time-consuming. The thing is, the KYC process is easy if a user knows what needs to be submitted and how things should be aligned. It is a common practice for KYC failures to occur because a user does not have the required documents, but because a user uploads pictures that are not clear, the name does not match, and the user’s bank information is not in sync with the account. The solution is to view the KYC as a one-time configuration.",
+        "template": "Lotus365 KYC is straightforward when you know which documents to submit and how account details should match. Users often delay it because it seems complex or time-consuming. Many failures involve unclear images, mismatched names or bank details that do not align with the account, rather than missing documents. Treat KYC as a one-time account configuration.",
+        "after": "Lotus365 KYC is straightforward when you know which documents to submit and how account details should match. Users often delay it because it seems complex or time-consuming. Many failures involve unclear images, mismatched names or bank details that do not align with the account, rather than missing documents. Treat KYC as a one-time account configuration."
+      }
+    ]
+  },
+  "/lotus365-app-vs-web/": {
+    "title": "Lotus365 App vs Web | Features, Speed & Device Comparison",
+    "description": "Compare the Lotus365 app and web platform for speed, device access, payments and usability. Explore the pros, cons and installation guidance for each option.",
+    "headings": [
+      {
+        "before": "Lotus365 App vs Web Platform Pros & Cons 2026",
+        "after": "Lotus365 App vs Web: Pros, Cons & Features in 2026",
+        "tag": "h1"
+      },
+      {
+        "before": "Lotus365 App vs Web Platform: What’s the Real Difference?",
+        "after": "Lotus365 App vs Website: Key Differences",
+        "tag": "h2"
+      },
+      {
+        "before": "Lotus365 App: Key Benefits (Why Mobile Feels Faster)",
+        "after": "Lotus365 App Benefits: Faster Mobile Access",
+        "tag": "h2"
+      },
+      {
+        "before": "Mobile betting advantages that matter in real use",
+        "after": "Mobile Betting Benefits in Everyday Use",
+        "tag": "h3"
+      },
+      {
+        "before": "Web Platform: Key Benefits (Why Browser Still Wins for Some Users)",
+        "after": "Lotus365 Web Benefits: When Browser Access Works Best",
+        "tag": "h2"
+      },
+      {
+        "before": "Why the web platform can be better",
+        "after": "Reasons to Choose the Web Platform",
+        "tag": "h3"
+      },
+      {
+        "before": "Browser vs App Comparison (Feature-by-Feature)",
+        "after": "Lotus365 App and Browser: Feature Comparison",
+        "tag": "h2"
+      }
+    ],
+    "paragraphs": [
+      {
+        "before": "If you are using Lotus365 regularly, you’ve probably asked yourself at least once: Should I stick to the Lotus365 App or just use the web platform? In 2026, the answer isn’t as simple as “app is better” or “website is easier.” Both have massively improved, faster payment systems, smarter dashboards, and smoother navigation, but they suit different user styles.",
+        "template": "Should regular {0} users choose the app or the web platform? In 2026, both options have improved substantially, with faster payments, smarter dashboards and smoother navigation. The right choice depends on how you prefer to play and manage your account.",
+        "after": "Should regular Lotus365 users choose the app or the web platform? In 2026, both options have improved substantially, with faster payments, smarter dashboards and smoother navigation. The right choice depends on how you prefer to play and manage your account."
+      },
+      {
+        "before": "That makes this comparison very relevant due to the question of timing. Most bets or plays are made in seconds: a turn in a live match, rapidly changing odds, or a bonus offered for a limited period of time. The choice between the Lotus365 App and the web platform of Lotus365 directly influences how timely you can react, with what safety regarding account access, and how conveniently regarding balance management.",
+        "template": "Timing matters when a live match changes, odds move quickly or a bonus is available for a limited period. Choosing the Lotus365 app or web platform affects how quickly you react, how safely you access your account and how conveniently you manage your balance.",
+        "after": "Timing matters when a live match changes, odds move quickly or a bonus is available for a limited period. Choosing the Lotus365 app or web platform affects how quickly you react, how safely you access your account and how conveniently you manage your balance."
+      }
+    ]
+  },
+  "/lotus365-india/": {
+    "title": "Lotus365 India | Trusted Sports Betting, Casino & App Guide",
+    "description": "Explore Lotus365 India for cricket betting, casino games and daily rewards. Find app download steps, login guidance, payment options and account support.",
+    "headings": [
+      {
+        "before": "Lotus365 India – Your Trusted Online Betting Platform",
+        "after": "Lotus365 India: Trusted Online Betting & Casino Platform",
+        "tag": "h1"
+      },
+      {
+        "before": "Why Millions of Indians Choose Lotus365",
+        "after": "Why Millions of Indian Players Choose Lotus365",
+        "tag": "h2"
+      },
+      {
+        "before": "1. Built Specifically for Indian Players",
+        "after": "1. Designed for Indian Players",
+        "tag": "h3"
+      },
+      {
+        "before": "2. Industry-Leading Security You Can Trust",
+        "after": "2. Industry-Leading Account Security",
+        "tag": "h3"
+      },
+      {
+        "before": "3. Fastest Deposits & Withdrawals in the Industry",
+        "after": "3. The Industry’s Fastest Deposits and Withdrawals",
+        "tag": "h3"
+      },
+      {
+        "before": "4. Wide Range of Payment Options",
+        "after": "4. Flexible Payment Options for Indian Players",
+        "tag": "h3"
+      },
+      {
+        "before": "5. Massive Selection of Sports & Games",
+        "after": "5. An Extensive Selection of Sports and Games",
+        "tag": "h3"
+      },
+      {
+        "before": "6. Daily Bonuses & Exclusive Rewards",
+        "after": "6. Daily Bonuses and Exclusive Player Rewards",
+        "tag": "h3"
+      }
+    ],
+    "paragraphs": [
+      {
+        "before": "Looking for a safe and thrilling place to bet on sports and play casino games online? Lotus365 India has become the go-to choice for millions of Indian bettors, cricket enthusiasts, and casino lovers. With industry-leading security, lightning-fast deposits and withdrawals, and an incredible range of betting options, Lotus365 delivers an unmatched betting experience right from your fingertips.",
+        "template": "{0} is the trusted choice of millions of Indian bettors, cricket fans and casino players seeking safe, exciting online entertainment. With industry-leading security, lightning-fast deposits and withdrawals, and an extensive range of betting options, {1} delivers an unmatched experience on your device.",
+        "after": "Lotus365 India is the trusted choice of millions of Indian bettors, cricket fans and casino players seeking safe, exciting online entertainment. With industry-leading security, lightning-fast deposits and withdrawals, and an extensive range of betting options, Lotus365 delivers an unmatched experience on your device."
+      },
+      {
+        "before": "Whether you’re passionate about cricket, want to live bet during IPL matches, or enjoy classic casino games—Lotus365 brings it all together on one trusted platform.",
+        "template": "From cricket and live IPL betting to classic casino games, Lotus365 brings your favourite sports and gaming experiences together on one trusted platform.",
+        "after": "From cricket and live IPL betting to classic casino games, Lotus365 brings your favourite sports and gaming experiences together on one trusted platform."
+      }
+    ]
+  },
+  "/lotus365-login-issues-troubleshooting/": {
+    "title": "Lotus365 Login Not Working? Password, OTP & Browser Fixes",
+    "description": "Fix common Lotus365 login issues with help for password errors, OTP delays, browser problems and app access. Follow account safety checks before retrying.",
+    "headings": [
+      {
+        "before": "Lotus365 Login Issues and Troubleshooting (Complete 2026 Guide)",
+        "after": "Lotus365 Login Issues: Troubleshooting Guide for 2026",
+        "tag": "h1"
+      },
+      {
+        "before": "Why Lotus365 Login Issues Happen",
+        "after": "Common Causes of Lotus365 Login Problems",
+        "tag": "h2"
+      },
+      {
+        "before": "Before You Troubleshoot: Safety Checks (Very Important)",
+        "after": "Account Safety Checks Before Login Troubleshooting",
+        "tag": "h2"
+      },
+      {
+        "before": "Safety checklist",
+        "after": "Lotus365 Login Safety Checklist",
+        "tag": "h3"
+      },
+      {
+        "before": "Common Lotus365 Login Errors & What They Mean",
+        "after": "Lotus365 Login Error Messages Explained",
+        "tag": "h2"
+      }
+    ],
+    "paragraphs": [
+      {
+        "before": "If you have tried to log into your account and been met with “Invalid password,” experienced a one-time password wait, or encountered a website that won’t load, you are not alone. In 2026, it’s not unusual to have problems when accessing online platforms, especially when changing devices, networks, or browsers. The only difference for betting sites is their time sensitivity: any lag encountered during login when a match has begun can prove frustrating.",
+        "template": "An invalid password, a delayed one-time password or a page that will not load can interrupt Lotus365 login just before a match. These access problems are common in 2026, particularly after switching devices, networks or browsers. For betting platforms, a login delay becomes especially frustrating once play has begun.",
+        "after": "An invalid password, a delayed one-time password or a page that will not load can interrupt Lotus365 login just before a match. These access problems are common in 2026, particularly after switching devices, networks or browsers. For betting platforms, a login delay becomes especially frustrating once play has begun."
+      },
+      {
+        "before": "This manual is tailored exactly for people experiencing issues in Lotus365 Login. No more generic recommendations! You will receive a comprehensive troubleshooting guide addressing the most frequent login issues such as login credentials, OTP issues, restricted login attempts, cache issues & browser issues, app login errors, & security lock issues. Simple goal: assist you in recovering your Lotus365 Login safely.",
+        "template": "This Lotus365 troubleshooting guide addresses specific access problems rather than generic advice. Find help with credentials, OTP delays, restricted login attempts, cache and browser settings, app access and security locks. Follow the steps to recover your {0} safely.",
+        "after": "This Lotus365 troubleshooting guide addresses specific access problems rather than generic advice. Find help with credentials, OTP delays, restricted login attempts, cache and browser settings, app access and security locks. Follow the steps to recover your Lotus365 Login safely."
+      }
+    ]
+  },
+  "/lotus365-signup-bonus-explained/": {
+    "title": "Lotus365 Signup Bonus | Registration, Eligibility & Terms",
+    "description": "Understand the Lotus365 signup bonus, registration steps, wagering conditions and eligible gameplay. Learn about verification and common bonus mistakes.",
+    "headings": [
+      {
+        "before": "Lotus365 Signup Bonus Explained: Register & Start Playing Today",
+        "after": "Lotus365 Signup Bonus: Registration, Offers & Conditions",
+        "tag": "h1"
+      },
+      {
+        "before": "What is the Lotus365 Signup Bonus?",
+        "after": "What Does the Lotus365 Signup Bonus Include?",
+        "tag": "h2"
+      },
+      {
+        "before": "How Lotus 365 Compares to Other Platforms",
+        "after": "How Lotus365 Signup Compares with Other Platforms",
+        "tag": "h2"
+      },
+      {
+        "before": "Where most platforms fail",
+        "after": "Common Shortcomings on Other Platforms",
+        "tag": "h3"
+      },
+      {
+        "before": "Where Lotus365 Signup looks stronger",
+        "after": "Where Lotus365 Signup Has an Advantage",
+        "tag": "h3"
+      },
+      {
+        "before": "Lotus365 Register Process (Step-by-Step)",
+        "after": "How to Register with Lotus365: Step-by-Step Guide",
+        "tag": "h2"
+      }
+    ],
+    "paragraphs": [
+      {
+        "before": "If you’re searching for a clean explanation of the Lotus365 Signup process—and what the signup bonus actually means—you’re not alone. In India’s fast-growing online gaming market, users are no longer satisfied with vague “welcome bonus” claims. People want clarity: How do I register? What bonus will I get? Are there conditions? What counts as eligible gameplay?",
+        "template": "Understand the {0} process and what the signup bonus means before you begin. In India’s growing online gaming market, players want more than vague welcome offers. The key questions are: {1}",
+        "after": "Understand the Lotus365 Signup process and what the signup bonus means before you begin. In India’s growing online gaming market, players want more than vague welcome offers. The key questions are: How do I register? What bonus will I get? Are there conditions? What counts as eligible gameplay?"
+      },
+      {
+        "before": "This guide answers those questions in a clear, detailed, and practical way. You’ll learn how Lotus365 Register works step-by-step, what “bonus terms” commonly include (like wagering or verification), and how to avoid the mistakes that stop many new players from using bonuses properly. Throughout the blog, you’ll also see the brand mentioned naturally as Lotus 365, because that’s how users commonly search and refer to the platform.",
+        "template": "Learn how {0} works, what bonus conditions such as wagering and verification involve, and which mistakes can prevent new players from using their offers properly. The platform is also commonly searched for and referred to as {1}.",
+        "after": "Learn how Lotus365 Register works, what bonus conditions such as wagering and verification involve, and which mistakes can prevent new players from using their offers properly. The platform is also commonly searched for and referred to as Lotus 365."
+      }
+    ]
+  },
+  "/lotus365-signup-not-working-fixes/": {
+    "title": "Lotus365 Signup Not Working? OTP & Registration Fixes",
+    "description": "Troubleshoot Lotus365 signup problems, including missing OTPs, captcha errors and loading loops. Check browser, network and mobile number settings.",
+    "headings": [
+      {
+        "before": "Lotus365 Signup Not Working? Easy Fixes & Registration Tips",
+        "after": "Lotus365 Signup Not Working? Registration Errors & Fixes",
+        "tag": "h1"
+      },
+      {
+        "before": "Why Lotus365 Signup is Not Working (Top Causes)",
+        "after": "Why Lotus365 Signup Fails: Common Causes",
+        "tag": "h2"
+      },
+      {
+        "before": "Quick Checks Before Fixing Anything",
+        "after": "Quick Registration Checks Before Troubleshooting",
+        "tag": "h2"
+      },
+      {
+        "before": "Check A: Are you on the correct website?",
+        "after": "Check A: Confirm You Are on the Correct Website",
+        "tag": "h3"
+      },
+      {
+        "before": "Check B: Try a second browser in 30 seconds",
+        "after": "Check B: Test Another Browser in 30 Seconds",
+        "tag": "h3"
+      },
+      {
+        "before": "Check C: Switch data source",
+        "after": "Check C: Switch Your Internet Connection",
+        "tag": "h3"
+      },
+      {
+        "before": "Fix 1: OTP Not Received on Lotus365 Signup",
+        "after": "Fix 1: Missing OTP During Lotus365 Signup",
+        "tag": "h2"
+      }
+    ],
+    "paragraphs": [
+      {
+        "before": "If you’re trying to create an account and the Lotus365 Signup page keeps failing, you’re not alone. In 2026, many users face common signup problems such as OTP not coming, captcha errors, “something went wrong” messages, mobile number issues, or page loading loops. The frustrating part is that these issues usually don’t mean Lotus365 is down, they’re often caused by small technical blocks like browser cache, network restrictions, or device settings.",
+        "template": "Problems with {0} in 2026 can include missing OTPs, captcha errors, mobile number issues, loading loops or a “something went wrong” message. These failures usually {1}; browser cache, network restrictions and device settings are often responsible.",
+        "after": "Problems with Lotus365 Signup in 2026 can include missing OTPs, captcha errors, mobile number issues, loading loops or a “something went wrong” message. These failures usually don’t mean Lotus365 is down; browser cache, network restrictions and device settings are often responsible."
+      },
+      {
+        "before": "The good news is: almost every signup issue has a clean fix. Whether your Lotus 365 Signup screen is stuck, your OTP isn’t arriving, or your Lotus365 Regsiter attempt shows errors, this guide will walk you through solutions that work. More importantly, we’ll show the “why” behind each fix, so you don’t repeat the same issue again.",
+        "template": "Almost every signup problem has a straightforward fix. If your {0} screen freezes, the OTP does not arrive or your {1} attempt returns errors, follow the solutions below. Each fix explains its cause so you can avoid the same issue next time.",
+        "after": "Almost every signup problem has a straightforward fix. If your Lotus 365 Signup screen freezes, the OTP does not arrive or your Lotus365 Register attempt returns errors, follow the solutions below. Each fix explains its cause so you can avoid the same issue next time.",
+        "textEdits": [
+          {
+            "before": "Regsiter",
+            "after": "Register"
+          }
+        ]
+      }
+    ]
+  },
+  "/lotus365-withdrawal/": {
+    "title": "Lotus365 Withdrawal | Payment Methods, Times, Fees & Limits",
+    "description": "Learn how Lotus365 withdrawals work, including payment methods, processing times, fees and limits. Follow cash-out steps, KYC guidance and practical tips.",
+    "headings": [
+      {
+        "before": "The Complete Guide to Lotus365 Withdrawal (2025): Methods, Times, Limits & Pro Tips",
+        "after": "Lotus365 Withdrawal: Methods, Times, Limits & Tips (2025)",
+        "tag": "h1"
+      },
+      {
+        "before": "My First Withdrawal Experience: What Happened When I Tried Cashing Out",
+        "after": "My First Lotus365 Withdrawal: Cash-Out Experience",
+        "tag": "h2"
+      },
+      {
+        "before": "A Step-by-Step Guide to Taking Money Out of Lotus365",
+        "after": "How to Withdraw Money from Lotus365: Step-by-Step Guide",
+        "tag": "h2"
+      },
+      {
+        "before": "Understanding Account Verification (KYC)",
+        "after": "KYC Verification Before Your Lotus365 Withdrawal",
+        "tag": "h2"
+      },
+      {
+        "before": "Lotus365 Withdrawal Methods Compared",
+        "after": "Compare Lotus365 Withdrawal Methods",
+        "tag": "h2"
+      },
+      {
+        "before": "Lotus365 Fees and Limits for Withdrawals",
+        "after": "Lotus365 Withdrawal Fees and Account Limits",
+        "tag": "h2"
+      },
+      {
+        "before": "Advice for a quicker, easier withdrawal",
+        "after": "Tips for Faster, Smoother Withdrawals",
+        "tag": "h2"
+      }
+    ],
+    "paragraphs": [
+      {
+        "before": "It’s exciting to win on a gaming platform, but the real test comes when you decide to cash out. A withdrawal process that is too complicated or takes too long can quickly turn excitement into anger. This is why it’s so important to know how to withdraw from Lotus365. You want to be sure that you can get your winnings quickly, safely, and without any problems that you didn’t see coming.",
+        "template": "Knowing how to withdraw from {0} matters when it is time to collect your winnings. A complicated or slow cash-out can quickly turn excitement into frustration. Understanding the process helps you aim for a quick, safe withdrawal without unexpected problems.",
+        "after": "Knowing how to withdraw from Lotus365 matters when it is time to collect your winnings. A complicated or slow cash-out can quickly turn excitement into frustration. Understanding the process helps you aim for a quick, safe withdrawal without unexpected problems."
+      },
+      {
+        "before": "At first, I only cared about the games and the betting odds when I started playing on Lotus365. After I won a cricket match, I thought, “How easy is it to actually get this money into my bank account?” I had heard both good and bad things about online platforms, so I was a little scared.",
+        "template": "When I started playing on Lotus365, my focus was on games and betting odds. After a cricket win, I wanted to know how easily I could move the winnings into my bank account. Mixed reports about online platforms left me a little nervous about my first withdrawal.",
+        "after": "When I started playing on Lotus365, my focus was on games and betting odds. After a cricket win, I wanted to know how easily I could move the winnings into my bank account. Mixed reports about online platforms left me a little nervous about my first withdrawal."
+      }
+    ]
+  },
+  "/reset-lotus365-password/": {
+    "title": "Reset Lotus365 Password | OTP Recovery & Login Help",
+    "description": "Reset your Lotus365 password with step-by-step recovery guidance. Find OTP and email options, common reset problems and tips for securing your account.",
+    "headings": [
+      {
+        "before": "How to Reset Your Lotus365 Password (Step-by-Step 2026 Guide)",
+        "after": "Reset Your Lotus365 Password: Step-by-Step Guide (2026)",
+        "tag": "h1"
+      },
+      {
+        "before": "Why Lotus365 Password Reset Issues Happen",
+        "after": "Why Lotus365 Password Recovery Problems Happen",
+        "tag": "h2"
+      },
+      {
+        "before": "Common reasons your Lotus365 password stops working",
+        "after": "Common Reasons Your Lotus365 Password Does Not Work",
+        "tag": "h3"
+      },
+      {
+        "before": "How to Reset Your Lotus365 Password (Step-by-Step)",
+        "after": "How to Reset a Lotus365 Password",
+        "tag": "h2"
+      },
+      {
+        "before": "Step 1: Open the official Lotus365 Login page",
+        "after": "Step 1: Open the Official Lotus365 Login Page",
+        "tag": "h3"
+      },
+      {
+        "before": "Step 2: Click “Forgot Password”",
+        "after": "Step 2: Choose Forgot Password",
+        "tag": "h3"
+      },
+      {
+        "before": "Step 3: Enter your registered mobile/email",
+        "after": "Step 3: Enter Your Registered Mobile Number or Email",
+        "tag": "h3"
+      }
+    ],
+    "paragraphs": [
+      {
+        "before": "It isn’t until it happens at the worst moment- right before the match, or exactly when one needs it- that most users will consider forgetting a password to be a “big problem.” If you have landed on this page, you are likely experiencing one of the most common issues: you can’t complete your Lotus365 Login because your password is either forgotten, not working, or the account refuses access after multiple attempts.",
+        "template": "A forgotten password can disrupt account access at the worst time, especially before a match. If you cannot complete Lotus365 login, your password may be forgotten or rejected, or repeated attempts may have caused the account to refuse access. This guide explains how to approach recovery.",
+        "after": "A forgotten password can disrupt account access at the worst time, especially before a match. If you cannot complete Lotus365 login, your password may be forgotten or rejected, or repeated attempts may have caused the account to refuse access. This guide explains how to approach recovery."
+      },
+      {
+        "before": "The good news is that resetting a Lotus365 password is normally painless. The “Forgot Password” recovery option is directly available on the platform’s login page, enabling users to reset access either via OTP (on the registered mobile) or email methods, whichever the account setup allows. In 2026, OTP-based recovery remains the fastest way for most Indian users because it’s quick and secure.",
+        "template": "Resetting a {0} password is normally straightforward. Choose “Forgot Password” on the login page to recover access through an OTP sent to your registered mobile number or an email method, depending on your account setup. In 2026, OTP recovery remains the fastest option for most Indian users because it is quick and secure.",
+        "after": "Resetting a Lotus365 password is normally straightforward. Choose “Forgot Password” on the login page to recover access through an OTP sent to your registered mobile number or an email method, depending on your account setup. In 2026, OTP recovery remains the fastest option for most Indian users because it is quick and secure."
+      }
+    ]
+  },
+  "/responsible-gaming-lotus365/": {
+    "title": "Lotus365 Responsible Gaming | Player Safety, Limits & Help",
+    "description": "Explore Lotus365 responsible gaming guidance, player protection tools and safer play habits. Learn to recognise gambling problems and find assistance.",
+    "headings": [
+      {
+        "before": "Lotus365’s Responsible Gaming",
+        "after": "Lotus365 Responsible Gaming: Player Safety & Support",
+        "tag": "h1"
+      },
+      {
+        "before": "Our Dedication to Fair and Safe Play",
+        "after": "Our Commitment to Safe and Fair Gaming",
+        "tag": "h2"
+      },
+      {
+        "before": "What is Responsible Gaming?",
+        "after": "What Does Responsible Gaming Mean?",
+        "tag": "h2"
+      },
+      {
+        "before": "The Responsible Gaming Approach of Lotus365",
+        "after": "How Lotus365 Supports Responsible Gaming",
+        "tag": "h2"
+      },
+      {
+        "before": "Our Tools for Player Protection",
+        "after": "Lotus365 Player Protection Tools",
+        "tag": "h3"
+      },
+      {
+        "before": "Responsible Playing Advice",
+        "after": "Practical Advice for Responsible Play",
+        "tag": "h2"
+      },
+      {
+        "before": "Identifying the Symptoms of Problem Gambling",
+        "after": "Recognising Signs of Problem Gambling",
+        "tag": "h2"
+      },
+      {
+        "before": "Where to Find Assistance",
+        "after": "Where to Find Help and Support",
+        "tag": "h2"
+      }
+    ],
+    "paragraphs": [
+      {
+        "before": "We at Lotus365 are dedicated to giving each and every one of our users a secure, equitable, and entertaining gaming environment. Our platform is built on the principle of responsible gaming, and we take proactive measures to make sure that players have the resources, knowledge, and assistance they require in order to play our games in an appropriate manner.",
+        "template": "At {0}, we are committed to a secure, fair and enjoyable environment for every player. Responsible gaming is a core platform principle. We actively provide the resources, information and assistance players need to approach our games appropriately.",
+        "after": "At Lotus365, we are committed to a secure, fair and enjoyable environment for every player. Responsible gaming is a core platform principle. We actively provide the resources, information and assistance players need to approach our games appropriately."
+      },
+      {
+        "before": "Gambling in a controlled, secure, and pleasurable manner is known as responsible gaming. It guarantees that gambling will always be a kind of amusement rather than a means of making money or a means of escaping from personal issues.",
+        "template": "Responsible gaming means keeping gambling controlled, secure and enjoyable. It ensures that play remains entertainment, rather than a way to earn money or escape personal problems.",
+        "after": "Responsible gaming means keeping gambling controlled, secure and enjoyable. It ensures that play remains entertainment, rather than a way to earn money or escape personal problems."
+      }
+    ]
+  },
+  "/spot-fake-lotus365-app-domain-2025/": {
+    "title": "Spot Fake Lotus365 Apps & Domains | Safety Checks (2025)",
+    "description": "Learn how to spot fake Lotus365 apps and domains with source, permission and URL checks. Explore first-hand examples and tips for avoiding phishing downloads.",
+    "headings": [
+      {
+        "before": "How to Spot a Fake Lotus365 App or Domain in 2025",
+        "after": "How to Spot Fake Lotus365 Apps & Domains: 2025 Guide",
+        "tag": "h1"
+      },
+      {
+        "before": "Why Fake Lotus365 Apps and Domains Are on the Rise in 2025",
+        "after": "Why Fake Lotus365 Apps and Domains Increased in 2025",
+        "tag": "h2"
+      },
+      {
+        "before": "Step-by-Step: How to Spot a Fake Lotus365 App",
+        "after": "How to Check a Lotus365 App: Step-by-Step Guide",
+        "tag": "h2"
+      },
+      {
+        "before": "Check the Source and Download Links",
+        "after": "Check App Sources and Download Links",
+        "tag": "h3"
+      },
+      {
+        "before": "Examine App Permissions and Reviews",
+        "after": "Review App Permissions and User Feedback",
+        "tag": "h3"
+      },
+      {
+        "before": "Verify the App’s Design and Features",
+        "after": "Compare the App’s Design and Features",
+        "tag": "h3"
+      },
+      {
+        "before": "How to Identify a Fake Lotus365 Domain",
+        "after": "How to Identify a Fake Lotus365 Website Domain",
+        "tag": "h2"
+      },
+      {
+        "before": "Inspect the URL and SSL Certificate",
+        "after": "Check the Website URL and SSL Certificate",
+        "tag": "h3"
+      }
+    ],
+    "paragraphs": [
+      {
+        "before": "In the fast-paced world of online gaming in India, platforms like Lotus365 attract millions with promises of quick cricket bets and casino thrills. But as someone who’s downloaded countless APKs and navigated shady sites over the past year—logging into Lotus365 hundreds of times via the official app—I’ve encountered fakes that nearly cost me time and money. Spotting a fake Lotus365 app or domain is crucial in 2025, especially with rising cyber threats targeting Indian users. This guide shares my real experiences, step-by-step checks, and tips to stay safe, so you avoid malware-laden “Lotus 365 Online Id APK” downloads or phishing domains mimicking the real deal.",
+        "template": "{0} attracts millions of Indian players with quick cricket bets and casino entertainment. Over the past year, I have downloaded countless APKs, explored suspicious sites and logged in hundreds of times through the official app. Some fakes nearly cost me time and money. With cyber threats rising in 2025, identifying fake Lotus365 apps and domains is essential. This guide shares my first-hand experiences, practical checks and safety tips to avoid malware-filled “Lotus 365 Online Id APK” downloads and phishing websites.",
+        "after": "Lotus365 attracts millions of Indian players with quick cricket bets and casino entertainment. Over the past year, I have downloaded countless APKs, explored suspicious sites and logged in hundreds of times through the official app. Some fakes nearly cost me time and money. With cyber threats rising in 2025, identifying fake Lotus365 apps and domains is essential. This guide shares my first-hand experiences, practical checks and safety tips to avoid malware-filled “Lotus 365 Online Id APK” downloads and phishing websites."
+      },
+      {
+        "before": "Official Lotus365 operates via verified channels, but clones use slight twists like “Lotus365Live” domains to deceive. My experience scanning 20 suspicious links with VirusTotal showed 70% carried risks—don’t fall for it.",
+        "template": "Official {0} uses verified channels, while counterfeit websites use variations such as “Lotus365Live” to mislead players. In my experience, scanning 20 suspicious links with VirusTotal found risks in 70% of them. Use these checks before trusting an unfamiliar link.",
+        "after": "Official Lotus365 uses verified channels, while counterfeit websites use variations such as “Lotus365Live” to mislead players. In my experience, scanning 20 suspicious links with VirusTotal found risks in 70% of them. Use these checks before trusting an unfamiliar link."
+      }
+    ]
+  },
+  "/लोटस-365/": {
+    "title": "लोटस 365 India | भरोसेमंद बेटिंग ऐप, लॉगिन और बोनस",
+    "description": "लोटस 365 India पर क्रिकेट बेटिंग, लाइव कसीनो और ऑनलाइन गेम्स की जानकारी पाएं। ऐप डाउनलोड, लॉगिन, डिपॉज़िट, विथड्रॉ और बोनस ऑफ़र के तरीके जानें।",
+    "headings": [
+      {
+        "before": "लोटस 365 India – भारत में ऑनलाइन बेटिंग का भरोसेमंद प्लेटफॉर्म",
+        "after": "लोटस 365 India: भारत का भरोसेमंद ऑनलाइन बेटिंग प्लेटफॉर्म",
+        "tag": "h1"
+      },
+      {
+        "before": "लोटस 365 India क्या है?",
+        "after": "लोटस 365 India क्या है और कैसे काम करता है?",
+        "tag": "h2"
+      },
+      {
+        "before": "लोटस 365 India App के फ़ायदे",
+        "after": "लोटस 365 India ऐप के मुख्य फ़ायदे",
+        "tag": "h2"
+      },
+      {
+        "before": "लोटस 365 India Login कैसे करें?",
+        "after": "लोटस 365 India में लॉगिन कैसे करें?",
+        "tag": "h2"
+      },
+      {
+        "before": "लोटस 365 India App Download करने का तरीका",
+        "after": "लोटस 365 India ऐप कैसे डाउनलोड करें?",
+        "tag": "h2"
+      },
+      {
+        "before": "Android के लिए (लोटस 365 APK)",
+        "after": "Android पर लोटस 365 APK डाउनलोड करें",
+        "tag": "h3"
+      },
+      {
+        "before": "iOS के लिए",
+        "after": "iOS पर लोटस 365 का इस्तेमाल करें",
+        "tag": "h3"
+      },
+      {
+        "before": "डिपॉज़िट और बोनस ऑफ़र्स",
+        "after": "लोटस 365 डिपॉज़िट और बोनस ऑफ़र",
+        "tag": "h2"
+      }
+    ],
+    "paragraphs": [
+      {
+        "before": "लोटस 365 India भारत में तेजी से लोकप्रिय हो रहा एक ऐसा ऑनलाइन बेटिंग और गेमिंग प्लेटफ़ॉर्म है, जो स्पोर्ट्स बेटिंग, लाइव कसीनो और ऑनलाइन गेम्स का बेहतरीन अनुभव देता है। चाहे आप क्रिकेट के फैन हों, फुटबॉल देखना पसंद करते हों या कसीनो गेम्स में अपनी किस्मत आज़माना चाहते हों – लोटस 365 India App पर आपको सब कुछ एक ही जगह मिलता है।",
+        "template": "{0} भारत में तेज़ी से लोकप्रिय होता ऑनलाइन बेटिंग और गेमिंग प्लेटफ़ॉर्म है। यहां स्पोर्ट्स बेटिंग, लाइव कसीनो और ऑनलाइन गेम्स का बेहतरीन अनुभव मिलता है। क्रिकेट, फुटबॉल या कसीनो गेम्स में अपनी किस्मत आज़माना चाहते हैं, तो {1} पर सभी विकल्प एक ही जगह उपलब्ध हैं।",
+        "after": "लोटस 365 India भारत में तेज़ी से लोकप्रिय होता ऑनलाइन बेटिंग और गेमिंग प्लेटफ़ॉर्म है। यहां स्पोर्ट्स बेटिंग, लाइव कसीनो और ऑनलाइन गेम्स का बेहतरीन अनुभव मिलता है। क्रिकेट, फुटबॉल या कसीनो गेम्स में अपनी किस्मत आज़माना चाहते हैं, तो लोटस 365 India App पर सभी विकल्प एक ही जगह उपलब्ध हैं।"
+      },
+      {
+        "before": "इस पेज में हम आपको लोटस 365 India के बारे में पूरी जानकारी देंगे – इसमें कैसे लॉगिन करें, ऐप डाउनलोड करने का तरीका, इसके फीचर्स, डिपॉजिट और विथड्रॉ प्रक्रिया, बोनस ऑफ़र और क्यों यह भारत में खिलाड़ियों की पहली पसंद बनता जा रहा है।",
+        "template": "इस गाइड में लोटस 365 India के फीचर्स, लॉगिन, ऐप डाउनलोड, डिपॉज़िट, विथड्रॉ और बोनस ऑफ़र की पूरी जानकारी पढ़ें। जानें कि यह प्लेटफ़ॉर्म भारत के खिलाड़ियों की पहली पसंद क्यों बनता जा रहा है।",
+        "after": "इस गाइड में लोटस 365 India के फीचर्स, लॉगिन, ऐप डाउनलोड, डिपॉज़िट, विथड्रॉ और बोनस ऑफ़र की पूरी जानकारी पढ़ें। जानें कि यह प्लेटफ़ॉर्म भारत के खिलाड़ियों की पहली पसंद क्यों बनता जा रहा है।"
+      }
+    ]
+  },
+  "/cookies/": {
+    "title": "Lotus365 Cookie & Privacy Policy | Consent & Data Choices",
+    "description": "Read the Lotus365 cookie and privacy policy to understand cookie use, consent, browser controls, retention and your choices about personal information.",
+    "headings": [
+      {
+        "before": "Cookie and Privacy Policy",
+        "after": "Lotus365 Cookie and Privacy Policy",
+        "tag": "h1"
+      },
+      {
+        "before": "1) Cookie Policy",
+        "after": "1) How Lotus365 Uses Cookies",
+        "tag": "h2"
+      },
+      {
+        "before": "1.1 What Are Cookies?",
+        "after": "1.1 Understanding Website Cookies",
+        "tag": "h3"
+      },
+      {
+        "before": "1.2 How We Use Cookies",
+        "after": "1.2 Our Use of Cookies",
+        "tag": "h3"
+      },
+      {
+        "before": "1.3 Third-Party Cookies",
+        "after": "1.3 Cookies from Third Parties",
+        "tag": "h3"
+      },
+      {
+        "before": "1.4 Your Choices (Consent, Opt-Out & Browser Controls)",
+        "after": "1.4 Consent, Opt-Out and Browser Controls",
+        "tag": "h3"
+      },
+      {
+        "before": "1.5 Cookie Retention",
+        "after": "1.5 How Long Cookies Are Retained",
+        "tag": "h3"
+      }
+    ],
+    "paragraphs": [
+      {
+        "before": "This Cookie and Privacy Policy explains how lotus365.com (“lotus365”, “we”, “us”, or “our”) collects, uses, discloses, and protects information when you visit or use our website, services, and any related pages (collectively, the “Site”). We are committed to transparency and safeguarding your privacy.",
+        "template": "This Cookie and Privacy Policy describes how {0} (“{1}”, “{2}”, “{3}” or “{4}”) collects, uses, discloses and protects information when you use {5}, our services and related pages (together, the “{6}”). We are committed to transparency and protecting your privacy.",
+        "after": "This Cookie and Privacy Policy describes how lotus365.com (“lotus365”, “we”, “us” or “our”) collects, uses, discloses and protects information when you use our website, our services and related pages (together, the “Site”). We are committed to transparency and protecting your privacy."
+      }
+    ]
+  },
+  "/privacy/": {
+    "title": "Lotus365 Privacy Policy | Personal Data, Security & Rights",
+    "description": "Read the Lotus365 privacy policy for information about personal data, cookies, third-party services and security. Understand your privacy rights and choices.",
+    "headings": [
+      {
+        "before": "Lotus365 Privacy Policy",
+        "after": "Lotus365 Privacy Policy: Your Information & Rights",
+        "tag": "h1"
+      },
+      {
+        "before": "1. Information We Collect",
+        "after": "1. Personal Information We Collect",
+        "tag": "h2"
+      },
+      {
+        "before": "2. How We Use Your Information",
+        "after": "2. How We Use Personal Information",
+        "tag": "h2"
+      },
+      {
+        "before": "3. Cookies and Tracking Technologies",
+        "after": "3. Our Use of Cookies and Tracking Technologies",
+        "tag": "h2"
+      },
+      {
+        "before": "4. Third-Party Services",
+        "after": "4. Third-Party Services and Your Information",
+        "tag": "h2"
+      },
+      {
+        "before": "5. Data Security",
+        "after": "5. How We Secure Your Data",
+        "tag": "h2"
+      },
+      {
+        "before": "6. Your Rights and Choices",
+        "after": "6. Your Privacy Rights and Choices",
+        "tag": "h2"
+      }
+    ],
+    "paragraphs": [
+      {
+        "before": "Welcome to Lotus365! We care a lot about your privacy. When you use our website, mobile apps, and services, this Privacy Policy explains how Lotus365 collects, uses, stores, and protects your personal information. We made this policy so that it is clear and easy to understand.",
+        "template": "Your privacy matters to {0}. This policy explains how we collect, use, store and protect personal information across our website, mobile apps and services. We present these details in clear, accessible language so you can understand our approach.",
+        "after": "Your privacy matters to Lotus365. This policy explains how we collect, use, store and protect personal information across our website, mobile apps and services. We present these details in clear, accessible language so you can understand our approach."
+      },
+      {
+        "before": "We collect information to provide and improve our services to you. The types of information we gather depend on how you interact with our platform.",
+        "template": "The information we collect helps us deliver and improve our services. What we gather depends on the ways you interact with the Lotus365 platform.",
+        "after": "The information we collect helps us deliver and improve our services. What we gather depends on the ways you interact with the Lotus365 platform."
+      }
+    ]
+  },
+  "/terms/": {
+    "title": "Lotus365 Terms & Conditions | Accounts, Payments & Gaming",
+    "description": "Read Lotus365 terms and conditions covering account registration, security, deposits, withdrawals and gaming rules, plus prohibited activities and liability.",
+    "headings": [
+      {
+        "before": "Terms and Conditions for Lotus365",
+        "after": "Lotus365 Terms and Conditions: Account & Gaming Rules",
+        "tag": "h1"
+      },
+      {
+        "before": "1. Qualifications to Utilise Our Services",
+        "after": "1. Eligibility to Use Our Services",
+        "tag": "h2"
+      },
+      {
+        "before": "2. Security and Account Registration",
+        "after": "2. Account Registration and Security",
+        "tag": "h2"
+      },
+      {
+        "before": "3. Withdrawals and Deposits",
+        "after": "3. Account Deposits and Withdrawals",
+        "tag": "h2"
+      },
+      {
+        "before": "4. Betting and Gaming Regulations",
+        "after": "4. Rules for Betting and Gaming",
+        "tag": "h2"
+      },
+      {
+        "before": "5. Activities Prohibited",
+        "after": "5. Prohibited Activities",
+        "tag": "h2"
+      },
+      {
+        "before": "6. Intellectual Property",
+        "after": "6. Intellectual Property Rights",
+        "tag": "h2"
+      }
+    ],
+    "paragraphs": [
+      {
+        "before": "Greetings from Lotus365. You (“the User”) and Lotus365 (“the Company”) enter into a legally binding agreement through these Terms and Conditions.",
+        "template": "These Terms and Conditions form a legally binding agreement between you (“the User”) and {0} (“the Company”). Please read them to understand the terms of using our services.",
+        "after": "These Terms and Conditions form a legally binding agreement between you (“the User”) and Lotus365 (“the Company”). Please read them to understand the terms of using our services."
+      },
+      {
+        "before": "These terms are based on real operational experience as well as industry best practices. We’ve run Lotus365 for years, so we know what works, what confuses people, and what requires clear guidelines. By reflecting those lessons, these terms guarantee openness and equity for all participants.",
+        "template": "Our terms draw on {0} and {1}. Years of running Lotus365 have shown us what works, where users need clarity and which rules require explanation. Those lessons shape terms that guarantee openness and fairness for every participant.",
+        "after": "Our terms draw on real operational experience and industry best practices. Years of running Lotus365 have shown us what works, where users need clarity and which rules require explanation. Those lessons shape terms that guarantee openness and fairness for every participant."
+      }
+    ]
+  },
+  "/lotus365-customer-support-while-login/": {
+    "title": "Lotus365 Login Support | Contact Help & Access Troubleshooting",
+    "description": "Find Lotus365 customer support for login problems, password issues and verification delays. Explore contact channels and practical account access guidance.",
+    "headings": [
+      {
+        "before": "Lotus365 Login Problems? Customer Support & Troubleshooting",
+        "after": "Lotus365 Login Support: Customer Help & Troubleshooting",
+        "tag": "h1"
+      },
+      {
+        "before": "Why You Might Need Lotus365 Customer Support During Login",
+        "after": "When to Contact Lotus365 Support About Login",
+        "tag": "h2"
+      },
+      {
+        "before": "Common Lotus365 Login Issues Explained",
+        "after": "Common Lotus365 Account Access Problems",
+        "tag": "h2"
+      },
+      {
+        "before": "Incorrect User ID or Password",
+        "after": "Incorrect Account ID or Password",
+        "tag": "h3"
+      },
+      {
+        "before": "Server Maintenance",
+        "after": "Server Maintenance and Login Access",
+        "tag": "h3"
+      },
+      {
+        "before": "Network Latency",
+        "after": "Network Delays During Login",
+        "tag": "h3"
+      },
+      {
+        "before": "Step-by-Step Guide to Contacting Lotus365 Customer Support",
+        "after": "How to Contact Lotus365 Customer Support",
+        "tag": "h2"
+      }
+    ],
+    "paragraphs": [
+      {
+        "before": "In the fast-paced world of online gaming and sports exchanges, time is of the essence. When you are ready to place a strategic bet or enjoy a live game, the last thing you want is a technical glitch blocking your path. This is where Lotus365 Customer Support becomes your most valuable asset. Accessing your account should be a smooth process, but occasionally, users encounter hurdles during the Lotus365 Login phase.",
+        "template": "A technical problem can interrupt a live game or a planned bet when timing matters most. {0} helps users who encounter account access difficulties. Login should be smooth, but occasional errors can arise during {1}.",
+        "after": "A technical problem can interrupt a live game or a planned bet when timing matters most. Lotus365 Customer Support helps users who encounter account access difficulties. Login should be smooth, but occasional errors can arise during Lotus365 Login."
+      },
+      {
+        "before": "Whether it is a forgotten password, a server timeout, or a verification delay, knowing how to reach out for professional help ensures that your gaming experience remains uninterrupted. This guide is designed to walk you through the various channels available for assistance and provide you with actionable tips to get back into your account swiftly using Lotus365.",
+        "template": "A forgotten password, server timeout or verification delay can require professional assistance. Learn how to reach the available support channels and use practical troubleshooting tips to regain access quickly with {0}, keeping your gaming experience uninterrupted.",
+        "after": "A forgotten password, server timeout or verification delay can require professional assistance. Learn how to reach the available support channels and use practical troubleshooting tips to regain access quickly with Lotus365, keeping your gaming experience uninterrupted."
+      }
+    ]
+  },
+  "/lotus365-id/": {
+    "title": "Lotus365 ID | Create Your Account, Verify & Start Playing",
+    "description": "Learn how to get and use a Lotus365 ID for account verification, deposits, withdrawals, cricket betting and casino games. Explore ID features and signup steps.",
+    "headings": [
+      {
+        "before": "Lotus365 ID is Your Gateway to Winning",
+        "after": "Lotus365 ID: Create Your Account & Start Winning",
+        "tag": "h1"
+      },
+      {
+        "before": "What is Lotus365 ID? (Complete Explanation)",
+        "after": "What Is a Lotus365 ID and How Does It Work?",
+        "tag": "h2"
+      },
+      {
+        "before": "Lotus365 ID vs. Username: What’s the Difference?",
+        "after": "Lotus365 ID vs Username: Key Differences",
+        "tag": "h3"
+      },
+      {
+        "before": "What Does Your Lotus365 ID Look Like?",
+        "after": "How to Recognise Your Lotus365 ID",
+        "tag": "h3"
+      },
+      {
+        "before": "Real-World Use of Your Lotus365 ID",
+        "after": "Everyday Uses for Your Lotus365 Account ID",
+        "tag": "h3"
+      },
+      {
+        "before": "Why You Need a Lotus365 ID",
+        "after": "Why You Need a Lotus365 Account ID",
+        "tag": "h2"
+      },
+      {
+        "before": "1. Account Verification & Security",
+        "after": "1. Account Verification and Security",
+        "tag": "h3"
+      },
+      {
+        "before": "2. Deposits & Withdrawals",
+        "after": "2. Account Deposits and Withdrawals",
+        "tag": "h3"
+      }
+    ],
+    "paragraphs": [
+      {
+        "before": "Your Lotus365 ID is the key to unlocking everything—deposits, withdrawals, cricket betting, casino games, bonuses, and withdrawals. But many players don’t understand how to get it, what it does, or how to use it for maximum advantage. This comprehensive guide reveals exactly what your Lotus365 ID is, how to get it instantly, and how to leverage it to start playing and winning today.",
+        "template": "Your {0}, including deposits, withdrawals, cricket betting, casino games and bonuses. This guide explains what your account ID does, how to get one instantly and how to use it to your advantage so you can start playing and winning today.",
+        "after": "Your Lotus365 ID is the key to unlocking everything, including deposits, withdrawals, cricket betting, casino games and bonuses. This guide explains what your account ID does, how to get one instantly and how to use it to your advantage so you can start playing and winning today."
+      },
+      {
+        "before": "Stop waiting. Get your Lotus365 ID today and start betting within minutes.",
+        "template": "{0}",
+        "childText": {
+          "0": "Get your Lotus365 ID today and begin betting within minutes."
+        },
+        "after": "Get your Lotus365 ID today and begin betting within minutes."
+      }
+    ]
+  },
+  "/lotus365-games-online-casino/": {
+    "title": "Lotus365 Games | 50+ Casino Games, Live Dealers & Rules",
+    "description": "Explore 50+ Lotus365 casino games, including roulette, Teen Patti, Andar Bahar and blackjack. Learn the rules, odds and features for players aged 18+.",
+    "headings": [
+      {
+        "before": "Lotus365 Games: Play 50+ Casino Games & Win Daily – Beginner’s Complete Guide",
+        "after": "Lotus365 Games: 50+ Casino Games & Daily Wins for Beginners",
+        "tag": "h1"
+      },
+      {
+        "before": "What Are The Best Casino Games On Lotus365?",
+        "after": "The Best Casino Games to Play on Lotus365",
+        "tag": "h2"
+      },
+      {
+        "before": "Understanding How Different Casino Games Work On Lotus365",
+        "after": "How Lotus365 Casino Games Work",
+        "tag": "h2"
+      },
+      {
+        "before": "Live Roulette On Lotus365 Games – The Perfect Starting Point",
+        "after": "Live Roulette: The Ideal Starting Point",
+        "tag": "h3"
+      },
+      {
+        "before": "Teen Patti On Lotus365 Games – India’s Favorite Card Game",
+        "after": "Teen Patti: India’s Favourite Card Game",
+        "tag": "h3"
+      },
+      {
+        "before": "Andar Bahar On Lotus365 Games – The Simplest Option",
+        "after": "Andar Bahar: A Simple Casino Option",
+        "tag": "h3"
+      },
+      {
+        "before": "Blackjack On Lotus365 Games – Where Skill Matters",
+        "after": "Blackjack: A Casino Game Where Skill Matters",
+        "tag": "h3"
+      }
+    ],
+    "paragraphs": [
+      {
+        "before": "Lotus365 games offers 50+ verified casino games including Live Roulette, Teen Patti, Andar Bahar, and Blackjack with real dealers, fair odds, and instant payouts—all designed for players aged 18+ who want a trusted gaming experience.",
+        "template": "{0} brings together 50+ verified {1}, with Live Roulette, Teen Patti, Andar Bahar and Blackjack among the options. Real dealers, fair odds and instant payouts create a trusted gaming experience designed for players aged 18+.",
+        "after": "Lotus365 games brings together 50+ verified casino games, with Live Roulette, Teen Patti, Andar Bahar and Blackjack among the options. Real dealers, fair odds and instant payouts create a trusted gaming experience designed for players aged 18+."
+      },
+      {
+        "before": "Are you overwhelmed by the number of casino games available on lotus365 games? You’re not alone. Most new players don’t know where to start, which games are fair, or what the odds actually mean.",
+        "template": "With so many {0} on {1}, new players often need help choosing where to begin. Questions about fairness, game selection and what the odds mean are common. This guide explains the essentials.",
+        "childText": {
+          "1": "Lotus365 Games"
+        },
+        "after": "With so many casino games on Lotus365 Games, new players often need help choosing where to begin. Questions about fairness, game selection and what the odds mean are common. This guide explains the essentials."
+      }
+    ]
+  },
+  "/lotus365-sports-betting-india/": {
+    "title": "Lotus365 Sports Betting India | Best Sports & Live Markets",
+    "description": "Explore Lotus365 sports betting in India, from cricket and football to live markets. Find signup steps, streaming features, bonuses and payment information.",
+    "headings": [
+      {
+        "before": "Why Lotus365 Sports Betting India is the Best Choice for Bettors",
+        "after": "Lotus365 Sports Betting India: The Best Choice for Bettors",
+        "tag": "h1"
+      },
+      {
+        "before": "The Growth of Sports Betting Online in India",
+        "after": "The Rise of Online Sports Betting in India",
+        "tag": "h2"
+      },
+      {
+        "before": "What is it about Lotus365 that makes it special?",
+        "after": "What Makes Lotus365 Sports Betting Different?",
+        "tag": "h2"
+      },
+      {
+        "before": "Simple To Sign Up And Log In To Lotus365",
+        "after": "How to Sign Up and Log In to Lotus365",
+        "tag": "h2"
+      },
+      {
+        "before": "A Lot of Different Sports to Bet On.",
+        "after": "Explore Sports and Betting Markets",
+        "tag": "h2"
+      },
+      {
+        "before": "Live Betting and Streaming",
+        "after": "Live Sports Betting and Streaming",
+        "tag": "h2"
+      },
+      {
+        "before": "Deals and Bonuses",
+        "after": "Lotus365 Sports Bonuses and Offers",
+        "tag": "h2"
+      },
+      {
+        "before": "Safe Payments and Quick Withdrawals",
+        "after": "Secure Payments and Fast Withdrawals",
+        "tag": "h2"
+      }
+    ],
+    "paragraphs": [
+      {
+        "before": "Online betting has grabbed the sports world by storm in this fast-paced digital age. For millions of sports fans in India, it’s not enough to merely watch a game anymore; they want to feel like they’re a part of it. Lotus365 and other platforms like it have been popular with fans who desire a fun, safe, and easy-to-use experience.",
+        "template": "Millions of Indian sports fans want to participate in the action as well as watch the match. Online betting has transformed this experience, and Lotus365 and similar platforms have become popular with fans seeking fun, safety and straightforward access.",
+        "after": "Millions of Indian sports fans want to participate in the action as well as watch the match. Online betting has transformed this experience, and Lotus365 and similar platforms have become popular with fans seeking fun, safety and straightforward access."
+      },
+      {
+        "before": "If you’re new to betting or have been doing it for a while, you may be asking why Lotus365 is the best place to bet on sports online in India.",
+        "template": "Whether you are new to betting or have years of experience, explore why Lotus365 is the best place for online sports betting in India.",
+        "after": "Whether you are new to betting or have years of experience, explore why Lotus365 is the best place for online sports betting in India."
+      }
+    ]
+  },
+  "/lotus365-blue-vs-original/": {
+    "title": "Lotus365 Blue vs Original | Features, Odds & Speed Compared",
+    "description": "Compare Lotus365 Blue and Original across interface, speed, odds and gaming features. Explore payment options, usability and a detailed comparison table.",
+    "headings": [
+      {
+        "before": "Lotus365 Blue vs Original: The Ultimate Comparison",
+        "after": "Lotus365 Blue vs Original: Features & Experience Compared",
+        "tag": "h1"
+      },
+      {
+        "before": "What is Lotus365 and Its Core Role",
+        "after": "Understanding Lotus365 and Its Core Features",
+        "tag": "h2"
+      },
+      {
+        "before": "Understanding Lotus365 Original",
+        "after": "Lotus365 Original: Platform Overview",
+        "tag": "h2"
+      },
+      {
+        "before": "Exploring Lotus 365 Blue Interface",
+        "after": "Lotus365 Blue: Interface and Navigation",
+        "tag": "h2"
+      },
+      {
+        "before": "Design and User Experience Breakdown",
+        "after": "Design and User Experience Compared",
+        "tag": "h2"
+      },
+      {
+        "before": "Visual Appeal Head-to-Head",
+        "after": "Visual Design: Blue vs Original",
+        "tag": "h3"
+      },
+      {
+        "before": "Navigation and Speed Tests",
+        "after": "Navigation Speed and Usability Tests",
+        "tag": "h3"
+      },
+      {
+        "before": "Key Features Comparison Deep Dive",
+        "after": "Lotus365 Blue vs Original: Key Features",
+        "tag": "h2"
+      }
+    ],
+    "paragraphs": [
+      {
+        "before": "Ever wondered why some punters swear by streamlined interfaces while others stick to the classics? Welcome to the ultimate Lotus365 Blue vs Original showdown, where we pit these two powerhouse versions of the Lotus365 platform against each other. Lotus365, a trailblazing name in sports betting India, offers both the vibrant Original app packed with every bell and whistle, and the sleek Lotus365 Blue designed for focus and speed.",
+        "template": "Lotus365 Blue vs Original compares two powerful versions of a leading name in Indian sports betting. Some players prefer a streamlined interface, while others favour a classic, feature-rich experience. Original offers a vibrant app packed with features, and Lotus365 Blue focuses on a sleek design and speed.",
+        "after": "Lotus365 Blue vs Original compares two powerful versions of a leading name in Indian sports betting. Some players prefer a streamlined interface, while others favour a classic, feature-rich experience. Original offers a vibrant app packed with features, and Lotus365 Blue focuses on a sleek design and speed."
+      },
+      {
+        "before": "In this exhaustive 3000+ word guide, we dissect Lotus365 Blue vs Original across design, features, odds, usability, and more. Whether you’re debating which is better for casual bets or high-stakes exchanges, or hunting which gives better odds, we’ve got the data. Lotus 365 helps by providing secure betting exchange markets, live streaming, and instant UPI withdrawals, empowering millions in India to bet smarter. What does Lotus365 do? It bridges online casino Lotus365 thrills with cricket, football, and kabaddi action, all under one trusted roof. Stick around for our exclusive comparison table and features breakdown that reveals the winner. Let’s jump in!",
+        "template": "This 3000+ word Lotus365 Blue vs Original guide compares design, features, odds and usability for casual bets and high-stakes exchanges. {0} offers secure betting exchange markets, live streaming and instant UPI withdrawals, helping millions of Indian players bet smarter. It combines online casino entertainment with cricket, football and kabaddi on one trusted platform. Explore the data, detailed feature breakdown and exclusive comparison table to see which version comes out ahead.",
+        "after": "This 3000+ word Lotus365 Blue vs Original guide compares design, features, odds and usability for casual bets and high-stakes exchanges. Lotus 365 offers secure betting exchange markets, live streaming and instant UPI withdrawals, helping millions of Indian players bet smarter. It combines online casino entertainment with cricket, football and kabaddi on one trusted platform. Explore the data, detailed feature breakdown and exclusive comparison table to see which version comes out ahead."
+      }
+    ]
+  },
+  "/fix-lotus365-blue-not-working-errors/": {
+    "title": "Lotus365 Blue Not Working? Loading, DNS & Cache Fixes",
+    "description": "Troubleshoot Lotus365 Blue loading problems with network, DNS, cache and browser checks. Explore common causes, app issues and step-by-step access fixes.",
+    "headings": [
+      {
+        "before": "Why Lotus365 Blue Not Opening?",
+        "after": "Lotus365 Blue Not Working? Loading Problems & Fixes",
+        "tag": "h1"
+      },
+      {
+        "before": "Quick Checks Before Diving Deep",
+        "after": "Quick Checks When Lotus365 Blue Will Not Open",
+        "tag": "h2"
+      },
+      {
+        "before": "VPN Issues: The Biggest Culprit",
+        "after": "VPN Problems: A Leading Cause of Access Errors",
+        "tag": "h2"
+      },
+      {
+        "before": "Step-by-Step VPN Troubleshooting",
+        "after": "How to Troubleshoot VPN Connection Issues",
+        "tag": "h2"
+      },
+      {
+        "before": "DNS Issue Fixes Explained In Depth",
+        "after": "DNS Troubleshooting for Lotus365 Blue",
+        "tag": "h2"
+      },
+      {
+        "before": "DNS Flush Commands by OS",
+        "after": "DNS Flush Commands for Your Operating System",
+        "tag": "h2"
+      },
+      {
+        "before": "Cache Clear Guide: Step-by-Step Mastery",
+        "after": "How to Clear Your Browser and App Cache",
+        "tag": "h2"
+      }
+    ],
+    "paragraphs": [
+      {
+        "before": "Nothing frustrates a bettor more than firing up the app only to hit a wall. Lotus365 Blue not working hits users across India daily, especially during peak IPL or casino sessions. This stripped-down version of the platform prioritizes speed and privacy, stripping away ads and extras for lightning-fast sports betting and casino online betting. But when it fails to load, you’re locked out of live odds and quick trades.",
+        "template": "Lotus365 Blue loading failures affect Indian users daily, especially during busy IPL matches and casino sessions. Blue prioritises speed and privacy by removing ads and extras for lightning-fast sports and casino betting. When the app will not open, access to live odds and quick trades is interrupted.",
+        "after": "Lotus365 Blue loading failures affect Indian users daily, especially during busy IPL matches and casino sessions. Blue prioritises speed and privacy by removing ads and extras for lightning-fast sports and casino betting. When the app will not open, access to live odds and quick trades is interrupted."
+      },
+      {
+        "before": "The core issue often stems from network blocks. ISPs like Airtel or Jio throttle gaming traffic, mistaking it for high-bandwidth streaming. Add regional restrictions during elections or crackdowns, and Lotus365 Blue not working becomes inevitable. What does Blue do exactly? It creates a minimalist interface with direct access to exchange markets, cash games, and stats without bloat. This helps during high-traffic events, reducing lag by 70% compared to the full app. Users report smoother logins and 20% faster bet placements, making it essential for serious punters.",
+        "template": "Network blocks often cause these problems. ISPs such as Airtel and Jio throttle gaming traffic when they mistake it for high-bandwidth streaming; regional restrictions during elections or crackdowns add to the issue. {0} offers a minimalist interface for exchange markets, cash games and statistics. It reduces lag by 70% against the full app during high-traffic events, while users report smoother logins and 20% faster bet placement.",
+        "after": "Network blocks often cause these problems. ISPs such as Airtel and Jio throttle gaming traffic when they mistake it for high-bandwidth streaming; regional restrictions during elections or crackdowns add to the issue. Lotus365 Blue offers a minimalist interface for exchange markets, cash games and statistics. It reduces lag by 70% against the full app during high-traffic events, while users report smoother logins and 20% faster bet placement."
+      }
+    ]
+  },
+  "/lotus365-two-factor-authentication-setup/": {
+    "title": "Lotus365 2FA Setup | Two-Factor Authentication & Recovery",
+    "description": "Set up Lotus365 two-factor authentication with guidance on OTPs, authenticator apps and backup access. Learn account protection steps and common 2FA fixes.",
+    "headings": [
+      {
+        "before": "Lotus365 Two-Factor Authentication Setup: Complete Security Guide (2026)",
+        "after": "Lotus365 Two-Factor Authentication: 2FA Setup Guide (2026)",
+        "tag": "h1"
+      },
+      {
+        "before": "What is Two-Factor Authentication (2FA)?",
+        "after": "What Is Two-Factor Authentication (2FA)?",
+        "tag": "h2"
+      },
+      {
+        "before": "Why Lotus365 Users Should Enable 2FA in 2026",
+        "after": "Why Enable Lotus365 Two-Factor Authentication in 2026?",
+        "tag": "h2"
+      },
+      {
+        "before": "1) Protects against password leaks",
+        "after": "1) Protection Against Leaked Passwords",
+        "tag": "h3"
+      },
+      {
+        "before": "2) Stops phishing-based logins",
+        "after": "2) Blocking Phishing-Based Logins",
+        "tag": "h3"
+      },
+      {
+        "before": "3) Prevents unauthorised withdrawals",
+        "after": "3) Preventing Unauthorised Withdrawals",
+        "tag": "h3"
+      },
+      {
+        "before": "Types of 2FA: OTP vs Authenticator App vs Device Prompts",
+        "after": "Compare 2FA Options: OTPs, Authenticator Apps and Device Prompts",
+        "tag": "h2"
+      }
+    ],
+    "paragraphs": [
+      {
+        "before": "Online account safety is no longer optional, especially when your account includes personal details, login credentials, and financial activity. In 2026, password leaks, reused credentials, and phishing attacks are more common than most users realise, and many users only discover it after an account access issue. That’s why setting up two-factor authentication (2FA) is one of the smartest steps you can take to protect your Lotus365 account.",
+        "template": "Accounts containing personal details, login credentials and financial activity need strong protection. In 2026, password leaks, reused credentials and phishing attacks are more common than many users realise, often becoming apparent only after an access problem. Enabling {0} is one of the smartest ways to protect your {1} account.",
+        "after": "Accounts containing personal details, login credentials and financial activity need strong protection. In 2026, password leaks, reused credentials and phishing attacks are more common than many users realise, often becoming apparent only after an access problem. Enabling two-factor authentication (2FA) is one of the smartest ways to protect your Lotus365 account."
+      },
+      {
+        "before": "This guide is written to help you configure 2FA properly, without confusion or technical jargon. Whether you are a beginner or a regular user, you will learn what 2FA is, why it matters, and the safest way to set it up for Lotus365, including backup methods and troubleshooting.",
+        "template": "Learn how to configure 2FA without technical jargon. This guide explains what 2FA is, why it matters and the safest setup approach for {0}. New and regular users can also find backup access methods and troubleshooting help.",
+        "after": "Learn how to configure 2FA without technical jargon. This guide explains what 2FA is, why it matters and the safest setup approach for Lotus365. New and regular users can also find backup access methods and troubleshooting help."
+      }
+    ]
   }
 }

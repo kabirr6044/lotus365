@@ -39,6 +39,13 @@ def replace_paragraph(element, rule):
         raise ValueError('Every existing inline child must appear exactly once')
     for index, text in rule.get('childText', {}).items():
         replace_text(children[int(index)], text)
+    for edit in rule.get('textEdits', []):
+        matches = [(node, field) for node in element.iter()
+                   for field in ('text', 'tail')
+                   if getattr(node, field) == edit['before']]
+        if len(matches) != 1:
+            raise ValueError('Inline text correction must match exactly one text node')
+        setattr(*matches[0], edit['after'])
     # Escape authored prose; only the original child elements supply markup.
     parts = re.split(r'(\{\d+\})', rule['template'])
     for child in children:
