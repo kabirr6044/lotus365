@@ -9,6 +9,7 @@ const decode = text => text.replaceAll('&amp;', '&').replaceAll('&quot;', '"').r
 const attr = (tag, name) => decode(tag.match(new RegExp(`\\b${name}="([^"]*)"`))?.[1] || '');
 let checked = 0, indexable = 0;
 const indexableTitles = new Set(), indexableDescriptions = new Set();
+const renderedRoutes = new Map();
 
 async function visit(dir) {
  for (const entry of await fs.readdir(dir, { withFileTypes: true })) {
@@ -19,6 +20,21 @@ async function visit(dir) {
   const route = relative === 'index' ? '/' : `/${relative}/`;
   if (!pages[route]) continue;
   const html = await fs.readFile(file, 'utf8');
+  renderedRoutes.set(route, {
+   ids: new Set([...html.matchAll(/\bid="([^"]+)"/g)].map(match => decode(match[1]))),
+   links: [...html.matchAll(/<a\b[^>]*>/g)].map(match => attr(match[0], 'href')),
+  });
+  assert.equal((html.match(/<h1\b/g) || []).length, 1, `H1 count: ${route}`);
+  const main = html.match(/<main\b[^>]*>([\s\S]*?)<\/main>/)?.[1] || '';
+  let previousLevel = 0;
+  for (const heading of main.matchAll(/<h([1-6])\b/g)) {
+   const level = Number(heading[1]);
+   assert.ok(level <= previousLevel + 1, `Skipped heading level H${previousLevel} to H${level}: ${route}`);
+   previousLevel = level;
+  }
+  for (const image of main.matchAll(/<img\b[^>]*>/g)) {
+   assert.match(image[0], /\balt="[^"]*"/, `Image without alt attribute: ${route}`);
+  }
   const head = html.match(/<head>([\s\S]*?)<\/head>/)?.[1];
   assert.ok(head, `Missing head: ${route}`);
   const canonical = [...head.matchAll(/<link\b[^>]*>/g)].map(m => m[0]).filter(tag => attr(tag, 'rel') === 'canonical');
@@ -66,6 +82,22 @@ async function visit(dir) {
 }
 await visit(base);
 assert.equal(checked, Object.keys(pages).length, 'Generated route coverage');
+let sectionLinks = 0;
+for (const [route, page] of renderedRoutes) {
+ for (const href of page.links) {
+  if (!href.startsWith('/') && !href.startsWith('#')) continue;
+  const url = new URL(href, new URL(encodeURI(route), origin));
+  if (url.origin !== origin) continue;
+  const target = renderedRoutes.get(decodeURIComponent(url.pathname));
+  if (!target) {
+   assert.ok(url.pathname.startsWith('/assets/') || url.pathname === '/sitemap.xml', `Missing internal route: ${route} → ${href}`);
+   continue;
+  }
+  if (!url.hash) continue;
+  assert.ok(target.ids.has(decodeURIComponent(url.hash.slice(1))), `Missing section target: ${route} → ${href}`);
+  sectionLinks++;
+ }
+}
 const xml = await fs.readFile(new URL('sitemap.xml.body', base), 'utf8');
 const urls = [...xml.matchAll(/<loc>(.*?)<\/loc>/g)].map(m => decode(m[1]));
 const expected = mode === 'preview' ? [] : Object.keys(pages).filter(p => !/^\/(tag|category|author)\//.test(p)).map(p => new URL(encodeURI(p), origin).href);
@@ -73,4 +105,4 @@ assert.deepEqual(urls.sort(), expected.sort(), 'Sitemap URL selection');
 const robots = await fs.readFile(new URL('robots.txt.body', base), 'utf8');
 if (mode === 'preview') { assert.match(robots, /Disallow: \/\s/); assert.ok(!robots.includes('Sitemap:')); }
 else { assert.match(robots, /Allow: \/\s/); assert.ok(robots.includes(`Sitemap: ${origin}/sitemap.xml`)); assert.ok(!robots.includes('Disallow: /')); }
-console.log(`Verified ${checked} generated pages: metadata, social tags, viewport, favicons, canonicals; ${indexable} indexable URLs with unique titles/descriptions; robots.txt and sitemap (${mode}).`);
+console.log(`Verified ${checked} generated pages: metadata, social tags, viewport, favicons, canonicals, heading hierarchy, image alt attributes and ${sectionLinks} section links; ${indexable} indexable URLs with unique titles/descriptions; robots.txt and sitemap (${mode}).`);

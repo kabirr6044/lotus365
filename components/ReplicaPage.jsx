@@ -2,6 +2,22 @@
 import { useEffect, useRef } from 'react';
 import { destinationUrl } from '../lib/destination.mjs';
 import { pageLanguage } from '../lib/seo.mjs';
+import SiteHeader from './SiteHeader';
+import { homeHeroMarkup } from '../lib/home-hero.mjs';
+import heroStyles from './HomeHero.module.css';
+import homepageCopy from '../data/homepage-copy.json';
+import { footerMarkup } from '../lib/footer.mjs';
+import footerStyles from './SiteFooter.module.css';
+import { appPageMarkup } from '../lib/app-page.mjs';
+import appStyles from './AppPage.module.css';
+import appCopy from '../data/app-page-copy.json';
+import { loginPageMarkup } from '../lib/login-page.mjs';
+import loginStyles from './LoginPage.module.css';
+import loginCopy from '../data/login-page-copy.json';
+import { signupPageMarkup } from '../lib/signup-page.mjs';
+import signupStyles from './SignupPage.module.css';
+import signupCopy from '../data/signup-page-copy.json';
+import redesignedStyles from './RedesignedPages.module.css';
 export default function ReplicaPage({ page }) {
  const ref = useRef(null);
  useEffect(() => {
@@ -73,5 +89,11 @@ export default function ReplicaPage({ page }) {
  }, [page]);
  // A normal link belongs to this page and is removed on unmount. React's
  // precedence links persist across routes and would mix different page themes.
- return <><link key={page.stylesheet} rel="stylesheet" href={page.stylesheet}/><div ref={ref} className="replica-document" lang={pageLanguage(page)} dangerouslySetInnerHTML={{ __html: page.html }}/></>;
+ const home = page.path === '/';
+ const app = page.path === '/lotus365-app/';
+ const login = page.path === '/lotus365-login/';
+ const signup = page.path === '/lotus365-signup/';
+ const pageContent = home ? homeHeroMarkup(page.html, heroStyles, homepageCopy) : app ? appPageMarkup(page.html, heroStyles, appStyles, appCopy) : login ? loginPageMarkup(page.html, loginStyles, loginCopy) : signup ? signupPageMarkup(page.html, signupStyles, signupCopy) : page.redesign?.html || page.html;
+ const content = footerMarkup(pageContent, footerStyles);
+ return <><link key={page.stylesheet} rel="stylesheet" href={page.stylesheet}/><SiteHeader path={page.path}/><div ref={ref} className={`replica-document ${footerStyles.scope}${home || app ? ` ${heroStyles.page}` : ''}${app ? ` ${appStyles.page}` : ''}${login ? ` ${loginStyles.page}` : ''}${signup ? ` ${signupStyles.page}` : ''}${page.redesign ? ` ${redesignedStyles.page}` : ''}`} lang={pageLanguage(page)} dangerouslySetInnerHTML={{ __html: content }}/></>;
 }

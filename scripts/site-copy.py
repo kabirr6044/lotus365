@@ -56,6 +56,13 @@ def clean_pages(records):
                         attribute == 'title' and 'data-external-reference' in element.attrib):
                     element.set(attribute, clean_text(element.get(attribute)))
         for element in tree.xpath('.//a'):
+            if element.get('data-external-reference') in RULES.get('removedExternalReferences', []):
+                parent = element.getparent()
+                if parent is not None and parent.tag == 'li' and len(parent) == 1:
+                    parent.drop_tree()
+                else:
+                    element.drop_tree()
+                continue
             if 'the Contact Us page' in element.text_content():
                 element.set('href', '/contact-us/')
                 for attribute in ('data-external-reference', 'aria-disabled', 'title', 'target', 'rel'):
@@ -88,6 +95,13 @@ def clean_pages(records):
                 element.text = replacement.text
                 for child in list(replacement):
                     element.append(child)
+        # React supplies the shared responsive header. Parse the captured markup
+        # before removing legacy headers: the source contains unbalanced wrappers.
+        for legacy in tree.xpath('.//header[@id="masthead" or @id="ast-fixed-header"]'):
+            if legacy.getparent() is not None:
+                legacy.drop_tree()
+        for floating_app in tree.xpath('.//a[contains(concat(" ", normalize-space(@class), " "), " lotus365-app-float ")]'):
+            floating_app.drop_tree()
         if html.tostring(tree, encoding='unicode', method='html') != original:
             page['html'] = (tree.text or '') + ''.join(
                 html.tostring(child, encoding='unicode', method='html') for child in tree)

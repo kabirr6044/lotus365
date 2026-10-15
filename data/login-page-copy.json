@@ -1,0 +1,140 @@
+{
+  "heading": "Lotus365 Login: Access Your Account",
+  "introduction": "Return to your games, live sports and account in one place. Use your registered details for Lotus365 account login on the website or mobile app.",
+  "form": {
+    "heading": "Log In to Your Account",
+    "description": "Enter your registered username or phone number and password.",
+    "signup": "New to Lotus365?",
+    "signupLink": "Create your Lotus365 ID"
+  },
+  "access": {
+    "heading": "One Lotus365 Login, Across Your Devices",
+    "paragraphs": [
+      "Your Lotus365 account works on desktop, mobile and tablet. Use the same credentials for Lotus365 website login, Lotus365 app login and Lotus365 betting login without creating a separate account for each device.",
+      "Lotus365 India users can access sports betting, casino games and live prediction markets through the website or app. Explore Lotus365 Blue for its upgraded experience, the Lotus365 VIP guide for premium features, or Lotus365 IPL for cricket coverage."
+    ],
+    "links": [
+      [
+        "Lotus365 App",
+        "/lotus365-app/"
+      ],
+      [
+        "Lotus365 Blue",
+        "/lotus365-blue/"
+      ],
+      [
+        "Lotus365 VIP Guide",
+        "/lotus365-vip/"
+      ],
+      [
+        "Lotus365 IPL",
+        "/lotus365-ipl/"
+      ]
+    ]
+  },
+  "guide": {
+    "heading": "How Do I Log In to Lotus365?",
+    "description": "Keep your registered account details ready. Follow these steps for Lotus365 website login or mobile app access.",
+    "steps": [
+      {
+        "title": "Open the Website or App",
+        "text": "Visit the Lotus365 website or launch the Lotus 365 mobile app. Select Login to reach the account access form."
+      },
+      {
+        "title": "Enter Your Login Details",
+        "text": "Type your registered username or mobile number, followed by your password. Check uppercase and lowercase letters before continuing."
+      },
+      {
+        "title": "Continue to Your Account",
+        "text": "Select Login to continue. Once signed in, you can access your dashboard, available games and betting account."
+      }
+    ],
+    "noteTitle": "Keep Your Login Details Private",
+    "note": "Lotus365 uses advanced encryption and security protocols to protect login credentials and personal information. Check that you are using the official website or app, and never share your password or OTP."
+  },
+  "signup": {
+    "heading": "New to Lotus365?",
+    "description": "Create your Lotus365 login details through the sign-up page. The registration guide takes you through each stage.",
+    "steps": [
+      {
+        "title": "Add Your Mobile Number",
+        "text": "Select your country code and enter an active mobile number."
+      },
+      {
+        "title": "Choose a Strong Password",
+        "text": "Combine letters, numbers and symbols. Add an optional referral code if you have one."
+      },
+      {
+        "title": "Complete Account Verification",
+        "text": "Follow the account provider’s verification instructions. Its registration flow may use an OTP sent to your phone and WhatsApp."
+      },
+      {
+        "title": "Set Your Username",
+        "text": "Choose the username you will use for future logins, then confirm your registration."
+      }
+    ],
+    "bonus": "A referral code provides bonus rewards, and the person who referred you can earn up to ₹5,000 through the referral programme.",
+    "button": "Go to Lotus365 Sign Up"
+  },
+  "games": {
+    "heading": "What Can You Explore After Lotus365 Login?",
+    "description": "Access sports, casino games and live prediction options from your Lotus365 account.",
+    "groups": [
+      {
+        "title": "Sports Betting",
+        "text": "Cricket betting and live predictions, football leagues, and tennis events including Grand Slam and ATP tournaments."
+      },
+      {
+        "title": "Racing",
+        "text": "Live horse racing, greyhound racing and virtual racing predictions with LRace Track."
+      },
+      {
+        "title": "Casino & Aviator",
+        "text": "Casino games, slots and the Aviator crash game with instant payouts."
+      },
+      {
+        "title": "Live Prediction Games",
+        "text": "Live Prediction, Colour Prediction, Road Cross, Ghandi Munda and the music-based prediction game The Voice."
+      }
+    ],
+    "button": "Explore Available Games"
+  },
+  "faq": {
+    "heading": "Lotus365 Login FAQs",
+    "description": "Answers about passwords, account access and creating your Lotus 365 login.",
+    "items": [
+      {
+        "question": "What if I forget my Lotus365 login password?",
+        "answer": "Use the Forgot Password link to reach your account provider’s recovery process. Follow its instructions to reset your password using the OTP sent to your registered mobile number and WhatsApp."
+      },
+      {
+        "question": "Can I use the same Lotus365 login on the website and app?",
+        "answer": "Yes. Your Lotus365 Blue credentials work across the website and mobile app. Use the same registered username and password on your devices."
+      },
+      {
+        "question": "Is Lotus365 login secure?",
+        "answer": "Lotus365 uses advanced encryption and security protocols to protect account details and personal information. Always check the website or app you are using and keep your login credentials private."
+      },
+      {
+        "question": "How long does Lotus365 sign-up take?",
+        "answer": "Registration typically takes 2–3 minutes. Once the account provider’s verification is complete and your username is set, you can access your account."
+      },
+      {
+        "question": "Are documents needed for Lotus365 login or sign-up?",
+        "answer": "Initial registration requires a valid mobile number. Additional verification may be needed for withdrawals or premium features."
+      },
+      {
+        "question": "Can I create more than one Lotus365 account?",
+        "answer": "One person can have one active Lotus 365 account. Creating multiple accounts may lead to account suspension."
+      },
+      {
+        "question": "What is the Lotus365 referral code bonus?",
+        "answer": "Using a referral code during sign-up provides instant bonus rewards. The person who referred you can earn up to ₹5,000 through the referral programme."
+      }
+    ]
+  },
+  "help": {
+    "heading": "Need Help With Lotus365 Login?",
+    "description": "Check your account details and connection first. If you still need assistance, visit the contact page or continue to password recovery."
+  }
+}

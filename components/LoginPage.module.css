@@ -1,0 +1,81 @@
+.page :global(#content){background:#14614c}
+.page :global(#content > .ast-container){max-width:1400px;padding:0 40px}
+.page :global(#primary){width:100%;margin:0!important}
+.page :global(#primary article){padding:0!important}
+.page :global(.entry-content){margin:0!important;padding:0!important;background:#14614c}
+.content{font-family:Poppins,Arial,sans-serif;color:#e8f3ed;padding-bottom:44px;text-align:left}
+.content p{margin:0 0 18px!important;color:#e0eee6;font-size:16px;line-height:1.85;text-align:left}
+.content a{color:#ffd000;text-underline-offset:4px;cursor:pointer}
+.content h2,.content h3{color:#ffd000;font-family:Poppins,Arial,sans-serif;text-align:left}
+.account{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(360px,.85fr);gap:80px;align-items:center;padding:52px 0 48px}
+.welcome{min-width:0}
+.welcome h1{font:700 clamp(34px,3.1vw,48px)/1.16 Poppins,Arial,sans-serif!important;letter-spacing:-.025em;color:#ffd000!important;margin:0 0 20px!important;text-align:left!important;max-width:620px}
+.welcome>p{font-size:17px;max-width:570px}
+.accessImage{display:block;width:100%;max-width:340px;height:auto;margin:24px auto 0}
+.formPanel{padding:30px 28px;background:#0e4a38;border:1px solid #65937d;border-top:3px solid #ffd000;border-radius:10px;min-width:0;width:100%;max-width:410px;box-sizing:border-box;justify-self:end}
+.formPanel>h2{font-size:28px;line-height:1.3;font-weight:700;margin:0 0 12px!important}
+.formPanel>p{font-size:15px;margin-bottom:28px!important}
+.formPanel form{margin:0!important;padding:0!important;border:0!important;background:transparent!important;box-shadow:none!important;max-width:none!important;width:100%!important}
+.formPanel :global(.input-group){margin:0 0 22px!important}
+.formPanel label{display:block;color:#eff6f1!important;font:500 15px/1.5 Poppins,Arial,sans-serif!important;margin:0 0 9px!important;text-align:left}
+.formPanel input{display:block;width:100%!important;box-sizing:border-box;min-height:50px;border:1px solid #72a58b!important;border-radius:6px!important;background:#123c2f!important;color:#fff!important;padding:11px 14px!important;font:400 17px/1.5 Poppins,Arial,sans-serif!important;box-shadow:none!important}
+.formPanel input:focus{outline:2px solid #ffd000;outline-offset:2px}
+.formPanel button{width:100%!important;min-height:54px;margin:4px 0 0!important;padding:12px 18px!important;border:1px solid #ffd000!important;border-radius:6px!important;background:#ffd000!important;color:#173b2c!important;font:600 17px/1.5 Poppins,Arial,sans-serif!important;cursor:pointer}
+.formPanel button:hover{background:#ffe04d!important}
+.formPanel :global(.form-footer){margin:16px 0 0!important;text-align:right}
+.formPanel :global(.form-footer a){font-size:14px}
+.formPanel :global(.form-status){margin:16px 0 0!important;font-size:14px;line-height:1.6;color:#fff}
+.formPanel :global(.form-status:empty){display:none}
+.createAccount{border-top:1px solid #46765f;margin-top:26px;padding-top:24px;font-size:14px;line-height:1.8;color:#e0eee6}
+.createAccount a{font-weight:600;white-space:normal}
+.helpLink{display:inline-block;margin-top:14px;font-size:14px}
+.sectionTitle{display:flex;align-items:center;gap:14px;font-size:30px!important;font-weight:700!important;line-height:1.3!important;margin:0 0 24px!important;letter-spacing:-.02em}
+.sectionTitle img{flex:0 0 40px;width:40px!important;height:38px!important;margin:0!important;object-fit:contain}
+.sectionTitle span{min-width:0}
+.access{border-top:1px solid #4c8067;border-bottom:1px solid #4c8067;padding:36px 0}
+.accessCopy{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+.accessCopy p{margin-bottom:0!important}
+.related{display:flex;flex-wrap:wrap;gap:12px 28px;margin-top:24px}
+.related a{font-size:15px;font-weight:500}
+.guideLayout{display:grid;grid-template-columns:1.45fr 1fr;gap:64px;align-items:start;padding:56px 0}
+.steps{list-style:none!important;counter-reset:login-guide;margin:30px 0!important;padding:0!important}
+.steps li{position:relative;counter-increment:login-guide;padding:0 0 26px 58px!important;margin:0 0 24px!important;border-bottom:1px solid #3b806b}
+.steps li:last-child{margin-bottom:0!important}
+.steps li:before{content:counter(login-guide);position:absolute;left:0;top:0;width:34px;height:34px;border:1px solid #ffd000;border-radius:50%;color:#ffd000;display:flex;justify-content:center;align-items:center;font-size:16px;font-weight:600}
+.content h3{font-size:19px;font-weight:600;line-height:1.4;margin:0 0 10px!important}
+.steps p{margin:0!important}
+.security{border-left:3px solid #ffd000;padding:6px 0 6px 22px}
+.security p{font-size:15px;margin-bottom:0!important}
+.registration{padding:30px;background:#11533f;border-radius:10px;border:1px solid #4a8268}
+.registration h2{font-size:26px;font-weight:700;line-height:1.3;margin:0 0 16px!important}
+.registration>p{font-size:15px}
+.registration ol{padding-left:22px!important;margin:24px 0!important}
+.registration li{padding-left:5px;margin:0 0 20px!important;color:#ffd000}
+.registration li h3{font-size:16px}
+.registration li p{font-size:14px;line-height:1.75;margin:0!important}
+.registration .bonus{border-top:1px solid #4c8067;padding-top:20px;font-size:14px}
+.button{display:inline-flex;align-items:center;justify-content:center;box-sizing:border-box;min-height:48px;padding:12px 20px;border-radius:6px;background:#ffd000;color:#173b2c!important;text-decoration:none!important;font-size:15px;font-weight:600;line-height:1.5;text-align:center}
+.button:hover{background:#ffe04d}
+.games{border-top:1px solid #4c8067;padding:44px 0}
+.games>p{max-width:840px}
+.games dl{margin:28px 0;padding:0}
+.games dl>div{display:grid;grid-template-columns:220px 1fr;gap:32px;padding:20px 0;border-top:1px solid #3b806b}
+.games dl>div:last-child{border-bottom:1px solid #3b806b}
+.games dt{color:#ffd000;font-size:18px;font-weight:600}
+.games dd{margin:0;font-size:16px;line-height:1.8;color:#e0eee6}
+.textLink{font-size:16px;font-weight:500}
+.faqLayout{display:grid;grid-template-columns:1fr 1.65fr;gap:64px;padding:44px 0 56px;border-top:1px solid #4c8067}
+.faqLayout>div>p{font-size:15px;max-width:360px}
+.faq details{border-bottom:1px solid #4c8067;margin:0!important;padding:0}
+.faq summary{padding:20px 0;color:#ffd000;font-size:17px;font-weight:600;line-height:1.5;cursor:pointer}
+.faq details:first-child summary{padding-top:0}
+.faq details p{font-size:15px;margin:0!important;padding:0 0 22px}
+.help{display:flex;align-items:center;justify-content:space-between;gap:40px;padding:30px;background:#0e4a38;border:1px solid #4c8067;border-radius:10px}
+.help h2{font-size:24px;font-weight:600;line-height:1.35;margin:0 0 14px!important}
+.help p{font-size:15px;max-width:700px;margin:0!important}
+.helpActions{display:flex;align-items:center;gap:16px;flex-shrink:0;flex-direction:column;font-size:14px}
+.content a:focus-visible,.content button:focus-visible,.content summary:focus-visible{outline:3px solid #ffd000;outline-offset:4px}
+@media(max-width:1100px){.account{gap:40px;grid-template-columns:1fr 1fr}.formPanel{padding:30px 26px}.guideLayout{gap:36px}.faqLayout{gap:36px}.registration{padding:24px}.help{gap:24px}}
+@media(max-width:800px){.page :global(#content > .ast-container){padding-left:24px;padding-right:24px}.account{grid-template-columns:1fr;gap:28px;padding-top:36px}.welcome{display:grid;grid-template-columns:1fr 160px;gap:0 18px;align-items:center}.welcome h1{font-size:34px!important;grid-column:1}.welcome>p{grid-column:1;font-size:16px}.accessImage{grid-column:2;grid-row:1/3;margin:0;max-width:160px}.formPanel{max-width:410px;width:100%;box-sizing:border-box;margin:0 auto}.accessCopy{grid-template-columns:1fr;gap:18px}.guideLayout{grid-template-columns:1fr;gap:32px;padding:36px 0}.faqLayout{grid-template-columns:1fr;gap:20px}.faqLayout>div>p{max-width:none}.games dl>div{grid-template-columns:170px 1fr;gap:24px}.help{align-items:flex-start;flex-direction:column}.helpActions{flex-direction:row;flex-wrap:wrap}}
+@media(max-width:540px){.page :global(#content > .ast-container){padding-left:20px;padding-right:20px}.welcome{display:contents}.welcome h1{font-size:32px!important;order:1;margin-bottom:0!important}.welcome>p{order:2;margin-bottom:0!important}.accessImage{order:4;max-width:190px;margin:0 auto}.account{padding-top:28px;padding-bottom:32px;gap:24px}.formPanel{order:3;padding:28px 22px}.formPanel>h2{font-size:25px}.sectionTitle{font-size:26px!important;gap:10px;align-items:flex-start}.sectionTitle img{width:32px!important;height:30px!important;flex-basis:32px;margin-top:2px!important}.content p{font-size:15px}.games dl>div{grid-template-columns:1fr;gap:8px}.steps li{padding-left:48px!important}.registration{padding:24px 20px}.help{padding:24px 20px}.faqLayout{padding-bottom:36px}.helpActions{gap:18px}.related{gap:12px 20px}}
+@media(max-width:540px){.welcome h1,.welcome>p,.accessImage{grid-column:auto;grid-row:auto}}

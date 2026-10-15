@@ -1,0 +1,86 @@
+[
+  {
+    "label": "Home",
+    "href": "/",
+    "children": []
+  },
+  {
+    "label": "App",
+    "href": "/lotus365-app/",
+    "children": []
+  },
+  {
+    "label": "Blue",
+    "href": "/lotus365-blue/",
+    "children": [
+      {
+        "label": "Blue Login",
+        "href": "/lotus365-blue-login/",
+        "children": []
+      }
+    ]
+  },
+  {
+    "label": "VIP",
+    "href": "/lotus365-vip/",
+    "children": [
+      {
+        "label": "VIP Login",
+        "href": "/lotus365-vip-login/",
+        "children": []
+      }
+    ]
+  },
+  {
+    "label": "Win",
+    "href": "/lotus365-win/",
+    "children": []
+  },
+  {
+    "label": "Live",
+    "href": "/lotus365-live/",
+    "children": [
+      {
+        "label": "www lotus365",
+        "href": "/www-lotus365/",
+        "children": []
+      }
+    ]
+  },
+  {
+    "label": "APK",
+    "href": "/lotus-365-online-id-apk-download/",
+    "children": []
+  },
+  {
+    "label": "Aviator",
+    "href": "/lotus365-aviator-login/",
+    "children": [
+      {
+        "label": "Aviator Game APK",
+        "href": "/aviator-game-apk/",
+        "children": []
+      },
+      {
+        "label": "Play Lotus365 Aviator",
+        "href": "/lotus365-aviator/",
+        "children": []
+      },
+      {
+        "label": "Master Aviator 2004",
+        "href": "/aviator-2004/",
+        "children": []
+      }
+    ]
+  },
+  {
+    "label": "Cricket ID",
+    "href": "/cricket-id/",
+    "children": []
+  },
+  {
+    "label": "IPL",
+    "href": "/lotus365-ipl/",
+    "children": []
+  }
+]

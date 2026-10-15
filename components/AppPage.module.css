@@ -1,0 +1,24 @@
+.page :global(#content){background:#14614c}
+.page :global(#primary){width:100%;margin-bottom:36px!important}
+.page :global(.entry-content){margin:0!important;padding:0!important;background:#14614c;color:#e8f3ed}
+.content{font-family:Poppins,Arial,sans-serif}
+.hero{min-height:570px}
+.heroArt{display:flex;justify-content:center;align-items:center;min-width:0;padding:12px 0}
+.heroImage{display:block;width:100%;max-width:400px;max-height:600px;height:auto;object-fit:contain}
+.content ol{display:block;margin:28px 0!important;border-top:1px solid #3b806b}
+.content ol li{position:relative;padding:24px 0 24px 64px!important;border:0;border-bottom:1px solid #3b806b;border-radius:0;background:transparent}
+.content ol li:before{position:absolute;left:0;top:24px;margin:0}
+.content ol li p{max-width:900px}
+.installationImage{display:block;width:100%;height:auto;border-radius:14px}
+.content a{color:#ffd000;text-underline-offset:4px;cursor:pointer}
+.content section{scroll-margin-top:24px}
+.content section p{max-width:1000px}
+.downloads{grid-template-columns:repeat(2,minmax(0,1fr));max-width:720px}
+.downloads a{font-weight:600}
+.installationMedia{display:grid;grid-template-columns:1.3fr 1fr;gap:32px;align-items:center;margin-top:36px}
+.installationMedia aside{margin:0}
+.securityNote{margin-top:32px}
+.accountLinks{display:flex;gap:16px 28px;flex-wrap:wrap;margin-top:28px;font-size:15px}
+.content a:focus-visible,.content summary:focus-visible{outline:3px solid #ffd000;outline-offset:4px}
+@media(max-width:1000px){.hero{min-height:0}.heroArt{padding:12px 0}.installationMedia{grid-template-columns:1fr}}
+@media(max-width:700px){.heroArt{padding:8px 0 20px}.heroImage{max-width:300px;max-height:450px}.downloads{grid-template-columns:1fr}.installationMedia{gap:24px}.accountLinks{flex-direction:column;gap:14px}.content ol li{padding-left:54px!important}}

@@ -1,0 +1,2194 @@
+{
+  "routes": 403,
+  "layouts": {
+    "reading": 119,
+    "story": 1,
+    "archive": 262,
+    "flight": 4,
+    "support": 1,
+    "policy": 4,
+    "sports": 3,
+    "faq": 1,
+    "feature": 4,
+    "access": 2,
+    "membership": 2
+  },
+  "pages": [
+    {
+      "path": "/लोटस-365/",
+      "layout": "reading",
+      "topic": "editorial"
+    },
+    {
+      "path": "/99exchange-betting/",
+      "layout": "reading",
+      "topic": "editorial",
+      "rewrittenHeadings": 1
+    },
+    {
+      "path": "/about-lotus365/",
+      "layout": "story",
+      "topic": "editorial",
+      "rewrittenHeadings": 4,
+      "editedTextNodes": 2
+    },
+    {
+      "path": "/ambani-book-betting/",
+      "layout": "reading",
+      "topic": "editorial",
+      "rewrittenHeadings": 1
+    },
+    {
+      "path": "/andar-bahar-lotus365-guide/",
+      "layout": "reading",
+      "topic": "casino",
+      "rewrittenHeadings": 2
+    },
+    {
+      "path": "/author/jassii2025gmail-com/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/author/jassii2025gmail-com/page/10/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/author/jassii2025gmail-com/page/11/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/author/jassii2025gmail-com/page/12/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/author/jassii2025gmail-com/page/2/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/author/jassii2025gmail-com/page/3/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/author/jassii2025gmail-com/page/4/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/author/jassii2025gmail-com/page/5/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/author/jassii2025gmail-com/page/6/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/author/jassii2025gmail-com/page/7/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/author/jassii2025gmail-com/page/8/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/author/jassii2025gmail-com/page/9/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/aviator-2004/",
+      "layout": "flight",
+      "topic": "aviator",
+      "editedTextNodes": 1
+    },
+    {
+      "path": "/aviator-game-apk/",
+      "layout": "flight",
+      "topic": "aviator"
+    },
+    {
+      "path": "/baccarat-lotus365-banker-player-guide/",
+      "layout": "reading",
+      "topic": "casino",
+      "rewrittenHeadings": 2
+    },
+    {
+      "path": "/best-cricket-id-platform-2026/",
+      "layout": "reading",
+      "topic": "cricket"
+    },
+    {
+      "path": "/blog/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/blog/page/10/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/blog/page/11/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/blog/page/12/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/blog/page/2/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/blog/page/3/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/blog/page/4/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/blog/page/5/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/blog/page/6/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/blog/page/7/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/blog/page/8/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/blog/page/9/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/category/aviator/",
+      "layout": "archive",
+      "topic": "aviator"
+    },
+    {
+      "path": "/category/chicken-road/",
+      "layout": "archive",
+      "topic": "chicken"
+    },
+    {
+      "path": "/category/colour-prediction/",
+      "layout": "archive",
+      "topic": "colour"
+    },
+    {
+      "path": "/category/craps/",
+      "layout": "archive",
+      "topic": "casino"
+    },
+    {
+      "path": "/category/cricket/",
+      "layout": "archive",
+      "topic": "cricket"
+    },
+    {
+      "path": "/category/cricket-id/",
+      "layout": "archive",
+      "topic": "account"
+    },
+    {
+      "path": "/category/cricket-id/page/2/",
+      "layout": "archive",
+      "topic": "account"
+    },
+    {
+      "path": "/category/dragon-tiger/",
+      "layout": "archive",
+      "topic": "casino"
+    },
+    {
+      "path": "/category/ipl-2026/",
+      "layout": "archive",
+      "topic": "cricket"
+    },
+    {
+      "path": "/category/ipl-2026/rcb/",
+      "layout": "archive",
+      "topic": "cricket"
+    },
+    {
+      "path": "/category/ipl-2026/rr/",
+      "layout": "archive",
+      "topic": "cricket"
+    },
+    {
+      "path": "/category/lotus-365-register/",
+      "layout": "archive",
+      "topic": "account"
+    },
+    {
+      "path": "/category/lotus-account/",
+      "layout": "archive",
+      "topic": "account"
+    },
+    {
+      "path": "/category/lotus365/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/category/lotus365/lotus365-vs-competitors/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/category/lotus365/page/2/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/category/lotus365/page/3/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/category/lotus365-account-verification/",
+      "layout": "archive",
+      "topic": "account"
+    },
+    {
+      "path": "/category/lotus365-app/",
+      "layout": "archive",
+      "topic": "download"
+    },
+    {
+      "path": "/category/lotus365-app/page/2/",
+      "layout": "archive",
+      "topic": "download"
+    },
+    {
+      "path": "/category/lotus365-app/page/3/",
+      "layout": "archive",
+      "topic": "download"
+    },
+    {
+      "path": "/category/lotus365-app-download/",
+      "layout": "archive",
+      "topic": "download"
+    },
+    {
+      "path": "/category/lotus365-aviator/",
+      "layout": "archive",
+      "topic": "aviator"
+    },
+    {
+      "path": "/category/lotus365-blue/",
+      "layout": "archive",
+      "topic": "blue"
+    },
+    {
+      "path": "/category/lotus365-blue/page/2/",
+      "layout": "archive",
+      "topic": "blue"
+    },
+    {
+      "path": "/category/lotus365-blue/page/3/",
+      "layout": "archive",
+      "topic": "blue"
+    },
+    {
+      "path": "/category/lotus365-bonus/",
+      "layout": "archive",
+      "topic": "rewards"
+    },
+    {
+      "path": "/category/lotus365-casino/",
+      "layout": "archive",
+      "topic": "casino"
+    },
+    {
+      "path": "/category/lotus365-casino/page/2/",
+      "layout": "archive",
+      "topic": "casino"
+    },
+    {
+      "path": "/category/lotus365-cricket/",
+      "layout": "archive",
+      "topic": "cricket"
+    },
+    {
+      "path": "/category/lotus365-cricket/page/2/",
+      "layout": "archive",
+      "topic": "cricket"
+    },
+    {
+      "path": "/category/lotus365-live/",
+      "layout": "archive",
+      "topic": "live"
+    },
+    {
+      "path": "/category/lotus365-login/",
+      "layout": "archive",
+      "topic": "account"
+    },
+    {
+      "path": "/category/lotus365-login/page/2/",
+      "layout": "archive",
+      "topic": "account"
+    },
+    {
+      "path": "/category/lotus365-login/page/3/",
+      "layout": "archive",
+      "topic": "account"
+    },
+    {
+      "path": "/category/lotus365-sports/",
+      "layout": "archive",
+      "topic": "cricket"
+    },
+    {
+      "path": "/category/lotus365-win/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/category/poker/",
+      "layout": "archive",
+      "topic": "casino"
+    },
+    {
+      "path": "/category/teen-patti/",
+      "layout": "archive",
+      "topic": "casino"
+    },
+    {
+      "path": "/category/wpl/",
+      "layout": "archive",
+      "topic": "cricket"
+    },
+    {
+      "path": "/category/wpl-2026/",
+      "layout": "archive",
+      "topic": "cricket"
+    },
+    {
+      "path": "/chicken-road/",
+      "layout": "reading",
+      "topic": "chicken",
+      "editedTextNodes": 2
+    },
+    {
+      "path": "/chicken-road-2/",
+      "layout": "reading",
+      "topic": "chicken",
+      "editedTextNodes": 2
+    },
+    {
+      "path": "/christmas-bonus-lotus365-login/",
+      "layout": "reading",
+      "topic": "rewards",
+      "editedTextNodes": 2
+    },
+    {
+      "path": "/colour-prediction/",
+      "layout": "reading",
+      "topic": "colour",
+      "editedTextNodes": 5
+    },
+    {
+      "path": "/contact-us/",
+      "layout": "support",
+      "topic": "support",
+      "rewrittenHeadings": 3
+    },
+    {
+      "path": "/cookies/",
+      "layout": "policy",
+      "topic": "policy",
+      "editedTextNodes": 1
+    },
+    {
+      "path": "/craps-game-guide-win-lotus-365/",
+      "layout": "reading",
+      "topic": "casino",
+      "editedTextNodes": 1
+    },
+    {
+      "path": "/cricket-betting-strategies/",
+      "layout": "reading",
+      "topic": "cricket"
+    },
+    {
+      "path": "/cricket-id/",
+      "layout": "sports",
+      "topic": "account",
+      "editedTextNodes": 2,
+      "rewrittenHeadings": 1
+    },
+    {
+      "path": "/cricket-id-ind-vs-nz-2nd-odi/",
+      "layout": "reading",
+      "topic": "cricket"
+    },
+    {
+      "path": "/download-lotus365-app/",
+      "layout": "reading",
+      "topic": "download",
+      "editedTextNodes": 3,
+      "rewrittenHeadings": 1
+    },
+    {
+      "path": "/dragon-tiger/",
+      "layout": "reading",
+      "topic": "casino"
+    },
+    {
+      "path": "/exclusive-new-year-lotus365-blue/",
+      "layout": "reading",
+      "topic": "blue",
+      "editedTextNodes": 1
+    },
+    {
+      "path": "/explore-casino-online-betting-lotus365-app/",
+      "layout": "reading",
+      "topic": "download",
+      "rewrittenHeadings": 1
+    },
+    {
+      "path": "/faq/",
+      "layout": "faq",
+      "topic": "support",
+      "rewrittenHeadings": 15
+    },
+    {
+      "path": "/fix-lotus365-blue-not-working-errors/",
+      "layout": "reading",
+      "topic": "blue",
+      "editedTextNodes": 1
+    },
+    {
+      "path": "/fix-lotus365-cricket-id-login-problems/",
+      "layout": "reading",
+      "topic": "account",
+      "editedTextNodes": 1,
+      "rewrittenHeadings": 1
+    },
+    {
+      "path": "/funny-exchange-cricket-betting/",
+      "layout": "reading",
+      "topic": "cricket",
+      "rewrittenHeadings": 1
+    },
+    {
+      "path": "/get-lotus365-cricket-id-blue-platform/",
+      "layout": "reading",
+      "topic": "blue",
+      "rewrittenHeadings": 1
+    },
+    {
+      "path": "/how-online-betting-platforms-work/",
+      "layout": "reading",
+      "topic": "editorial",
+      "rewrittenHeadings": 2
+    },
+    {
+      "path": "/how-to-lotus365-app-download/",
+      "layout": "reading",
+      "topic": "download",
+      "editedTextNodes": 1,
+      "rewrittenHeadings": 1
+    },
+    {
+      "path": "/how-to-withdraw-money-from-lotus365/",
+      "layout": "reading",
+      "topic": "payments",
+      "editedTextNodes": 2
+    },
+    {
+      "path": "/india-south-africa-3rd-t20-december-14/",
+      "layout": "reading",
+      "topic": "cricket"
+    },
+    {
+      "path": "/india-vs-new-zealand-1st-odi-2026/",
+      "layout": "reading",
+      "topic": "cricket"
+    },
+    {
+      "path": "/india-vs-nz-3rd-odi-cricket-id/",
+      "layout": "reading",
+      "topic": "account",
+      "editedTextNodes": 2
+    },
+    {
+      "path": "/india-vs-sa-t20-decider-ahmedabad/",
+      "layout": "reading",
+      "topic": "cricket",
+      "editedTextNodes": 2
+    },
+    {
+      "path": "/india-vs-south-africa-4th-t20-december-17-lucknow/",
+      "layout": "reading",
+      "topic": "cricket"
+    },
+    {
+      "path": "/ipl-betting-lotus365/",
+      "layout": "reading",
+      "topic": "cricket",
+      "editedTextNodes": 7,
+      "rewrittenHeadings": 1
+    },
+    {
+      "path": "/is-lotus365-blue-safe/",
+      "layout": "reading",
+      "topic": "blue",
+      "editedTextNodes": 1
+    },
+    {
+      "path": "/live-cricket-betting-real-time-odds-strategies/",
+      "layout": "reading",
+      "topic": "live"
+    },
+    {
+      "path": "/lotus-365-online-id-apk-download/",
+      "layout": "feature",
+      "topic": "download",
+      "editedTextNodes": 2
+    },
+    {
+      "path": "/lotus365-400-welcome-bonus-2025-review/",
+      "layout": "reading",
+      "topic": "rewards",
+      "rewrittenHeadings": 1
+    },
+    {
+      "path": "/lotus365-accessible-india-2026-trends-regulations/",
+      "layout": "reading",
+      "topic": "editorial",
+      "editedTextNodes": 2,
+      "rewrittenHeadings": 1
+    },
+    {
+      "path": "/lotus365-account-security-best-practices/",
+      "layout": "reading",
+      "topic": "account",
+      "editedTextNodes": 3,
+      "rewrittenHeadings": 1
+    },
+    {
+      "path": "/lotus365-account-verification-process/",
+      "layout": "reading",
+      "topic": "account",
+      "editedTextNodes": 4,
+      "rewrittenHeadings": 1
+    },
+    {
+      "path": "/lotus365-apk/",
+      "layout": "reading",
+      "topic": "download",
+      "editedTextNodes": 9
+    },
+    {
+      "path": "/lotus365-apk-download-2026/",
+      "layout": "reading",
+      "topic": "download"
+    },
+    {
+      "path": "/lotus365-app-download-guide/",
+      "layout": "reading",
+      "topic": "download",
+      "editedTextNodes": 15,
+      "rewrittenHeadings": 1
+    },
+    {
+      "path": "/lotus365-app-vs-web/",
+      "layout": "reading",
+      "topic": "download",
+      "editedTextNodes": 3,
+      "rewrittenHeadings": 2
+    },
+    {
+      "path": "/lotus365-aviator/",
+      "layout": "flight",
+      "topic": "aviator",
+      "editedTextNodes": 7,
+      "rewrittenHeadings": 1
+    },
+    {
+      "path": "/lotus365-aviator-login/",
+      "layout": "flight",
+      "topic": "aviator",
+      "editedTextNodes": 1
+    },
+    {
+      "path": "/lotus365-betting/",
+      "layout": "reading",
+      "topic": "editorial",
+      "editedTextNodes": 6
+    },
+    {
+      "path": "/lotus365-blue/",
+      "layout": "feature",
+      "topic": "blue",
+      "rewrittenHeadings": 4,
+      "editedTextNodes": 20
+    },
+    {
+      "path": "/lotus365-blue-app-review/",
+      "layout": "reading",
+      "topic": "blue",
+      "editedTextNodes": 1,
+      "rewrittenHeadings": 1
+    },
+    {
+      "path": "/lotus365-blue-beginners-cricket-betting-guide/",
+      "layout": "reading",
+      "topic": "blue",
+      "editedTextNodes": 1
+    },
+    {
+      "path": "/lotus365-blue-betting-guide/",
+      "layout": "reading",
+      "topic": "blue",
+      "editedTextNodes": 5,
+      "rewrittenHeadings": 2
+    },
+    {
+      "path": "/lotus365-blue-cricket-betting/",
+      "layout": "reading",
+      "topic": "blue",
+      "editedTextNodes": 1
+    },
+    {
+      "path": "/lotus365-blue-cricket-id-login-t20-world-cup/",
+      "layout": "reading",
+      "topic": "blue",
+      "editedTextNodes": 1,
+      "rewrittenHeadings": 1
+    },
+    {
+      "path": "/lotus365-blue-exclusive-bonuses/",
+      "layout": "reading",
+      "topic": "blue"
+    },
+    {
+      "path": "/lotus365-blue-games/",
+      "layout": "reading",
+      "topic": "blue",
+      "editedTextNodes": 3
+    },
+    {
+      "path": "/lotus365-blue-guide/",
+      "layout": "reading",
+      "topic": "blue",
+      "rewrittenHeadings": 1
+    },
+    {
+      "path": "/lotus365-blue-india-2025-legality-risks/",
+      "layout": "reading",
+      "topic": "blue",
+      "rewrittenHeadings": 1,
+      "editedTextNodes": 2
+    },
+    {
+      "path": "/lotus365-blue-login/",
+      "layout": "access",
+      "topic": "blue",
+      "editedTextNodes": 33
+    },
+    {
+      "path": "/lotus365-blue-register/",
+      "layout": "reading",
+      "topic": "blue"
+    },
+    {
+      "path": "/lotus365-blue-vs-original/",
+      "layout": "reading",
+      "topic": "blue"
+    },
+    {
+      "path": "/lotus365-book/",
+      "layout": "reading",
+      "topic": "editorial",
+      "editedTextNodes": 1
+    },
+    {
+      "path": "/lotus365-casino-games-complete-guide-slots-live/",
+      "layout": "reading",
+      "topic": "casino",
+      "rewrittenHeadings": 1
+    },
+    {
+      "path": "/lotus365-cricket-id-login-ipl-2026/",
+      "layout": "reading",
+      "topic": "account",
+      "editedTextNodes": 1,
+      "rewrittenHeadings": 1
+    },
+    {
+      "path": "/lotus365-cricket-id-original-platform/",
+      "layout": "reading",
+      "topic": "cricket",
+      "editedTextNodes": 1,
+      "rewrittenHeadings": 1
+    },
+    {
+      "path": "/lotus365-customer-reviews/",
+      "layout": "reading",
+      "topic": "editorial",
+      "editedTextNodes": 2,
+      "rewrittenHeadings": 1
+    },
+    {
+      "path": "/lotus365-customer-support-while-login/",
+      "layout": "reading",
+      "topic": "support",
+      "editedTextNodes": 2,
+      "rewrittenHeadings": 2
+    },
+    {
+      "path": "/lotus365-direct-vs-lotus-login/",
+      "layout": "reading",
+      "topic": "account",
+      "editedTextNodes": 6
+    },
+    {
+      "path": "/lotus365-exchange/",
+      "layout": "reading",
+      "topic": "editorial",
+      "rewrittenHeadings": 1
+    },
+    {
+      "path": "/lotus365-features/",
+      "layout": "reading",
+      "topic": "editorial",
+      "editedTextNodes": 3,
+      "rewrittenHeadings": 1
+    },
+    {
+      "path": "/lotus365-games-online-casino/",
+      "layout": "reading",
+      "topic": "casino",
+      "editedTextNodes": 2
+    },
+    {
+      "path": "/lotus365-id/",
+      "layout": "reading",
+      "topic": "account",
+      "editedTextNodes": 1
+    },
+    {
+      "path": "/lotus365-id-guide/",
+      "layout": "reading",
+      "topic": "editorial",
+      "editedTextNodes": 4,
+      "rewrittenHeadings": 1
+    },
+    {
+      "path": "/lotus365-india/",
+      "layout": "reading",
+      "topic": "editorial",
+      "rewrittenHeadings": 1
+    },
+    {
+      "path": "/lotus365-ipl/",
+      "layout": "sports",
+      "topic": "cricket",
+      "rewrittenHeadings": 3,
+      "editedTextNodes": 3
+    },
+    {
+      "path": "/lotus365-ipl-rule/",
+      "layout": "reading",
+      "topic": "cricket",
+      "editedTextNodes": 5
+    },
+    {
+      "path": "/lotus365-live/",
+      "layout": "sports",
+      "topic": "live",
+      "rewrittenHeadings": 4,
+      "editedTextNodes": 2
+    },
+    {
+      "path": "/lotus365-login-bonus/",
+      "layout": "reading",
+      "topic": "rewards",
+      "editedTextNodes": 7
+    },
+    {
+      "path": "/lotus365-login-cricket-id-guide/",
+      "layout": "reading",
+      "topic": "account",
+      "editedTextNodes": 6,
+      "rewrittenHeadings": 2
+    },
+    {
+      "path": "/lotus365-login-daily-bonus/",
+      "layout": "reading",
+      "topic": "rewards",
+      "editedTextNodes": 1
+    },
+    {
+      "path": "/lotus365-login-guide/",
+      "layout": "reading",
+      "topic": "account",
+      "editedTextNodes": 2
+    },
+    {
+      "path": "/lotus365-login-id-quick-cricket-play/",
+      "layout": "reading",
+      "topic": "account",
+      "rewrittenHeadings": 1
+    },
+    {
+      "path": "/lotus365-login-issues-troubleshooting/",
+      "layout": "reading",
+      "topic": "account",
+      "editedTextNodes": 2,
+      "rewrittenHeadings": 2
+    },
+    {
+      "path": "/lotus365-login-issues-troubleshooting-2026/",
+      "layout": "reading",
+      "topic": "account",
+      "editedTextNodes": 1
+    },
+    {
+      "path": "/lotus365-login-mastery-2025/",
+      "layout": "reading",
+      "topic": "account",
+      "editedTextNodes": 1
+    },
+    {
+      "path": "/lotus365-login-mastery-on-all-platform/",
+      "layout": "reading",
+      "topic": "account",
+      "editedTextNodes": 3
+    },
+    {
+      "path": "/lotus365-mobile-app-login-guide/",
+      "layout": "reading",
+      "topic": "download",
+      "editedTextNodes": 4,
+      "rewrittenHeadings": 1
+    },
+    {
+      "path": "/lotus365-register-withdraw-india-2025-guide/",
+      "layout": "reading",
+      "topic": "payments"
+    },
+    {
+      "path": "/lotus365-registration-claim-bonus-guide/",
+      "layout": "reading",
+      "topic": "rewards",
+      "editedTextNodes": 4
+    },
+    {
+      "path": "/lotus365-review-2025/",
+      "layout": "reading",
+      "topic": "editorial",
+      "editedTextNodes": 2
+    },
+    {
+      "path": "/lotus365-scam/",
+      "layout": "reading",
+      "topic": "account",
+      "editedTextNodes": 2
+    },
+    {
+      "path": "/lotus365-security-guide-2025/",
+      "layout": "reading",
+      "topic": "account",
+      "editedTextNodes": 1,
+      "rewrittenHeadings": 1
+    },
+    {
+      "path": "/lotus365-signup-bonus-explained/",
+      "layout": "reading",
+      "topic": "rewards",
+      "editedTextNodes": 4,
+      "rewrittenHeadings": 2
+    },
+    {
+      "path": "/lotus365-signup-bonus-register-guide/",
+      "layout": "reading",
+      "topic": "rewards",
+      "editedTextNodes": 1,
+      "rewrittenHeadings": 1
+    },
+    {
+      "path": "/lotus365-signup-guide/",
+      "layout": "reading",
+      "topic": "account",
+      "editedTextNodes": 5,
+      "rewrittenHeadings": 2
+    },
+    {
+      "path": "/lotus365-signup-not-working-fixes/",
+      "layout": "reading",
+      "topic": "account"
+    },
+    {
+      "path": "/lotus365-sports-and-casino-betting-platform/",
+      "layout": "reading",
+      "topic": "cricket",
+      "editedTextNodes": 5,
+      "rewrittenHeadings": 1
+    },
+    {
+      "path": "/lotus365-sports-betting-india/",
+      "layout": "reading",
+      "topic": "cricket",
+      "editedTextNodes": 4
+    },
+    {
+      "path": "/lotus365-sports-complete-betting-guide/",
+      "layout": "reading",
+      "topic": "cricket",
+      "editedTextNodes": 1,
+      "rewrittenHeadings": 1
+    },
+    {
+      "path": "/lotus365-strong-password-guide-2026/",
+      "layout": "reading",
+      "topic": "account",
+      "editedTextNodes": 2
+    },
+    {
+      "path": "/lotus365-top-betting-tips-beginners/",
+      "layout": "reading",
+      "topic": "editorial",
+      "editedTextNodes": 5,
+      "rewrittenHeadings": 1
+    },
+    {
+      "path": "/lotus365-two-factor-authentication-setup/",
+      "layout": "reading",
+      "topic": "editorial",
+      "rewrittenHeadings": 2
+    },
+    {
+      "path": "/lotus365-vip/",
+      "layout": "membership",
+      "topic": "vip",
+      "rewrittenHeadings": 4,
+      "editedTextNodes": 8
+    },
+    {
+      "path": "/lotus365-vip-login/",
+      "layout": "membership",
+      "topic": "vip",
+      "rewrittenHeadings": 5,
+      "editedTextNodes": 5
+    },
+    {
+      "path": "/lotus365-vs-99exch-best-betting-platform/",
+      "layout": "reading",
+      "topic": "editorial",
+      "rewrittenHeadings": 1
+    },
+    {
+      "path": "/lotus365-vs-competitors/",
+      "layout": "reading",
+      "topic": "editorial",
+      "editedTextNodes": 2,
+      "rewrittenHeadings": 1
+    },
+    {
+      "path": "/lotus365-vs-gold365-security-withdrawal-bonuses/",
+      "layout": "reading",
+      "topic": "rewards"
+    },
+    {
+      "path": "/lotus365-vs-world777-odds-comparison/",
+      "layout": "reading",
+      "topic": "editorial"
+    },
+    {
+      "path": "/lotus365-win/",
+      "layout": "feature",
+      "topic": "rewards",
+      "rewrittenHeadings": 2,
+      "editedTextNodes": 5
+    },
+    {
+      "path": "/lotus365-win-login/",
+      "layout": "access",
+      "topic": "account"
+    },
+    {
+      "path": "/lotus365-win-login-not-working-fixes/",
+      "layout": "reading",
+      "topic": "account"
+    },
+    {
+      "path": "/lotus365-win-welcome-bonus-claim-guide/",
+      "layout": "reading",
+      "topic": "rewards",
+      "editedTextNodes": 2
+    },
+    {
+      "path": "/lotus365-withdrawal/",
+      "layout": "reading",
+      "topic": "payments",
+      "editedTextNodes": 4
+    },
+    {
+      "path": "/online-poker/",
+      "layout": "reading",
+      "topic": "casino",
+      "editedTextNodes": 1
+    },
+    {
+      "path": "/play-slot-machine-lotus365/",
+      "layout": "reading",
+      "topic": "casino",
+      "editedTextNodes": 5,
+      "rewrittenHeadings": 1
+    },
+    {
+      "path": "/privacy/",
+      "layout": "policy",
+      "topic": "policy",
+      "editedTextNodes": 3
+    },
+    {
+      "path": "/rajasthan-royals-2026-squad-rr-team/",
+      "layout": "reading",
+      "topic": "cricket",
+      "editedTextNodes": 1
+    },
+    {
+      "path": "/rcb-squad-2026-ipl-defending-champions/",
+      "layout": "reading",
+      "topic": "cricket",
+      "editedTextNodes": 1
+    },
+    {
+      "path": "/reddy-anna-book/",
+      "layout": "reading",
+      "topic": "editorial",
+      "rewrittenHeadings": 1
+    },
+    {
+      "path": "/reset-lotus365-password/",
+      "layout": "reading",
+      "topic": "account",
+      "rewrittenHeadings": 2
+    },
+    {
+      "path": "/responsible-gaming-lotus365/",
+      "layout": "policy",
+      "topic": "policy"
+    },
+    {
+      "path": "/roulette-lotus365-bets-payouts-tips/",
+      "layout": "reading",
+      "topic": "casino",
+      "rewrittenHeadings": 2,
+      "editedTextNodes": 1
+    },
+    {
+      "path": "/rummy-lotus365-sequences-points-tips/",
+      "layout": "reading",
+      "topic": "casino",
+      "rewrittenHeadings": 2,
+      "editedTextNodes": 1
+    },
+    {
+      "path": "/sports-betting-guide/",
+      "layout": "reading",
+      "topic": "cricket",
+      "editedTextNodes": 8
+    },
+    {
+      "path": "/sports-betting-guide-beginners/",
+      "layout": "reading",
+      "topic": "cricket",
+      "editedTextNodes": 2
+    },
+    {
+      "path": "/sports-betting-markets-explained/",
+      "layout": "reading",
+      "topic": "cricket",
+      "editedTextNodes": 2,
+      "rewrittenHeadings": 2
+    },
+    {
+      "path": "/spot-fake-lotus365-app-domain-2025/",
+      "layout": "reading",
+      "topic": "download",
+      "editedTextNodes": 1,
+      "rewrittenHeadings": 1
+    },
+    {
+      "path": "/tag/2fa-setup/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/account-access/",
+      "layout": "archive",
+      "topic": "account"
+    },
+    {
+      "path": "/tag/account-security/",
+      "layout": "archive",
+      "topic": "account"
+    },
+    {
+      "path": "/tag/account-verification/",
+      "layout": "archive",
+      "topic": "account"
+    },
+    {
+      "path": "/tag/address-proof/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/alternate-domain/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/andar-bahar/",
+      "layout": "archive",
+      "topic": "casino"
+    },
+    {
+      "path": "/tag/app-login-guide/",
+      "layout": "archive",
+      "topic": "download"
+    },
+    {
+      "path": "/tag/authenticator-app/",
+      "layout": "archive",
+      "topic": "download"
+    },
+    {
+      "path": "/tag/aviator/",
+      "layout": "archive",
+      "topic": "aviator"
+    },
+    {
+      "path": "/tag/aviator-apk/",
+      "layout": "archive",
+      "topic": "aviator"
+    },
+    {
+      "path": "/tag/baccarat/",
+      "layout": "archive",
+      "topic": "casino"
+    },
+    {
+      "path": "/tag/better-platform/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/betting-app-reviews-india/",
+      "layout": "archive",
+      "topic": "download"
+    },
+    {
+      "path": "/tag/betting-app-safety/",
+      "layout": "archive",
+      "topic": "download"
+    },
+    {
+      "path": "/tag/betting-exchange/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/betting-exchange-in-india/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/betting-id/",
+      "layout": "archive",
+      "topic": "account"
+    },
+    {
+      "path": "/tag/betting-login-india/",
+      "layout": "archive",
+      "topic": "account"
+    },
+    {
+      "path": "/tag/betting-odds-generation/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/betting-online/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/betting-safety/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/betting-tips/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/blue-login-problem/",
+      "layout": "archive",
+      "topic": "blue"
+    },
+    {
+      "path": "/tag/browser-vs-app-comparison/",
+      "layout": "archive",
+      "topic": "download"
+    },
+    {
+      "path": "/tag/cache-clear-guide/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/cashback-offer/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/casino/",
+      "layout": "archive",
+      "topic": "casino"
+    },
+    {
+      "path": "/tag/casino-online-betting/",
+      "layout": "archive",
+      "topic": "casino"
+    },
+    {
+      "path": "/tag/casino-tips/",
+      "layout": "archive",
+      "topic": "casino"
+    },
+    {
+      "path": "/tag/chicken-road/",
+      "layout": "archive",
+      "topic": "chicken"
+    },
+    {
+      "path": "/tag/chicken-road-2/",
+      "layout": "archive",
+      "topic": "chicken"
+    },
+    {
+      "path": "/tag/comparison-2026/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/comparison-table-and-features/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/craps/",
+      "layout": "archive",
+      "topic": "casino"
+    },
+    {
+      "path": "/tag/cricket/",
+      "layout": "archive",
+      "topic": "cricket"
+    },
+    {
+      "path": "/tag/cricket-betting/",
+      "layout": "archive",
+      "topic": "cricket"
+    },
+    {
+      "path": "/tag/cricket-betting-india/",
+      "layout": "archive",
+      "topic": "cricket"
+    },
+    {
+      "path": "/tag/cricket-betting-odds/",
+      "layout": "archive",
+      "topic": "cricket"
+    },
+    {
+      "path": "/tag/cricket-betting-reviews/",
+      "layout": "archive",
+      "topic": "cricket"
+    },
+    {
+      "path": "/tag/cricket-id/",
+      "layout": "archive",
+      "topic": "account"
+    },
+    {
+      "path": "/tag/cricket-odds-strategy/",
+      "layout": "archive",
+      "topic": "cricket"
+    },
+    {
+      "path": "/tag/crossy-chicken/",
+      "layout": "archive",
+      "topic": "chicken"
+    },
+    {
+      "path": "/tag/data-sources-for-odds/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/dc/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/dns-issue/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/dragon-tiger/",
+      "layout": "archive",
+      "topic": "casino"
+    },
+    {
+      "path": "/tag/fast-payout-betting-sites/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/forgot-password-lotus365/",
+      "layout": "archive",
+      "topic": "account"
+    },
+    {
+      "path": "/tag/gold365-betting-platform-review-2026/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/handicap-betting-explained/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/how-online-betting-platforms-work/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/identity-verification/",
+      "layout": "archive",
+      "topic": "account"
+    },
+    {
+      "path": "/tag/india/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/india-betting-app/",
+      "layout": "archive",
+      "topic": "download"
+    },
+    {
+      "path": "/tag/india-match/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/india-vs-newzealand/",
+      "layout": "archive",
+      "topic": "cricket"
+    },
+    {
+      "path": "/tag/installation-guide/",
+      "layout": "archive",
+      "topic": "download"
+    },
+    {
+      "path": "/tag/ipl/",
+      "layout": "archive",
+      "topic": "cricket"
+    },
+    {
+      "path": "/tag/ipl-2026/",
+      "layout": "archive",
+      "topic": "cricket"
+    },
+    {
+      "path": "/tag/ipl-2026-betting-tips/",
+      "layout": "archive",
+      "topic": "cricket"
+    },
+    {
+      "path": "/tag/ipl-2026-odds/",
+      "layout": "archive",
+      "topic": "cricket"
+    },
+    {
+      "path": "/tag/ipl-betting/",
+      "layout": "archive",
+      "topic": "cricket"
+    },
+    {
+      "path": "/tag/ipl-betting-lotus365/",
+      "layout": "archive",
+      "topic": "cricket"
+    },
+    {
+      "path": "/tag/is-lotus365-blue-safe/",
+      "layout": "archive",
+      "topic": "blue"
+    },
+    {
+      "path": "/tag/kyc/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/kyc-verification/",
+      "layout": "archive",
+      "topic": "account"
+    },
+    {
+      "path": "/tag/legal-betting-websites/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/live-betting-features/",
+      "layout": "archive",
+      "topic": "live"
+    },
+    {
+      "path": "/tag/live-ipl-bets/",
+      "layout": "archive",
+      "topic": "live"
+    },
+    {
+      "path": "/tag/login-guide/",
+      "layout": "archive",
+      "topic": "account"
+    },
+    {
+      "path": "/tag/login-issues/",
+      "layout": "archive",
+      "topic": "account"
+    },
+    {
+      "path": "/tag/lotus-365-login/",
+      "layout": "archive",
+      "topic": "account"
+    },
+    {
+      "path": "/tag/lotus-365-signup/",
+      "layout": "archive",
+      "topic": "account"
+    },
+    {
+      "path": "/tag/lotus-login/",
+      "layout": "archive",
+      "topic": "account"
+    },
+    {
+      "path": "/tag/lotus365/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/lotus365/page/2/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/lotus365/page/3/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/lotus365/page/4/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/lotus365/page/5/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/lotus365/page/6/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/lotus365/page/7/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/lotus365/page/8/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/lotus365-account/",
+      "layout": "archive",
+      "topic": "account"
+    },
+    {
+      "path": "/tag/lotus365-agent-login/",
+      "layout": "archive",
+      "topic": "account"
+    },
+    {
+      "path": "/tag/lotus365-app/",
+      "layout": "archive",
+      "topic": "download"
+    },
+    {
+      "path": "/tag/lotus365-app/page/2/",
+      "layout": "archive",
+      "topic": "download"
+    },
+    {
+      "path": "/tag/lotus365-app-download/",
+      "layout": "archive",
+      "topic": "download"
+    },
+    {
+      "path": "/tag/lotus365-avaitor/",
+      "layout": "archive",
+      "topic": "aviator"
+    },
+    {
+      "path": "/tag/lotus365-aviator/",
+      "layout": "archive",
+      "topic": "aviator"
+    },
+    {
+      "path": "/tag/lotus365-aviator-bonus/",
+      "layout": "archive",
+      "topic": "aviator"
+    },
+    {
+      "path": "/tag/lotus365-baccarat/",
+      "layout": "archive",
+      "topic": "casino"
+    },
+    {
+      "path": "/tag/lotus365-blue/",
+      "layout": "archive",
+      "topic": "blue"
+    },
+    {
+      "path": "/tag/lotus365-blue/page/2/",
+      "layout": "archive",
+      "topic": "blue"
+    },
+    {
+      "path": "/tag/lotus365-blue-cricket-id-login/",
+      "layout": "archive",
+      "topic": "blue"
+    },
+    {
+      "path": "/tag/lotus365-blue-fake/",
+      "layout": "archive",
+      "topic": "blue"
+    },
+    {
+      "path": "/tag/lotus365-blue-features/",
+      "layout": "archive",
+      "topic": "blue"
+    },
+    {
+      "path": "/tag/lotus365-blue-not-working/",
+      "layout": "archive",
+      "topic": "blue"
+    },
+    {
+      "path": "/tag/lotus365-blue-safe-or-not/",
+      "layout": "archive",
+      "topic": "blue"
+    },
+    {
+      "path": "/tag/lotus365-blue-vs-original/",
+      "layout": "archive",
+      "topic": "blue"
+    },
+    {
+      "path": "/tag/lotus365-bonus/",
+      "layout": "archive",
+      "topic": "rewards"
+    },
+    {
+      "path": "/tag/lotus365-cricket/",
+      "layout": "archive",
+      "topic": "cricket"
+    },
+    {
+      "path": "/tag/lotus365-cricket-id/",
+      "layout": "archive",
+      "topic": "account"
+    },
+    {
+      "path": "/tag/lotus365-cricket-id-login/",
+      "layout": "archive",
+      "topic": "account"
+    },
+    {
+      "path": "/tag/lotus365-cricket-id-login-problems/",
+      "layout": "archive",
+      "topic": "account"
+    },
+    {
+      "path": "/tag/lotus365-customer-reviews/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/lotus365-customer-support/",
+      "layout": "archive",
+      "topic": "support"
+    },
+    {
+      "path": "/tag/lotus365-download/",
+      "layout": "archive",
+      "topic": "download"
+    },
+    {
+      "path": "/tag/lotus365-features/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/lotus365-game/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/lotus365-games/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/lotus365-guide/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/lotus365-help/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/lotus365-id/",
+      "layout": "archive",
+      "topic": "account"
+    },
+    {
+      "path": "/tag/lotus365-ipl/",
+      "layout": "archive",
+      "topic": "cricket"
+    },
+    {
+      "path": "/tag/lotus365-login/",
+      "layout": "archive",
+      "topic": "account"
+    },
+    {
+      "path": "/tag/lotus365-login/page/2/",
+      "layout": "archive",
+      "topic": "account"
+    },
+    {
+      "path": "/tag/lotus365-login/page/3/",
+      "layout": "archive",
+      "topic": "account"
+    },
+    {
+      "path": "/tag/lotus365-login/page/4/",
+      "layout": "archive",
+      "topic": "account"
+    },
+    {
+      "path": "/tag/lotus365-login/page/5/",
+      "layout": "archive",
+      "topic": "account"
+    },
+    {
+      "path": "/tag/lotus365-login-id/",
+      "layout": "archive",
+      "topic": "account"
+    },
+    {
+      "path": "/tag/lotus365-mobile-app/",
+      "layout": "archive",
+      "topic": "download"
+    },
+    {
+      "path": "/tag/lotus365-online-casino/",
+      "layout": "archive",
+      "topic": "casino"
+    },
+    {
+      "path": "/tag/lotus365-real/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/lotus365-register/",
+      "layout": "archive",
+      "topic": "account"
+    },
+    {
+      "path": "/tag/lotus365-register-guide/",
+      "layout": "archive",
+      "topic": "account"
+    },
+    {
+      "path": "/tag/lotus365-regsiter/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/lotus365-rummy/",
+      "layout": "archive",
+      "topic": "casino"
+    },
+    {
+      "path": "/tag/lotus365-scam/",
+      "layout": "archive",
+      "topic": "account"
+    },
+    {
+      "path": "/tag/lotus365-sign-in/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/lotus365-signup/",
+      "layout": "archive",
+      "topic": "account"
+    },
+    {
+      "path": "/tag/lotus365-support/",
+      "layout": "archive",
+      "topic": "support"
+    },
+    {
+      "path": "/tag/lotus365-troubleshooting/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/lotus365-vip/",
+      "layout": "archive",
+      "topic": "vip"
+    },
+    {
+      "path": "/tag/lotus365-vs-99exch/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/lotus365-vs-competitors/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/lotus365-vs-gold365/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/lotus365-vs-world777/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/lotus365-win/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/lotus365-withdrawal/",
+      "layout": "archive",
+      "topic": "payments"
+    },
+    {
+      "path": "/tag/match-winner-market/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/mi/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/mobile-betting-advantages/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/mobile-security-tips/",
+      "layout": "archive",
+      "topic": "account"
+    },
+    {
+      "path": "/tag/odds/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/odi/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/online-betting-app-in-india/",
+      "layout": "archive",
+      "topic": "download"
+    },
+    {
+      "path": "/tag/online-betting-apps-comparison/",
+      "layout": "archive",
+      "topic": "download"
+    },
+    {
+      "path": "/tag/online-betting-exchange/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/online-betting-india/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/online-betting-system-explained/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/online-betting-technology/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/online-casino-and-sports-betting/",
+      "layout": "archive",
+      "topic": "cricket"
+    },
+    {
+      "path": "/tag/online-casino-lotus365/",
+      "layout": "archive",
+      "topic": "casino"
+    },
+    {
+      "path": "/tag/online-cricket-betting/",
+      "layout": "archive",
+      "topic": "cricket"
+    },
+    {
+      "path": "/tag/otp-issue/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/otp-login/",
+      "layout": "archive",
+      "topic": "account"
+    },
+    {
+      "path": "/tag/otp-problem/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/otp-verification/",
+      "layout": "archive",
+      "topic": "account"
+    },
+    {
+      "path": "/tag/over-under-betting/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/password-reset/",
+      "layout": "archive",
+      "topic": "account"
+    },
+    {
+      "path": "/tag/poker/",
+      "layout": "archive",
+      "topic": "casino"
+    },
+    {
+      "path": "/tag/popular-betting-markets-india/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/prop-bets-in-sports/",
+      "layout": "archive",
+      "topic": "cricket"
+    },
+    {
+      "path": "/tag/push-notifications-benefits/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/rcb/",
+      "layout": "archive",
+      "topic": "cricket"
+    },
+    {
+      "path": "/tag/registration-tips/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/reset-lotus365-password/",
+      "layout": "archive",
+      "topic": "account"
+    },
+    {
+      "path": "/tag/responsible-ipl-betting/",
+      "layout": "archive",
+      "topic": "cricket"
+    },
+    {
+      "path": "/tag/review/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/role-of-algorithms-in-betting/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/roulette/",
+      "layout": "archive",
+      "topic": "casino"
+    },
+    {
+      "path": "/tag/rummy/",
+      "layout": "archive",
+      "topic": "casino"
+    },
+    {
+      "path": "/tag/secure-betting-platform/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/security-comparison/",
+      "layout": "archive",
+      "topic": "account"
+    },
+    {
+      "path": "/tag/signup-bonus/",
+      "layout": "archive",
+      "topic": "rewards"
+    },
+    {
+      "path": "/tag/signup-not-working/",
+      "layout": "archive",
+      "topic": "account"
+    },
+    {
+      "path": "/tag/south-africa/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/sports-betting/",
+      "layout": "archive",
+      "topic": "cricket"
+    },
+    {
+      "path": "/tag/sports-betting-app/",
+      "layout": "archive",
+      "topic": "download"
+    },
+    {
+      "path": "/tag/sports-betting-india/",
+      "layout": "archive",
+      "topic": "cricket"
+    },
+    {
+      "path": "/tag/sports-betting-markets/",
+      "layout": "archive",
+      "topic": "cricket"
+    },
+    {
+      "path": "/tag/t20/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/teen-patti/",
+      "layout": "archive",
+      "topic": "casino"
+    },
+    {
+      "path": "/tag/trusted-betting-platforms/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/two-factor-authentication/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/upi-deposit/",
+      "layout": "archive",
+      "topic": "payments"
+    },
+    {
+      "path": "/tag/user-experience/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/user-experience-comparison/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/vpn-issues/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/welcome-bonus/",
+      "layout": "archive",
+      "topic": "rewards"
+    },
+    {
+      "path": "/tag/which-gives-better-odds/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/which-is-better/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/which-is-better-2/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/tag/withdrawal/",
+      "layout": "archive",
+      "topic": "payments"
+    },
+    {
+      "path": "/tag/withdrawal-time/",
+      "layout": "archive",
+      "topic": "payments"
+    },
+    {
+      "path": "/tag/world777-vs-lotus-365-comparison/",
+      "layout": "archive",
+      "topic": "editorial"
+    },
+    {
+      "path": "/teen-patti-lotus365-rules-strategy/",
+      "layout": "reading",
+      "topic": "casino"
+    },
+    {
+      "path": "/teen-patti-online/",
+      "layout": "reading",
+      "topic": "casino",
+      "editedTextNodes": 5
+    },
+    {
+      "path": "/terms/",
+      "layout": "policy",
+      "topic": "policy",
+      "editedTextNodes": 2
+    },
+    {
+      "path": "/texas-holdem-poker-the-complete-beginners-guide-to-rules-hands-winning-strategies/",
+      "layout": "reading",
+      "topic": "casino",
+      "editedTextNodes": 1,
+      "rewrittenHeadings": 1
+    },
+    {
+      "path": "/trusted-online-betting-id-safe-secure-platform/",
+      "layout": "reading",
+      "topic": "editorial"
+    },
+    {
+      "path": "/why-lootuss365-com-fake-domain-2025/",
+      "layout": "reading",
+      "topic": "account",
+      "editedTextNodes": 1,
+      "rewrittenHeadings": 1
+    },
+    {
+      "path": "/wpl-2026-2nd-match-up-vs-giants-january-10/",
+      "layout": "reading",
+      "topic": "cricket"
+    },
+    {
+      "path": "/wpl-2026-3rd-match-mi-vs-dc-january-10-evening/",
+      "layout": "reading",
+      "topic": "cricket"
+    },
+    {
+      "path": "/wpl-2026-mi-vs-rcb-january-9-opener/",
+      "layout": "reading",
+      "topic": "cricket"
+    },
+    {
+      "path": "/www-lotus365/",
+      "layout": "feature",
+      "topic": "editorial",
+      "editedTextNodes": 1
+    },
+    {
+      "path": "/www-lotus365-win-casino/",
+      "layout": "reading",
+      "topic": "casino",
+      "editedTextNodes": 1
+    }
+  ]
+}

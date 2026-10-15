@@ -1,0 +1,107 @@
+{
+  "blue": {
+    "src": "/assets/redesign-blue.webp",
+    "alt": "beautifully crafted translucent deep-blue sports dashboard panel framed in emerald and gold, two simple blue interface sections, small golden lotus emblem, refined blue glass accents",
+    "width": 900,
+    "height": 900,
+    "bytes": 171130
+  },
+  "vip": {
+    "src": "/assets/redesign-vip.webp",
+    "alt": "premium emerald and black membership card with a golden crown floating above it, gold-trimmed card edges, subtle embossed lotus emblem",
+    "width": 900,
+    "height": 900,
+    "bytes": 128058
+  },
+  "cricket": {
+    "src": "/assets/redesign-cricket.webp",
+    "alt": "polished cricket bat, glossy red cricket ball and three emerald stumps with golden bails, small circular stadium light halo",
+    "width": 900,
+    "height": 900,
+    "bytes": 196226
+  },
+  "live": {
+    "src": "/assets/redesign-live.webp",
+    "alt": "miniature emerald cricket stadium seen in three-quarter view with gold floodlights and an abstract floating live scoreboard represented by simple bars, no readable numbers",
+    "width": 900,
+    "height": 900,
+    "bytes": 193654
+  },
+  "aviator": {
+    "src": "/assets/redesign-aviator.webp",
+    "alt": "sleek small emerald and red propeller airplane climbing along a curved golden flight trail, minimal polished aviator game concept",
+    "width": 900,
+    "height": 900,
+    "bytes": 121134
+  },
+  "casino": {
+    "src": "/assets/redesign-casino.webp",
+    "alt": "elegant small gold roulette wheel with two oversized playing cards and a pair of emerald dice, sophisticated table-game composition",
+    "width": 900,
+    "height": 900,
+    "bytes": 169592
+  },
+  "rewards": {
+    "src": "/assets/redesign-rewards.webp",
+    "alt": "sculpted golden star rising from an emerald rewards box alongside a gold-rimmed emerald circular token, premium bonus illustration",
+    "width": 900,
+    "height": 900,
+    "bytes": 117756
+  },
+  "download": {
+    "src": "/assets/redesign-download.webp",
+    "alt": "slim emerald tablet with a large golden download arrow on its screen beside a small Android-inspired generic friendly robot silhouette, no official logo",
+    "width": 900,
+    "height": 900,
+    "bytes": 108966
+  },
+  "account": {
+    "src": "/assets/redesign-account.webp",
+    "alt": "emerald identity card with golden user icon and a separate small circular checkmark, gold edges and polished glass materials, simple profile concept",
+    "width": 900,
+    "height": 900,
+    "bytes": 112768
+  },
+  "support": {
+    "src": "/assets/redesign-support.webp",
+    "alt": "premium emerald and gold customer-support headset around a rounded glass chat bubble with three simple gold dots",
+    "width": 900,
+    "height": 900,
+    "bytes": 149886
+  },
+  "policy": {
+    "src": "/assets/redesign-policy.webp",
+    "alt": "open emerald document folder holding white sheets with abstract emerald lines, a gold magnifying glass and a small golden balance scale",
+    "width": 900,
+    "height": 900,
+    "bytes": 130390
+  },
+  "editorial": {
+    "src": "/assets/redesign-editorial.webp",
+    "alt": "beautifully bound open emerald book with gold page edges, a golden pen and a small emerald bookmark, refined reading and learning concept",
+    "width": 900,
+    "height": 900,
+    "bytes": 120982
+  },
+  "payments": {
+    "src": "/assets/redesign-payments.webp",
+    "alt": "refined emerald digital wallet with gold trim beside a small golden bank-transfer arrow and three neatly stacked golden coins",
+    "width": 900,
+    "height": 900,
+    "bytes": 122808
+  },
+  "chicken": {
+    "src": "/assets/redesign-chicken.webp",
+    "alt": "playful stylized adult rooster with white feathers and emerald tail standing beside a short miniature emerald roadway with gold dashed lane markings, polished 3D game illustration",
+    "width": 900,
+    "height": 900,
+    "bytes": 193926
+  },
+  "colour": {
+    "src": "/assets/redesign-colour.webp",
+    "alt": "three glossy emerald, red and violet spheres hovering above a golden circular game board, abstract colour prediction illustration",
+    "width": 900,
+    "height": 900,
+    "bytes": 160872
+  }
+}

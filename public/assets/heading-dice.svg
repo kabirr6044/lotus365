@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="58" viewBox="0 0 64 58" fill="none">
+ <defs><linearGradient id="gold" x1="10" y1="5" x2="47" y2="52" gradientUnits="userSpaceOnUse"><stop stop-color="#ffe98b"/><stop offset=".5" stop-color="#ffd000"/><stop offset="1" stop-color="#e5ad12"/></linearGradient></defs>
+ <g transform="rotate(-16 22 26)"><rect x="4" y="8" width="34" height="36" rx="7" fill="#bd8e14"/><rect x="4" y="5" width="34" height="35" rx="7" fill="url(#gold)" stroke="#fff0a3" stroke-width="1.5"/><g fill="#154e3c"><circle cx="13" cy="14" r="3"/><circle cx="29" cy="14" r="3"/><circle cx="21" cy="22.5" r="3"/><circle cx="13" cy="31" r="3"/><circle cx="29" cy="31" r="3"/></g></g>
+ <g transform="rotate(14 44 34)"><rect x="26" y="19" width="34" height="36" rx="7" fill="#b98a12"/><rect x="26" y="16" width="34" height="35" rx="7" fill="url(#gold)" stroke="#fff0a3" stroke-width="1.5"/><g fill="#154e3c"><circle cx="35" cy="25" r="3"/><circle cx="51" cy="25" r="3"/><circle cx="35" cy="42" r="3"/><circle cx="51" cy="42" r="3"/></g></g>
+</svg>

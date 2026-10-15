@@ -1,0 +1,180 @@
+{
+  "heading": "Lotus365 Signup: Create Your Account",
+  "introduction": "Start your Lotus365 account registration with your mobile number, a strong password and an optional referral code. Find clear signup steps, welcome bonuses and account guidance in one place.",
+  "form": {
+    "heading": "Create Your Lotus365 ID",
+    "description": "Enter your details to continue with Lotus365 signup.",
+    "phone": "Mobile number",
+    "password": "Choose a password",
+    "passwordHint": "Use at least 8 characters with a mix of letters, numbers and symbols.",
+    "referral": "Referral code",
+    "referralHint": "Optional — add a code if a friend referred you.",
+    "button": "Sign Up",
+    "loginText": "Already have an account?",
+    "loginLink": "Log In"
+  },
+  "welcome": {
+    "heading": "A New Account. More to Explore.",
+    "text": "Your Lotus365 ID brings sports, casino games and live entertainment together, with welcome rewards and referral benefits after registration.",
+    "items": [
+      {
+        "title": "Your Own Mobile Number",
+        "text": "Use a number you can access for account verification and recovery."
+      },
+      {
+        "title": "One Account Across Devices",
+        "text": "Return through Lotus365 login on the website or mobile app."
+      },
+      {
+        "title": "A Referral Code Is Optional",
+        "text": "You can complete Lotus365 signup even if you do not have a code."
+      }
+    ]
+  },
+  "bonuses": {
+    "heading": "Lotus365 Signup Bonus & Welcome Offers",
+    "description": "Explore the signup, first-deposit and referral offers associated with Lotus365 registration.",
+    "columns": [
+      "Offer",
+      "Bonus",
+      "When It Applies"
+    ],
+    "rows": [
+      {
+        "title": "Instant signup bonus",
+        "amount": "₹365",
+        "text": "Added automatically after completing Lotus365 registration."
+      },
+      {
+        "title": "First deposit match",
+        "amount": "Up to ₹20,000 or 365%",
+        "text": "A 365% deposit match or up to ₹20,000, whichever is more, after your first deposit. Check the current minimum deposit terms."
+      },
+      {
+        "title": "Referral bonus",
+        "amount": "₹1,000 each",
+        "text": "You and your referring friend receive ₹1,000 after registration and the qualifying first deposit."
+      }
+    ],
+    "total": "Together, the listed signup, deposit and referral offers provide up to ₹21,365 in bonuses.",
+    "use": "Bonus funds are added to your account wallet for cricket betting, casino games, sports and other available games. Withdrawals of bonus funds require the applicable wagering conditions to be met.",
+    "payments": "Deposits are instant. Available methods include UPI through Google Pay, PhonePe and Paytm UPI; Paytm Wallet; PhonePe; bank transfer; and optional cryptocurrency payments."
+  },
+  "guide": {
+    "heading": "How Do I Complete Lotus365 Registration?",
+    "description": "Lotus365 signup generally takes 2–5 minutes. Use this guide to prepare your details and understand the account provider’s registration process.",
+    "steps": [
+      {
+        "id": "step-1-go-to-the-official-lotus-365-website",
+        "aliases": [
+          "step-2-click-on-the-sign-up-button"
+        ],
+        "title": "Open the Signup Page",
+        "text": "Visit the Lotus365 website and select Sign Up. Existing members can use Lotus365 login to return to their account."
+      },
+      {
+        "id": "step-3-choose-your-country-code",
+        "aliases": [
+          "step-4-enter-your-mobile-number"
+        ],
+        "title": "Add Your Country Code & Mobile Number",
+        "text": "For Lotus365 signup in India, use +91 and your 10-digit mobile number without repeating the country code. Use your own number with access to WhatsApp and SMS. One mobile number can be used for one Lotus365 account."
+      },
+      {
+        "id": "step-5-create-a-strong-password-for-lotus-365-signup",
+        "aliases": [],
+        "title": "Set a Strong Password",
+        "text": "Choose at least 8 characters with uppercase and lowercase letters, numbers and, ideally, symbols. Avoid your name, birthday or phone number. Keep the password private and remember it for future logins."
+      },
+      {
+        "id": "step-6-enter-your-referral-code-optional",
+        "aliases": [],
+        "title": "Add a Referral Code If You Have One",
+        "text": "Enter the Lotus365 referral code shared by your friend or family member. You can leave this field empty and still complete registration and receive the welcome bonus; using a code adds referral rewards."
+      },
+      {
+        "id": "step-7-review-your-lotus-365-signup-information",
+        "aliases": [
+          "step-8-click-the-sign-up-button-to-submit"
+        ],
+        "title": "Review Your Signup Details",
+        "text": "Check the country code, mobile number, password and optional referral code before continuing. Correct any errors now, because some account information cannot be changed directly after registration."
+      },
+      {
+        "id": "step-9-receive-otp-on-whats-app-and-sms",
+        "aliases": [
+          "step-10-enter-otp-within-59-seconds",
+          "step-11-what-if-you-dont-enter-otp-in-time"
+        ],
+        "title": "Follow the Verification Instructions",
+        "text": "The account provider’s verification flow sends a 6-digit OTP to WhatsApp and SMS. Enter it within the displayed 59-second countdown. If it expires, select Resend OTP for a new code. Keep the code private and avoid refreshing during verification."
+      },
+      {
+        "id": "step-12-otp-verification-successful-complete-your-lotus-365-signup",
+        "aliases": [
+          "step-13-make-your-first-deposit-for-lotus-365-signup-bonus"
+        ],
+        "title": "Access Your Account & Welcome Rewards",
+        "text": "After successful verification, your registration is complete, your account becomes active and you can access the dashboard and welcome bonus. Make your first deposit to unlock the qualifying deposit and referral offers."
+      }
+    ]
+  },
+  "referral": {
+    "heading": "How Do Lotus365 Referral Codes Work?",
+    "description": "A Lotus365 referral code connects a new registration with an existing member. Once registration and the qualifying deposit are complete, both receive the referral reward.",
+    "items": [
+      {
+        "id": "what-is-a-lotus-365-referral-code",
+        "title": "Use a Friend’s Code at Signup",
+        "text": "Ask an existing member for their unique code and enter it in the optional referral field during Lotus365 signup. After your first qualifying deposit, you and your friend each receive ₹1,000."
+      },
+      {
+        "id": "how-to-get-a-referral-code-after-lotus-365-signup",
+        "title": "Find Your Own Referral Code",
+        "text": "After Lotus365 registration, open your profile or account settings and look for Referral Code or Share and Earn. Copy your unique code from there."
+      },
+      {
+        "id": "how-to-share-your-lotus-365-referral-code",
+        "title": "Share It With Friends & Family",
+        "text": "Share your code through WhatsApp, email, social media, group chats or in person. Friends enter it when they register and complete the verification and first-deposit process."
+      }
+    ],
+    "unlimitedTitle": "Unlimited Referrals",
+    "unlimited": "There is no limit to the number of friends you can invite. Each qualifying referral earns ₹1,000: 10 friends can earn ₹10,000, and 20 friends can earn ₹20,000.",
+    "note": "Your referred friend must complete Lotus365 registration and make at least one deposit for the referral bonus to apply."
+  },
+  "faq": {
+    "heading": "Lotus365 Signup FAQs",
+    "description": "Find answers about registration, mobile numbers and account access.",
+    "items": [
+      {
+        "question": "Is Lotus365 signup safe and secure?",
+        "answer": "Lotus365 uses modern security technology to encrypt mobile numbers and passwords and keep account details private. It is a licensed and trusted platform used by millions of Indians. Use the official website and keep your password and verification codes confidential."
+      },
+      {
+        "question": "How long does Lotus365 registration take?",
+        "answer": "The signup process typically takes 2–5 minutes, including entering your details and completing the account provider’s verification. OTP verification takes less than a minute when completed within the countdown."
+      },
+      {
+        "question": "Do I need documents for Lotus365 signup?",
+        "answer": "No documents are needed for initial registration; you need your own mobile number. Additional information or verification may be required when you request a withdrawal."
+      },
+      {
+        "question": "Can I register using someone else’s mobile number?",
+        "answer": "Use your own mobile number. Each number supports one Lotus365 account, and you need access to it for account verification and recovery."
+      },
+      {
+        "question": "Can I change my mobile number after Lotus365 signup?",
+        "answer": "Open your account settings to look for the mobile number update option, or contact Lotus365 customer support for help with the change."
+      },
+      {
+        "question": "What if I forget my password after registration?",
+        "answer": "Open the Lotus365 login page and select Forgot Password. Follow the account provider’s recovery instructions using your registered mobile number, then choose a new password."
+      }
+    ]
+  },
+  "help": {
+    "heading": "Need Help With Lotus365 Signup?",
+    "text": "If registration is unclear or you run into an account issue, visit Contact Us for Lotus365 customer support. You can also explore the FAQs or return to Login."
+  }
+}

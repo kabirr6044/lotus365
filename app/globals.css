@@ -1,6 +1,10 @@
 html{scroll-behavior:smooth}body{margin:0;background:#14614c;color:#fefefe}.replica-document{min-height:100vh}a[aria-disabled=true]{cursor:default}.form-status{font:14px/1.5 system-ui,sans-serif!important;margin:8px 0!important;color:inherit!important}.form-status:empty{display:none}button.login-button{width:100%;border:0;cursor:pointer;display:inline-block;line-height:1.7!important;text-align:center}button:disabled,input[type=submit]:disabled{opacity:.7;cursor:wait}.replica-submenu-open>.sub-menu{visibility:visible!important;opacity:1!important;display:block!important}.menu-item:focus-within>.sub-menu{visibility:visible;opacity:1}:focus-visible{outline:2px solid #ffd000;outline-offset:3px}header.replica-menu-open #ast-mobile-header .ast-mobile-header-content{display:block!important;}header.replica-menu-open .main-header-menu-toggle .ast-menu-svg{display:none}header.replica-menu-open .main-header-menu-toggle .ast-close-svg{display:block}form .submit-btn{cursor:pointer}.assignment-not-found{max-width:800px;margin:100px auto;padding:24px;font:16px/1.7 Arial,sans-serif}.assignment-not-found a{color:#ffd000}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}}
 
 @media(max-width:480px){.replica-document .lotus-tabs{flex-wrap:wrap}}
+@media(max-width:1279px){html{scroll-padding-top:88px}}
 .ast-desktop .main-header-menu>.menu-item:focus-within>.sub-menu,
 .ast-desktop .main-header-menu>.replica-submenu-open>.sub-menu{left:0}
 
+
+/* Reserve the page scrollbar so locking the drawer does not shift the header. */
+html{scrollbar-gutter:stable}
