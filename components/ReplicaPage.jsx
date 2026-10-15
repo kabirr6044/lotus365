@@ -1,5 +1,5 @@
 'use client';
-import { useEffect, useRef } from 'react';
+import { useEffect, useLayoutEffect, useRef } from 'react';
 import { useRouter } from 'next/navigation';
 import { destinationUrl } from '../lib/destination.mjs';
 import { pageLanguage } from '../lib/seo.mjs';
@@ -7,6 +7,13 @@ import SiteHeader from './SiteHeader';
 export default function ReplicaPage({ page, content, className }) {
  const router = useRouter();
  const ref = useRef(null);
+ useLayoutEffect(() => {
+  // React waits for precedence stylesheets before committing a navigation.
+  // Retained resources must only style their own page when returning via Back.
+  document.querySelectorAll('link[data-page-stylesheet]').forEach(link => {
+   link.disabled = link.getAttribute('href') !== page.stylesheet;
+  });
+ }, [page.stylesheet]);
  useEffect(() => {
   const root = ref.current; const media = window.matchMedia('(max-width: 921.99px)');
   const destination = destinationUrl(process.env.NEXT_PUBLIC_DESTINATION_URL);
@@ -80,7 +87,5 @@ export default function ReplicaPage({ page, content, className }) {
   root.addEventListener('keydown', escape); root.addEventListener('click', click); root.addEventListener('submit', submit);
   return () => { media.removeEventListener('change', update); window.removeEventListener('scroll', sticky); window.removeEventListener('resize',sticky); window.removeEventListener('load',sticky); document.documentElement.style.scrollPaddingTop=''; root.removeEventListener('keydown',escape); root.removeEventListener('click', click); root.removeEventListener('submit', submit); };
  }, [page, router]);
- // A normal link belongs to this page and is removed on unmount. React's
- // precedence links persist across routes and would mix different page themes.
- return <><link key={page.stylesheet} rel="stylesheet" href={page.stylesheet}/><SiteHeader path={page.path}/><div ref={ref} className={className} lang={pageLanguage(page)} dangerouslySetInnerHTML={{ __html: content }}/></>;
+ return <><link rel="stylesheet" href={page.stylesheet} precedence="captured-page" data-page-stylesheet="true"/><SiteHeader path={page.path}/><div ref={ref} className={className} lang={pageLanguage(page)} dangerouslySetInnerHTML={{ __html: content }}/></>;
 }
