@@ -8,6 +8,7 @@ import json
 import re
 from collections import Counter
 from pathlib import Path
+from runpy import run_path
 from lxml import html
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -114,7 +115,10 @@ def clean_policy_references(records):
 
 def apply_overrides(records):
     clean_policy_references(records)
-    overrides = json.loads((ROOT / 'data/editorial-overrides.json').read_text(encoding='utf-8'))
+    cleanup = run_path(str(ROOT / 'scripts/site-copy.py'))
+    cleanup['clean_pages'](records)
+    overrides = cleanup['clean_editorial'](json.loads(
+        (ROOT / 'data/editorial-overrides.json').read_text(encoding='utf-8')))
     for path, editorial in overrides.items():
         page = records[path]
         original = html.fragment_fromstring(page['html'], create_parent='div')

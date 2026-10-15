@@ -1,0 +1,129 @@
+{
+  "publisherDomains": [
+    "lottuss365.com",
+    "lottuss365.co",
+    "lotus365.com",
+    "lotus365.in",
+    "365lotus.com",
+    "365lotus.org",
+    "lotus365id.app",
+    "lotus365.gen.in",
+    "lottus365.com",
+    "lotusblue365.in",
+    "lotus365.io",
+    "lotus365.win",
+    "lotus365in.in",
+    "lottuss365.net"
+  ],
+  "routes": {
+    "/login": "/lotus365-login/",
+    "/download": "/lotus365-app/",
+    "/games": "/lotus365-blue-games/",
+    "/blue": "/lotus365-blue/",
+    "/contact": "/contact-us/",
+    "/whatsapp-support": "/contact-us/",
+    "/security": "/lotus365-security-guide-2025/",
+    "/legal": "/terms/",
+    "/lotus365-login": "/lotus365-login/"
+  },
+  "textReplacements": {
+    "support.lottuss365.com": "llotuss365.com/contact-us/",
+    "status.lottuss365.com": "llotuss365.com/contact-us/",
+    "lite.lottuss365.com": "llotuss365.com/",
+    "Trust [Developer Name]": "Trust the app developer shown on your device",
+    "Click “Upgrade to [Tier Name]”": "Select the upgrade option for your chosen tier.",
+    "@LottussSupport": "the Contact Us page",
+    "@Lottuss365Official": "the Contact Us page",
+    "Instagram: @lotus365official": "Support: visit the Contact Us page",
+    "Twitter: @lotus365": "Support: visit the Contact Us page"
+  },
+  "blocks": {
+    "/download-lotus365-app/": [
+      {
+        "selector": ".//p",
+        "contains": "[Insert a screenshot",
+        "html": "Check your Android device for the installation confirmation."
+      }
+    ],
+    "/lotus365-id/": [
+      {
+        "selector": ".//p",
+        "contains": "textDear [Your Name]",
+        "html": "A registration confirmation can include your account ID and username, along with account access instructions. Keep your account details private. Use the <a href=\"/lotus365-login/\">login page</a>, <a href=\"/lotus365-app/\">app guide</a> or <a href=\"/contact-us/\">Contact Us page</a> as needed."
+      },
+      {
+        "selector": ".//p",
+        "contains": "[Your username]",
+        "html": "An account confirmation identifies your Lotus365 ID and username. Keep these details safe and use the <a href=\"/lotus365-login/\">login page</a> for account access."
+      },
+      {
+        "selector": ".//p",
+        "contains": "[Your Name]",
+        "html": "Explain that you need help with your Lotus365 ID. Keep passwords and one-time codes private."
+      },
+      {
+        "selector": ".//li",
+        "contains": "[official number]",
+        "html": "Use the <a href=\"/contact-us/\">Contact Us page</a> instead of searching for an unverified phone number."
+      }
+    ],
+    "/contact-us/": [
+      {
+        "selector": ".//p",
+        "contains": "Prefer to communicate via email?",
+        "html": "For general inquiries, technical support or partnership questions, use the contact form on this page. Include a description of your question so it can be understood clearly."
+      },
+      {
+        "selector": ".//li",
+        "contains": "General Inquiries:",
+        "html": "<strong>General Inquiries:</strong> Use the contact form on this page."
+      },
+      {
+        "selector": ".//li",
+        "contains": "Technical Support:",
+        "html": "<strong>Technical Support:</strong> Describe your login or app issue in the contact form."
+      },
+      {
+        "selector": ".//li",
+        "contains": "Partnerships:",
+        "html": "<strong>Partnerships:</strong> Describe your inquiry in the contact form."
+      }
+    ],
+    "/lotus365-book/": [
+      {
+        "selector": ".//p",
+        "contains": "+91-9877777777",
+        "html": "For account access questions, visit the <a href=\"/contact-us/\">Contact Us page</a>."
+      }
+    ],
+    "/lotus365-apk/": [
+      {
+        "selector": ".//li[not(.//li)]",
+        "contains": "[Lotus365 App Download Page]",
+        "html": "Visit the <a href=\"/lotus365-app/\">Lotus365 App Download Page</a>."
+      }
+    ],
+    "/fix-lotus365-blue-not-working-errors/": [
+      {
+        "selector": ".//p|.//li[not(.//li)]",
+        "contains": "When primary servers falter, alternate domain",
+        "html": "When the website is unavailable, return to llotuss365.com and check the Contact Us page for help. Avoid unverified alternate domains."
+      },
+      {
+        "selector": ".//p|.//li[not(.//li)]",
+        "contains": "Bookmark three: Primary",
+        "html": "Bookmark llotuss365.com. Use a private browser window to check whether stored cookies are causing an access problem."
+      },
+      {
+        "selector": ".//p|.//li[not(.//li)]",
+        "contains": "They mirror fully, load fast during outages.",
+        "html": "Use llotuss365.com and the <a href=\"/contact-us/\">Contact Us page</a> for access guidance. Avoid unverified mirrors."
+      },
+      {
+        "selector": ".//li[not(.//li)]",
+        "contains": "Python script for ping tests to mirrors:",
+        "html": "Use your operating system’s network tools to test connectivity to llotuss365.com."
+      }
+    ]
+  }
+}
