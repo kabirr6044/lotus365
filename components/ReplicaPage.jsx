@@ -13,7 +13,12 @@ export default function ReplicaPage({ page, content, className }) {
   document.querySelectorAll('link[data-page-stylesheet]').forEach(link => {
    link.disabled = link.getAttribute('href') !== page.stylesheet;
   });
- }, [page.stylesheet]);
+  // Captured layout selectors depend on these body classes. Apply them before
+  // the first paint of the new route rather than in the passive effect below.
+  const mobile = window.matchMedia('(max-width: 921.99px)').matches;
+  document.body.className = page.bodyClass.replace(/\b(ast-desktop|ast-mobile|ast-header-break-point)\b/g, '').trim() + (mobile ? ' ast-mobile ast-header-break-point' : ' ast-desktop');
+  document.documentElement.lang = pageLanguage(page);
+ }, [page.stylesheet, page.bodyClass, page.lang]);
  useEffect(() => {
   const root = ref.current; const media = window.matchMedia('(max-width: 921.99px)');
   const destination = destinationUrl(process.env.NEXT_PUBLIC_DESTINATION_URL);
