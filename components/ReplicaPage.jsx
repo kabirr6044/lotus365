@@ -5,7 +5,7 @@ import { pageLanguage } from '../lib/seo.mjs';
 export default function ReplicaPage({ page }) {
  const ref = useRef(null);
  useEffect(() => {
-  const root = ref.current; const media = window.matchMedia('(max-width: 921px)');
+  const root = ref.current; const media = window.matchMedia('(max-width: 921.99px)');
   const destination = destinationUrl(process.env.NEXT_PUBLIC_DESTINATION_URL);
   root.querySelectorAll('[data-external-reference]').forEach(link => {
    link.setAttribute('href', destination || '#');

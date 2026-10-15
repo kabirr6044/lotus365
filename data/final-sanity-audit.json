@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-15",
+  "environment": "Local Next.js production build; in-app Chromium browser",
+  "canonicalOrigin": "https://llotuss365.com",
+  "routes": 407,
+  "indexableRoutes": 157,
+  "noindexArchives": 250,
+  "browserLayoutChecks": {
+    "pagesPerWidth": {
+      "360": 407,
+      "768": 407,
+      "1440": 407
+    },
+    "initialIssues": 1,
+    "unresolvedIssues": 0,
+    "additionalWidthsChecked": [
+      320,
+      390,
+      480,
+      921,
+      922,
+      923,
+      1024
+    ],
+    "scope": "DOM geometry on every route; representative screenshots and interaction checks"
+  },
+  "navigation": {
+    "linkOccurrences": 77070,
+    "sectionTargets": 3445,
+    "localMediaFiles": 264,
+    "httpSuccessUrls": 409,
+    "aliases": "passed",
+    "trailingSlashRedirect": "passed",
+    "missingPage": "404 with noindex",
+    "desktopDropdownNavigation": "passed",
+    "phoneMenuNavigation": "passed",
+    "escapeMenuDismissal": "passed",
+    "emptySignupValidation": "passed"
+  },
+  "seo": {
+    "renderedTitlesAndDescriptions": "passed",
+    "indexableMetadataUniqueness": "passed",
+    "canonicalAndSocialUrls": "passed",
+    "socialMetadata": "passed",
+    "viewportAndFavicons": "passed",
+    "robotsAndSitemap": "passed"
+  },
+  "fixes": [
+    "Wrap the APK page tabs at widths up to 480px.",
+    "Position keyboard-focused or expanded desktop submenus on-screen.",
+    "Match the JavaScript mobile-header breakpoint to the existing CSS at 921.99px."
+  ],
+  "unitTestsPassed": 11,
+  "deploymentVerified": false
+}

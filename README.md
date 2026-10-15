@@ -19,7 +19,7 @@ The primary SEO origin is `https://llotuss365.com`. Canonicals, Open Graph URLs,
 
 Main content and blog pagination are indexable on a configured public production origin. Tag, category and copied-author archives use `noindex, follow` and are excluded from the sitemap. Local/unconfigured builds and Vercel preview/development/custom environments use noindex, an empty sitemap and robots disallow-all. Production robots allows crawling, including archives so crawlers can see their noindex. Unknown pages keep Next.js's 404/noindex behavior.
 
-After deployment, verify `/robots.txt`, `/sitemap.xml` and the homepage canonical/indexing metadata. Submit the sitemap in Search Console. Changing `SITE_URL` requires a new build because the pages and sitemap are statically generated. Existing page copy and visual layout are preserved; content rewrites and candidate article merges from the SEO plan are separate work.
+After deployment, verify `/robots.txt`, `/sitemap.xml` and the homepage canonical/indexing metadata. Submit the sitemap in Search Console. Changing `SITE_URL` requires a new build because the pages and sitemap are statically generated. Metadata and selected copy on 43 priority pages have been revised; candidate article merges from the SEO plan have not been applied.
 
 ## Deploy on Render
 
@@ -70,6 +70,7 @@ EXTERNAL_LINKS.md and data/external-links.json retain the original external URLs
 ```sh
 npm test
 npm run check:content
+npm run check:navigation
 npm run build
 ```
 
@@ -78,6 +79,12 @@ Content checks cover every route, local styles/assets, 108 redirect forms, and 4
 Final checks: destination tests and the all-route content audit pass. Browser checks confirmed signup/login validation and redirect, and the shared external destination. All 407 pages were compared at desktop, 390×844, and 768×1024; eight representative pages were also compared at 360×800 and 1024×768. Local images now load eagerly to preserve intrinsic dimensions before scrolling. Older geometry records predate this image-loading correction.
 The final production build passes. The preview runs with `npm run start -- --hostname localhost --port 3000`, with no configured external destination. Login button line height and inline layout match the original link styling.
 
-Main page titles retain the captured reference wording. Pagination metadata now includes the page number. The original 32×32, 192×192, and Apple touch favicons are downloaded locally and included on every page.
+Priority page titles and descriptions use the reviewed copy in `data/editorial-overrides.json`; the content generator preserves these overrides. Pagination metadata includes the page number. The original 32×32, 192×192, and Apple touch favicons are downloaded locally and included on every page.
+
+For a build configured for production indexing (`SITE_URL=https://llotuss365.com` or Vercel production), run `node scripts/check-seo-build.mjs https://llotuss365.com production`. This checks all 407 generated pages for metadata, social tags, viewport, local favicons, canonical URLs and indexing policy, plus sitemap and robots output. Use `preview` instead of `production` for a preview build.
+
+With a production server running on port 3001, `npm run check:navigation -- http://127.0.0.1:3001` also checks HTTP responses for all routes, aliases, slash redirects and the noindex 404 page. Static navigation checks inspect current HTML links and section IDs rather than relying on the saved capture audit.
+
+The 2026-10-15 sanity audit is recorded in `data/final-sanity-audit.json`. It covers all 407 routes at 360px, 768px and 1440px in the in-app Chromium browser, with representative screenshots and menu interactions. Fixes include wrapping narrow-screen APK tabs, positioning focused desktop submenus on-screen, and matching the JavaScript mobile breakpoint to the existing 921.99px CSS breakpoint. These are local production-build checks, not a production deployment or field-performance measurement.
 
 Docker verification before the SEO update: the Linux image built and ran as UID 1000; checks covered 407 pages and 462 local assets/styles/icons. The SEO sitemap now contains 157 production URLs, excluding 250 archives; local and preview sitemaps are empty.

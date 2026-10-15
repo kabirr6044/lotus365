@@ -8,6 +8,7 @@ const base = new URL('../.next/server/app/', import.meta.url);
 const decode = text => text.replaceAll('&amp;', '&').replaceAll('&quot;', '"').replaceAll('&#x27;', "'").replaceAll('&lt;', '<').replaceAll('&gt;', '>');
 const attr = (tag, name) => decode(tag.match(new RegExp(`\\b${name}="([^"]*)"`))?.[1] || '');
 let checked = 0, indexable = 0;
+const indexableTitles = new Set(), indexableDescriptions = new Set();
 
 async function visit(dir) {
  for (const entry of await fs.readdir(dir, { withFileTypes: true })) {
@@ -29,7 +30,36 @@ async function visit(dir) {
   assert.ok(robots[0].split(/,\s*/).includes(expectedIndex ? 'index' : 'noindex'), `Index policy: ${route}`);
   assert.ok(!robots[0].split(/,\s*/).includes('nofollow'), `Unexpected nofollow: ${route}`);
   const pageNumber = route.match(/\/page\/(\d+)\/$/)?.[1];
-  if (pageNumber) assert.ok(decode(head.match(/<title>(.*?)<\/title>/s)?.[1] || '').endsWith(` - Page ${pageNumber}`), `Pagination title: ${route}`);
+  const title = decode(head.match(/<title>(.*?)<\/title>/s)?.[1] || '');
+  const expectedTitle = pages[route].title + (pageNumber ? ` - Page ${pageNumber}` : '');
+  assert.equal(title, expectedTitle, `Rendered title: ${route}`);
+  const metaTags = [...head.matchAll(/<meta\b[^>]*>/g)].map(m => m[0]);
+  const meta = (key, value) => metaTags.filter(tag => attr(tag, key) === value);
+  const description = pages[route].description ? (pageNumber ? `Page ${pageNumber}: ` : '') + pages[route].description : '';
+  const descriptions = meta('name', 'description');
+  assert.equal(descriptions.length, description ? 1 : 0, `Description count: ${route}`);
+  if (description) assert.equal(attr(descriptions[0], 'content'), description, `Description text: ${route}`);
+  for (const [key, name, value] of [
+   ['property', 'og:title', title], ['property', 'og:url', attr(canonical[0], 'href')],
+   ['name', 'twitter:title', title],
+   ...(description ? [['property', 'og:description', description], ['name', 'twitter:description', description]] : []),
+  ]) {
+   const tags = meta(key, name);
+   assert.equal(tags.length, 1, `Social tag count ${name}: ${route}`);
+   assert.equal(attr(tags[0], 'content'), value, `Social tag ${name}: ${route}`);
+  }
+  const viewport = meta('name', 'viewport');
+  assert.equal(viewport.length, 1, `Viewport count: ${route}`);
+  assert.match(attr(viewport[0], 'content'), /width=device-width/, `Responsive viewport: ${route}`);
+  const links = [...head.matchAll(/<link\b[^>]*>/g)].map(m => m[0]);
+  assert.ok(links.some(tag => attr(tag, 'rel') === 'icon' && attr(tag, 'href') === '/assets/cropped-lotus365-official-logo-1-32x32.webp'), `Local favicon: ${route}`);
+  if (expectedIndex) {
+   assert.ok(description.trim(), `Indexable page without description: ${route}`);
+   assert.equal((html.match(/<h1\b/g) || []).length, 1, `Indexable H1 count: ${route}`);
+   assert.ok(!indexableTitles.has(title), `Duplicate indexable title: ${route}`);
+   assert.ok(!indexableDescriptions.has(description), `Duplicate indexable description: ${route}`);
+   indexableTitles.add(title); indexableDescriptions.add(description);
+  }
   if (route === '/लोटस-365/') assert.ok(html.includes('lang="hi-IN"'), 'Hindi content language is absent from initial HTML');
   checked++; if (expectedIndex) indexable++;
  }
@@ -43,4 +73,4 @@ assert.deepEqual(urls.sort(), expected.sort(), 'Sitemap URL selection');
 const robots = await fs.readFile(new URL('robots.txt.body', base), 'utf8');
 if (mode === 'preview') { assert.match(robots, /Disallow: \/\s/); assert.ok(!robots.includes('Sitemap:')); }
 else { assert.match(robots, /Allow: \/\s/); assert.ok(robots.includes(`Sitemap: ${origin}/sitemap.xml`)); assert.ok(!robots.includes('Disallow: /')); }
-console.log(`Verified ${checked} generated pages, ${indexable} indexable URLs, matching canonicals, robots.txt and sitemap (${mode}).`);
+console.log(`Verified ${checked} generated pages: metadata, social tags, viewport, favicons, canonicals; ${indexable} indexable URLs with unique titles/descriptions; robots.txt and sitemap (${mode}).`);
